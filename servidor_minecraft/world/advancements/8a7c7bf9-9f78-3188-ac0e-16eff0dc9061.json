@@ -3804,15 +3804,21 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/spruce_counter": {
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
-      "has_spruce_counter": "2025-01-04 22:45:49 +0000"
+      "has_stripped_logs": "2025-01-04 22:44:07 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/minecraft_trials_edition": {
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
-      "minecraft_trials_edition": "2025-01-04 23:00:43 +0000"
+      "has_log": "2025-01-04 22:44:07 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/spruce_counter": {
+    "criteria": {
+      "has_spruce_counter": "2025-01-04 22:45:49 +0000"
     },
     "done": true
   },
@@ -3831,12 +3837,6 @@
   "handcrafted:recipes/misc/spruce_shelf": {
     "criteria": {
       "has_spruce_shelf": "2025-01-04 22:45:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-01-04 22:44:07 +0000"
     },
     "done": true
   },
@@ -3861,12 +3861,6 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-01-04 22:45:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2025-01-04 22:44:07 +0000"
     },
     "done": true
   },
@@ -3963,6 +3957,12 @@
   "handcrafted:recipes/misc/spruce_side_table": {
     "criteria": {
       "has_spruce_side_table": "2025-01-04 22:45:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-01-04 23:00:43 +0000"
     },
     "done": true
   },

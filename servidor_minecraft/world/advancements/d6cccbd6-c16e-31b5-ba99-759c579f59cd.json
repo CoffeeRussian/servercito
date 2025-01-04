@@ -28,9 +28,11 @@
       "minecraft:deep_ocean": "2025-01-04 20:08:31 +0000",
       "minecraft:river": "2025-01-04 18:38:51 +0000",
       "minecraft:stony_shore": "2025-01-04 20:12:17 +0000",
+      "minecraft:snowy_plains": "2025-01-04 20:51:11 +0000",
       "minecraft:lush_caves": "2025-01-04 20:29:30 +0000",
       "minecraft:snowy_taiga": "2025-01-04 20:28:37 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-04 19:22:41 +0000",
+      "minecraft:frozen_river": "2025-01-04 20:57:38 +0000",
       "minecraft:ocean": "2025-01-04 19:04:34 +0000",
       "minecraft:sunflower_plains": "2025-01-04 18:56:28 +0000",
       "minecraft:meadow": "2025-01-04 19:14:03 +0000",
@@ -981,6 +983,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-04 21:03:54 +0000",
       "mutton": "2025-01-04 18:50:53 +0000",
       "chicken": "2025-01-04 19:00:20 +0000",
       "porkchop": "2025-01-04 19:08:08 +0000",
@@ -2167,6 +2170,90 @@
   "waystones:recipes/decorations/light_gray_portstone": {
     "criteria": {
       "has_warp_stone": "2025-01-04 20:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-01-04 21:02:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-01-04 21:02:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-01-04 21:02:30 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/breeding_bone": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 21:02:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-01-04 21:07:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-01-04 20:53:15 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2025-01-04 21:07:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/baker_hat": {
+    "criteria": {
+      "has_bread": "2025-01-04 21:03:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 21:07:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 21:07:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/hot_dog": {
+    "criteria": {
+      "has_bread": "2025-01-04 21:03:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-01-04 21:02:27 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/sausage": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 21:02:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2025-01-04 21:07:04 +0000"
     },
     "done": true
   },

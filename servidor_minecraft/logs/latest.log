@@ -1093,3 +1093,75 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [20:44:41] [Server thread/INFO]: Sander has made the advancement [Suit Up]
 [20:45:05] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
 [20:45:19] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
+[20:48:39] [Server thread/INFO]: [Not Secure] <Coffeent> dam
+[20:48:44] [Server thread/INFO]: [Not Secure] <Coffeent> tienes bronce?
+[20:48:51] [Server thread/INFO]: [Not Secure] <Coffeent> alparecer si sirve
+[20:48:52] [Server thread/INFO]: [Not Secure] <Coffeent> XDDD
+[20:49:03] [Server thread/INFO]: [Not Secure] <Coffeent> para mejoras
+[20:49:22] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/64705, l='ServerLevel[world]', x=950.50, y=21.00, z=-2016.50]'
+[20:52:26] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
+[20:52:30] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
+[20:52:42] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
+[20:54:39] [pool-8-thread-4/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=2501, y=67, z=-565}
+[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2502, y=67, z=-565} but found not block entity block Block{minecraft:spruce_fence}[west=true,east=false,north=false,south=false,waterlogged=false] at location
+[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=true,east=false,north=false,south=false,waterlogged=false] but failed at location class_2338{x=2502, y=67, z=-565}
+[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2501, y=67, z=-565} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=true,north=false,south=false,waterlogged=false] at location
+[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=true,north=false,south=false,waterlogged=false] but failed at location class_2338{x=2501, y=67, z=-565}
+[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2502, y=66, z=-565} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=2502, y=66, z=-565}
+[20:54:57] [pool-8-thread-4/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=2533, y=98, z=-779}
+[20:54:57] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2533, y=98, z=-779} but found not block entity block Block{minecraft:air} at location
+[20:54:57] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=2533, y=98, z=-779}
+[20:55:22] [Server thread/INFO]: Jerezzzito was shot by Skeleton
+[20:55:57] [Server thread/INFO]: [Not Secure] <Jerezzzito> [name:"Muerte 17:55:25 01-04-2025", x:2482, y:77, z:-667, dim:minecraft:overworld]
+[20:56:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> waa
+[20:56:24] [Server thread/INFO]: [Not Secure] <Jerezzzito> waa
+[20:56:33] [Server thread/INFO]: [Not Secure] <Sander> wii
+[20:56:37] [Server thread/INFO]: [Not Secure] <Coffeent> chillona
+[20:57:01] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, -667.000000, 77.500000]
+[20:57:03] [Server thread/INFO]: Jerezzzito fell out of the world
+[20:57:21] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, 77.000000, -666.500000]
+[20:57:35] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[20:58:50] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[20:59:09] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[20:59:11] [Server thread/INFO]: [Not Secure] <Coffeent> mucho mob
+[20:59:13] [Server thread/INFO]: [Not Secure] <Coffeent> mucha caida
+[20:59:26] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
+[20:59:29] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
+[20:59:30] [Server thread/INFO]: Jerezzzito was shot by Skeleton
+[20:59:52] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
+[21:00:25] [Server thread/INFO]: [Not Secure] <Coffeent> ?
+[21:00:40] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[21:00:46] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, 77.000000, -666.500000]
+[21:00:53] [Server thread/INFO]: [Not Secure] <Coffeent> pumpkin
+[21:02:03] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[21:02:19] [Server thread/INFO]: [Not Secure] <Coffeent> VEN
+[21:02:27] [Server thread/INFO]: Jerezzzito has made the advancement [Suit Up]
+[21:02:30] [Server thread/INFO]: Jerezzzito has made the advancement [Isn't It Iron Pick]
+[21:02:37] [Server thread/INFO]: [Not Secure] <Coffeent> segunda mano
+[21:02:39] [Server thread/INFO]: [Not Secure] <Coffeent> el escudo
+[21:02:42] [Server thread/INFO]: [Not Secure] <Coffeent> te las doy para que no mueras
+[21:02:43] [Server thread/INFO]: [Not Secure] <Coffeent> nmms
+[21:03:14] [Server thread/INFO]: Sander has made the advancement [Crops of the Wild]
+[21:03:18] [Server thread/INFO]: Villager class_1646['Unemployed'/72744, l='ServerLevel[world]', x=2293.63, y=102.50, z=-336.72] died, message: 'Unemployed suffocated in a wall'
+[21:04:12] [Server thread/INFO]: [Coffeent: Gave 1 [Iron Pickaxe] to Coffeent]
+[21:04:59] [Server thread/INFO]: [Not Secure] <Coffeent> si
+[21:05:11] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[21:05:21] [Server thread/INFO]: [Not Secure] <Coffeent> si
+[21:05:39] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[21:06:00] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[21:06:05] [Server thread/INFO]: [Not Secure] <Coffeent> si
+[21:06:10] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[21:07:04] [Server thread/INFO]: Jerezzzito has made the advancement [Crops of the Wild]
+[21:07:12] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[21:07:25] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
+[21:07:36] [pool-8-thread-5/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=2549, y=67, z=-213}
+[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 9.347962781667434,0.0,-4.754393458469394
+[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 9.865942274480062,0.0,-4.955732220978007
+[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 10.299788758671752,0.0,-4.955732220978007
+[21:11:53] [Server thread/INFO]: Coffeent teleported to 707.5 -28.0 -2015.5 minecraft:overworld
+[21:12:29] [Server thread/INFO]: Coffeent has made the advancement [Hot Stuff]
+[21:12:40] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[21:15:03] [Server thread/INFO]: Sander has made the advancement [A Seedy Place]
+[21:15:38] [Server thread/INFO]: Coffeent has made the advancement [A Seedy Place]
+[21:16:31] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]

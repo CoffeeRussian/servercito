@@ -1680,6 +1680,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/food/breeding_bone": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/throw_bone": {
     "criteria": {
       "has_bone": "2025-01-04 18:44:33 +0000"
@@ -1692,6 +1698,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-04 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-04 18:50:46 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/hot_dog": {
     "criteria": {
       "has_bread": "2025-01-04 18:39:34 +0000"
@@ -1701,6 +1719,18 @@
   "doggytalents:recipes/tools/conducting_bone": {
     "criteria": {
       "has_bone": "2025-01-04 18:44:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/sausage": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:dtn_core/summon_dog": {
+    "criteria": {
+      "summon_dog": "2025-01-04 18:52:57 +0000"
     },
     "done": true
   },

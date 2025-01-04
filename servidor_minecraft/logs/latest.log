@@ -587,3 +587,90 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [18:54:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> me voy a tardar media hora
 [18:54:41] [Server thread/INFO]: [Not Secure] <Coffeent> debes tenerlo en el inv
 [18:54:44] [Server thread/INFO]: [Not Secure] <Coffeent> con eso conseguis un perrito
+[18:54:56] [Server thread/INFO]: [Not Secure] <Coffeent> dogy charm
+[18:55:07] [Server thread/INFO]: Jerezzzito has made the advancement [Ah, you scared me!]
+[18:55:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> ESROSITA
+[18:55:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> ay se llama cherry
+[18:55:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> deja hojitas lkdhjsakdjhlsa}
+[18:56:04] [Server thread/INFO]: [Not Secure] <Sander> mis gatos son mas bonitos
+[18:56:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> q fea casa
+[18:56:15] [Server thread/INFO]: [Not Secure] <Sander> JAJAJ
+[18:59:42] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
+[19:02:08] [Server thread/INFO]: Sander was slain by Iron Golem
+[19:03:08] [pool-8-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=1307, y=74, z=-1397}
+[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=73, z=-1396} but found not block entity block Block{supplementaries:candle_holder}[lit=true,facing=north,candles=1,waterlogged=false,face=ceiling] at location
+[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{supplementaries:candle_holder}[lit=true,facing=north,candles=1,waterlogged=false,face=ceiling] but failed at location class_2338{x=1307, y=73, z=-1396}
+[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=74, z=-1397} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
+[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=1307, y=74, z=-1397}
+[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=74, z=-1396} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
+[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=1307, y=74, z=-1396}
+[19:04:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> uy
+[19:04:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> me voy a tener q ir parece ser
+[19:04:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> mi papa rompio su celular xd
+[19:05:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo tiro al piso
+[19:05:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> porque le andaba lento
+[19:05:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDD
+[19:05:16] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[19:05:17] [pool-8-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=1237, y=67, z=-1083}
+[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1237, y=67, z=-1083} but found not block entity block Block{minecraft:spruce_trapdoor}[open=false,half=bottom,facing=north,waterlogged=false,powered=false] at location
+[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[open=false,half=bottom,facing=north,waterlogged=false,powered=false] but failed at location class_2338{x=1237, y=67, z=-1083}
+[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1238, y=65, z=-1084} but found not block entity block Block{minecraft:lantern}[hanging=false,waterlogged=false] at location
+[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=false,waterlogged=false] but failed at location class_2338{x=1238, y=65, z=-1084}
+[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1237, y=64, z=-1084} but found not block entity block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] at location
+[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] but failed at location class_2338{x=1237, y=64, z=-1084}
+[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1238, y=64, z=-1084} but found not block entity block Block{minecraft:stone} at location
+[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=1238, y=64, z=-1084}
+[19:06:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> alv un esqueleto indio
+[19:06:25] [Server thread/INFO]: Coffeent has made the advancement [Best Friends Forever]
+[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19:07:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19:07:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19:07:17] [pool-8-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=1573, y=89, z=-901}
+[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.607968320051441,0.0,10.064635388892157
+[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.7066815511309414,0.0,10.452233948657977
+[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.8053505061980104,0.0,10.839845777556775
+[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.90397961285521,0.0,11.227469548675117
+[19:07:20] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1573, y=89, z=-901} but found not block entity block Block{minecraft:air} at location
+[19:07:20] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=1573, y=89, z=-901}
+[19:07:21] [Server thread/INFO]: [Coffeent: Gave 1 [Saddle] to Coffeent]
+[19:07:43] [Server thread/INFO]: Sander was slain by Zombie
+[19:09:04] [Server thread/INFO]: Coffeent was shot by Skeleton
+[19:09:18] [Server thread/INFO]: Sander was shot by Skeleton
+[19:10:11] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[19:10:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> ola
+[19:10:46] [Server thread/INFO]: [Not Secure] <Jerezzzito> no podes ponerlo de dia xd?
+[19:10:49] [Server thread/INFO]: [Not Secure] <Coffeent> pa q
+[19:10:51] [Server thread/INFO]: [Not Secure] <Sander> no
+[19:10:54] [Server thread/INFO]: [Not Secure] <Jerezzzito> para ver
+[19:10:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> no veo un klo
+[19:11:00] [Server thread/INFO]: [Not Secure] <Coffeent> usa antorchas
+[19:11:01] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[19:11:01] [Server thread/INFO]: [Not Secure] <Sander> mirar para ver
+[19:11:03] [Server thread/INFO]: [Not Secure] <Coffeent> con eso ves
+[19:11:04] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[19:11:13] [Server thread/INFO]: [Not Secure] <Coffeent> o subele el birllo
+[19:11:15] [Server thread/INFO]: [Not Secure] <Coffeent> brillo
+[19:11:16] [Server thread/INFO]: [Not Secure] <Coffeent> al juego
+[19:11:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> esta al 100+
+[19:11:26] [Server thread/INFO]: [Not Secure] <Coffeent> entonces estas ciega
+[19:11:27] [Server thread/INFO]: [Not Secure] <Coffeent> x,d
+[19:11:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
+[19:11:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo que tengo es
+[19:11:37] [Server thread/INFO]: [Not Secure] <Jerezzzito> ey
+[19:11:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> veni
+[19:11:43] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre algo
+[19:13:29] [Server thread/INFO]: Jerezzzito was blown up by Creeper
+[19:13:33] [Server thread/INFO]: [Not Secure] <Jerezzzito> tpptptptpt
+[19:13:34] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
+[19:13:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
+[19:13:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya viste a lo que voy?
+[19:13:59] [Server thread/INFO]: [Not Secure] <Coffeent> conejos
+[19:14:00] [Server thread/INFO]: [Not Secure] <Coffeent> matar
+[19:14:01] [Server thread/INFO]: [Not Secure] <Coffeent> :D
+[19:14:24] [Server thread/INFO]: Jerezzzito has made the advancement [Ice Bucket Challenge]
+[19:14:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> toma
+[19:14:39] [Server thread/INFO]: [Not Secure] <Coffeent> mata cnojeos
+[19:14:40] [Server thread/INFO]: [Not Secure] <Coffeent> x,d
+[19:14:54] [Server thread/INFO]: [Not Secure] <Coffeent> los necesitmaos para hacernos mochila

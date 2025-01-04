@@ -676,7 +676,8 @@
       "minecraft:spider": "2025-01-02 02:00:09 +0000",
       "minecraft:zombie": "2025-01-02 02:04:24 +0000",
       "minecraft:creeper": "2025-01-02 03:02:55 +0000",
-      "minecraft:drowned": "2025-01-02 02:14:30 +0000"
+      "minecraft:drowned": "2025-01-02 02:14:30 +0000",
+      "minecraft:zombie_villager": "2025-01-04 19:09:07 +0000"
     },
     "done": false
   },
@@ -1431,9 +1432,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-04 18:58:07 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/leather_jacket": {
     "criteria": {
       "has_leather": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/stone_corner_trim": {
+    "criteria": {
+      "has_stone_corner_trim": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 19:06:34 +0000"
     },
     "done": true
   },
@@ -1467,9 +1492,27 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/creeper_trophy": {
+    "criteria": {
+      "has_creeper_trophy": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/breeding_bone": {
     "criteria": {
       "has_cooked_porkchop": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1497,6 +1540,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 19:06:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/propeller_hat": {
     "criteria": {
       "has_iron_ingot": "2025-01-04 18:35:22 +0000"
@@ -1509,9 +1558,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_rei": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-04 19:03:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1521,15 +1600,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/wool_collar_thicc": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-04 18:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-04 18:58:07 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_shin": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1542,6 +1645,12 @@
   "doggytalents:recipes/tools/empty_locator_orb": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1563,15 +1672,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/tengu_mask": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/vindicator_trophy": {
+    "criteria": {
+      "has_vindicator_trophy": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_jin": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/witch_trophy": {
+    "criteria": {
+      "has_witch_trophy": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1590,6 +1723,30 @@
   "doggytalents:recipes/decorations/kitsune_mask": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/evoker_trophy": {
+    "criteria": {
+      "has_evoker_trophy": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-01-04 19:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/stone_pillar_trim": {
+    "criteria": {
+      "has_stone_pillar_trim": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },
@@ -1623,6 +1780,24 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/pillager_trophy": {
+    "criteria": {
+      "has_pillager_trophy": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-01-04 19:06:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-04 19:06:57 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_ko": {
     "criteria": {
       "has_string": "2025-01-04 18:41:24 +0000"
@@ -1632,6 +1807,18 @@
   "doggytalents:recipes/food/sausage": {
     "criteria": {
       "has_cooked_porkchop": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/skeleton_trophy": {
+    "criteria": {
+      "has_skeleton_trophy": "2025-01-04 19:04:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 19:06:34 +0000"
     },
     "done": true
   },
@@ -1650,6 +1837,12 @@
   "doggytalents:recipes/building_blocks/food_bowl": {
     "criteria": {
       "has_iron_ingot": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-01-04 19:04:34 +0000"
     },
     "done": true
   },

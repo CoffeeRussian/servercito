@@ -27,6 +27,7 @@
       "minecraft:deep_ocean": "2025-01-02 02:13:34 +0000",
       "minecraft:river": "2025-01-02 02:10:43 +0000",
       "minecraft:stony_shore": "2025-01-03 17:21:14 +0000",
+      "minecraft:lush_caves": "2025-01-04 20:44:29 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-04 19:23:15 +0000",
       "minecraft:ocean": "2025-01-02 02:12:26 +0000",
       "minecraft:sunflower_plains": "2025-01-02 02:19:07 +0000",
@@ -3044,6 +3045,36 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2025-01-04 20:25:42 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/golden_a_five_wagyu": {
+    "criteria": {
+      "has_cooked_beef": "2025-01-04 20:38:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-04 20:44:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 20:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-01-04 20:44:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-01-04 20:44:50 +0000"
     },
     "done": true
   },

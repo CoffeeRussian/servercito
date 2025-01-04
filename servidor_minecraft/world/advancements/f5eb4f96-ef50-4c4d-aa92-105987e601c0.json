@@ -19,7 +19,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2025-01-04 04:23:05 +0000"
+      "minecraft:forest": "2025-01-04 04:23:05 +0000",
+      "minecraft:plains": "2025-01-04 17:38:33 +0000"
     },
     "done": false
   },
@@ -51,6 +52,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-01-04 04:23:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-01-04 17:38:11 +0000"
     },
     "done": true
   },

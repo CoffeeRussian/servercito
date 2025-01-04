@@ -1684,6 +1684,90 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/baker_hat": {
+    "criteria": {
+      "has_bread": "2025-01-04 18:39:34 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/hot_dog": {
+    "criteria": {
+      "has_bread": "2025-01-04 18:39:34 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/throw_bone": {
+    "criteria": {
+      "has_bone": "2025-01-04 18:44:33 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/conducting_bone": {
+    "criteria": {
+      "has_bone": "2025-01-04 18:44:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-04 18:50:46 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:dtn_core/summon_dog": {
+    "criteria": {
+      "summon_dog": "2025-01-04 18:52:57 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/breeding_bone": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/sausage": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-04 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-01-04 19:14:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-01-04 19:14:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-01-04 19:14:45 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/misc/backpack": {
+    "criteria": {
+      "has_hide": "2025-01-04 19:14:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-01-04 19:14:45 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/shrinking_mallet": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 19:15:56 +0000"
@@ -1744,12 +1828,6 @@
     },
     "done": true
   },
-  "doggytalents:recipes/food/breeding_bone": {
-    "criteria": {
-      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_sword": "2025-01-04 19:15:56 +0000"
@@ -1759,30 +1837,6 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 19:15:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit": {
-    "criteria": {
-      "has_rabbit": "2025-01-04 19:14:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
-    "criteria": {
-      "has_rabbit": "2025-01-04 19:14:45 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/tools/throw_bone": {
-    "criteria": {
-      "has_bone": "2025-01-04 18:44:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2025-01-04 19:14:45 +0000"
     },
     "done": true
   },
@@ -1816,36 +1870,6 @@
     },
     "done": true
   },
-  "backpacked:recipes/misc/backpack": {
-    "criteria": {
-      "has_hide": "2025-01-04 19:14:45 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/baker_hat": {
-    "criteria": {
-      "has_bread": "2025-01-04 18:39:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2025-01-04 19:06:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather": {
-    "criteria": {
-      "has_rabbit_hide": "2025-01-04 19:14:45 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/food/egg_sandwich": {
-    "criteria": {
-      "has_egg": "2025-01-04 19:18:49 +0000"
-    },
-    "done": true
-  },
   "advancednetherite:recipes/misc/netherite_gold_ingot": {
     "criteria": {
       "has_minecraft:gold_ingot": "2025-01-04 19:15:56 +0000"
@@ -1864,27 +1888,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-01-04 18:50:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 19:15:56 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/hot_dog": {
-    "criteria": {
-      "has_bread": "2025-01-04 18:39:34 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/tools/conducting_bone": {
-    "criteria": {
-      "has_bone": "2025-01-04 18:44:33 +0000"
     },
     "done": true
   },
@@ -1894,21 +1900,495 @@
     },
     "done": true
   },
-  "doggytalents:recipes/food/sausage": {
-    "criteria": {
-      "has_cooked_porkchop": "2025-01-04 19:02:01 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:dtn_core/summon_dog": {
-    "criteria": {
-      "summon_dog": "2025-01-04 18:52:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 19:15:56 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/egg_sandwich": {
+    "criteria": {
+      "has_egg": "2025-01-04 19:18:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/miso_paste": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/soy_beans_dried_camping": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/soy_beans_dried_smelting": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/andesite_corner_trim": {
+    "criteria": {
+      "has_andesite_corner_trim": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/uncooked_rice_bowl": {
+    "criteria": {
+      "has_dtn_rice_grains": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/miso_soup": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-04 19:30:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-01-04 19:30:10 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/soy_beans_dried_smoking": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/lab_coat": {
+    "criteria": {
+      "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/soy_milk": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_male": {
+    "criteria": {
+      "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-01-04 19:30:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_pillar_trim": {
+    "criteria": {
+      "has_granite_pillar_trim": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/conan_suit": {
+    "criteria": {
+      "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_corner_trim": {
+    "criteria": {
+      "has_granite_corner_trim": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/training_treat": {
+    "criteria": {
+      "has_dtn_rice_grains": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/tofu": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/andesite_pillar_trim": {
+    "criteria": {
+      "has_andesite_pillar_trim": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-01-04 19:30:12 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
+    "criteria": {
+      "has_white_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/building_blocks/dog_bed_def": {
+    "criteria": {
+      "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/natto": {
+    "criteria": {
+      "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_female": {
+    "criteria": {
+      "has_wool": "2025-01-04 19:30:13 +0000"
     },
     "done": true
   },

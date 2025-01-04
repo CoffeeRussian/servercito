@@ -1680,6 +1680,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/tools/throw_bone": {
+    "criteria": {
+      "has_bone": "2025-01-04 18:44:33 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/baker_hat": {
     "criteria": {
       "has_bread": "2025-01-04 18:39:34 +0000"
@@ -1689,6 +1695,12 @@
   "doggytalents:recipes/decorations/hot_dog": {
     "criteria": {
       "has_bread": "2025-01-04 18:39:34 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/conducting_bone": {
+    "criteria": {
+      "has_bone": "2025-01-04 18:44:33 +0000"
     },
     "done": true
   },

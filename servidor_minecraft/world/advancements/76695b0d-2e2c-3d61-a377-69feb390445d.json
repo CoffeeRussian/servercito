@@ -1449,6 +1449,18 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/pianist_suit": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/bowtie": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/sunglasses": {
     "criteria": {
       "has_stick": "2025-01-04 18:35:22 +0000"
@@ -1473,6 +1485,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/guard_suit": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/giant_stick": {
     "criteria": {
       "has_stick": "2025-01-04 18:35:22 +0000"
@@ -1491,9 +1509,39 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_rei": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/wig": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/wool_collar_thicc": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_shin": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/treat_bag": {
     "criteria": {
       "has_leather": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/empty_locator_orb": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },
@@ -1503,9 +1551,57 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/bach_wig": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/golden_a_five_wagyu": {
     "criteria": {
       "has_cooked_beef": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/tengu_mask": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_jin": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/wool_collar": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/misc/gender_bone": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/kitsune_mask": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_chu": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_chi": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },
@@ -1515,15 +1611,33 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_tei": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/cape_coloured": {
     "criteria": {
       "has_leather": "2025-01-04 18:35:22 +0000"
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_ko": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/sausage": {
     "criteria": {
       "has_cooked_porkchop": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_gi": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },
@@ -1536,6 +1650,12 @@
   "doggytalents:recipes/building_blocks/food_bowl": {
     "criteria": {
       "has_iron_ingot": "2025-01-04 18:35:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_dyable": {
+    "criteria": {
+      "has_string": "2025-01-04 18:41:24 +0000"
     },
     "done": true
   },

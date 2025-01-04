@@ -25,6 +25,7 @@
       "minecraft:sparse_jungle": "2025-01-04 21:53:41 +0000",
       "minecraft:deep_ocean": "2025-01-02 02:13:34 +0000",
       "minecraft:river": "2025-01-02 02:11:33 +0000",
+      "minecraft:stony_shore": "2025-01-04 22:03:25 +0000",
       "minecraft:dripstone_caves": "2025-01-04 19:14:10 +0000",
       "minecraft:ocean": "2025-01-02 02:10:23 +0000",
       "minecraft:jungle": "2025-01-04 21:53:55 +0000",
@@ -3380,6 +3381,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-04 21:57:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-01-04 21:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-04 21:55:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2025-01-04 21:36:18 +0000"
@@ -3392,6 +3411,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2025-01-04 21:57:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2025-01-04 21:54:52 +0000"
@@ -3401,6 +3426,24 @@
   "farmersdelight:recipes/cooking/hot_cocoa": {
     "criteria": {
       "has_any_ingredient": "2025-01-04 21:54:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-04 21:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-04 21:55:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-04 21:57:43 +0000"
     },
     "done": true
   },

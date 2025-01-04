@@ -28,6 +28,8 @@
       "minecraft:deep_ocean": "2025-01-04 20:08:31 +0000",
       "minecraft:river": "2025-01-04 18:38:51 +0000",
       "minecraft:stony_shore": "2025-01-04 20:12:17 +0000",
+      "minecraft:lush_caves": "2025-01-04 20:29:30 +0000",
+      "minecraft:snowy_taiga": "2025-01-04 20:28:37 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-04 19:22:41 +0000",
       "minecraft:ocean": "2025-01-04 19:04:34 +0000",
       "minecraft:sunflower_plains": "2025-01-04 18:56:28 +0000",
@@ -1298,6 +1300,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/wheat_dough_from_eggs": {
     "criteria": {
       "has_wheat": "2025-01-04 19:32:53 +0000"
@@ -1307,6 +1315,12 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-04 19:44:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },
@@ -1343,6 +1357,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-04 19:44:53 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_pillar_trim": {
+    "criteria": {
+      "has_diorite_pillar_trim": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },
@@ -1424,6 +1444,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-01-04 20:35:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2025-01-04 19:53:57 +0000"
@@ -1451,6 +1477,12 @@
   "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 20:04:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },
@@ -1513,6 +1545,12 @@
       "potato": "2025-01-04 19:32:44 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
@@ -1586,6 +1624,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/feathered_mantle": {
     "criteria": {
       "has_feather": "2025-01-04 19:54:22 +0000"
@@ -1628,6 +1672,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_jin": {
     "criteria": {
       "has_string": "2025-01-04 19:28:26 +0000"
@@ -1664,6 +1714,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/kitsune_mask": {
     "criteria": {
       "has_string": "2025-01-04 19:28:26 +0000"
@@ -1687,6 +1743,12 @@
       "in_better_spider_dungeon": "2025-01-04 19:43:56 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-01-04 20:35:02 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
@@ -1748,6 +1810,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/locator_orb_tei": {
     "criteria": {
       "has_string": "2025-01-04 19:28:26 +0000"
@@ -1760,9 +1828,21 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/diorite_corner_trim": {
+    "criteria": {
+      "has_diorite_corner_trim": "2025-01-04 20:34:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2025-01-04 19:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },
@@ -1775,6 +1855,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 20:04:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },
@@ -1823,6 +1909,12 @@
   "doggytalents:recipes/decorations/locator_orb_gi": {
     "criteria": {
       "has_string": "2025-01-04 19:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-01-04 20:34:41 +0000"
     },
     "done": true
   },

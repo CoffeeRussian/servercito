@@ -1165,3 +1165,47 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [21:15:03] [Server thread/INFO]: Sander has made the advancement [A Seedy Place]
 [21:15:38] [Server thread/INFO]: Coffeent has made the advancement [A Seedy Place]
 [21:16:31] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[21:17:00] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[21:17:02] [Server thread/INFO]: [Not Secure] <Coffeent> duerme
+[21:19:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> t fut
+[21:19:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> fuiste
+[21:19:06] [Server thread/INFO]: Locating element #betterdungeons:better_dungeons (betterdungeons:small_dungeon) took 0 ms
+[21:19:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> :c
+[21:19:18] [Server thread/INFO]: [Not Secure] <Sander> peguele
+[21:19:22] [Server thread/INFO]: [Not Secure] <Coffeent> me saco
+[21:19:23] [Server thread/INFO]: [Not Secure] <Coffeent> stk stkstksk
+[21:19:29] [Server thread/INFO]: [Not Secure] <Sander> mentiras
+[21:19:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> dksjdñsk
+[21:19:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> XD
+[21:19:43] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 66.000000, -1871.500000]
+[21:19:48] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 56.818356, -1871.500000]
+[21:22:35] [Server thread/INFO]: [Not Secure] <Coffeent> hazla tu ps
+[21:22:46] [Server thread/INFO]: Coffeent teleported to 707.5 -28.0 -2015.5 minecraft:overworld
+[21:22:47] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[21:23:22] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[21:25:45] [Server thread/INFO]: Coffeent has made the advancement [We Need to Go Deeper]
+[21:25:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4146ms or 82 ticks behind
+[21:26:22] [pool-8-thread-6/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=133, y=68, z=-1701}
+[21:26:23] [Server thread/INFO]: [Not Secure] <Coffeent> si
+[21:27:00] [Server thread/INFO]: [Not Secure] <Coffeent> stonecuttter
+[21:27:02] [Server thread/INFO]: [Not Secure] <Coffeent> corta piedra
+[21:27:12] [Server thread/INFO]: [Not Secure] <Coffeent> haz uno tu ps
+[21:27:18] [Server thread/INFO]: [Not Secure] <Coffeent> si
+[21:27:49] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[21:27:53] [Server thread/INFO]: Coffeent burned to death
+[21:28:22] [Server thread/INFO]: Sander has made the advancement [Cobweb Entanglement]
+[21:29:30] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 59.000000, -1871.500000]
+[21:29:31] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[21:30:07] [pool-8-thread-7/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=389, y=77, z=-1797}
+[21:31:19] [Server thread/INFO]: Sander was slain by Cave Spider
+[21:31:33] [Server thread/INFO]: Coffeent has made the advancement [Quite the Renovation]
+[21:33:48] [Server thread/INFO]: Sander lost connection: Disconnected
+[21:33:48] [Server thread/INFO]: Sander left the game
+[21:34:04] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
+[21:34:07] [Server thread/INFO]: Sander[/100.72.60.119:61138] logged in with entity id 93203 at (278.81681618043797, 37.223912174170515, -1961.8257185096568)
+[21:34:07] [Server thread/INFO]: Sending server config values to client
+[21:34:07] [Server thread/INFO]: Sander joined the game
+[21:34:07] [Server thread/INFO]: Receiving client config
+[21:35:16] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
+[21:36:16] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/94628, l='ServerLevel[world]', x=551.50, y=4.00, z=-1980.50]'
+[21:36:18] [Server thread/INFO]: Sander has made the advancement [Not Today, Thank You]

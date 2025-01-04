@@ -527,6 +527,7 @@
       "minecraft:skeleton": "2025-01-02 02:59:56 +0000",
       "minecraft:spider": "2025-01-04 20:04:00 +0000",
       "minecraft:zombie": "2025-01-02 01:56:23 +0000",
+      "minecraft:creeper": "2025-01-04 21:37:06 +0000",
       "minecraft:drowned": "2025-01-02 02:16:12 +0000"
     },
     "done": false
@@ -3060,6 +3061,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-04 21:27:40 +0000"
@@ -3078,9 +3091,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2025-01-04 21:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },
@@ -3093,6 +3124,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-01-04 21:25:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-04 21:42:10 +0000"
     },
     "done": true
   },
@@ -3114,6 +3151,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-04 21:42:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-01-04 20:54:12 +0000"
@@ -3129,6 +3178,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-04 21:27:40 +0000"
+    },
+    "done": true
+  },
+  "reinfchest:recipes/decorations/diamond_chest": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },
@@ -3162,6 +3217,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-04 21:30:20 +0000"
@@ -3192,6 +3259,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2025-01-04 20:54:12 +0000"
@@ -3207,6 +3280,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2025-01-04 21:12:29 +0000"
+    },
+    "done": true
+  },
+  "reinfbarrel:recipes/decorations/diamond_barrel": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },
@@ -3258,6 +3337,12 @@
     },
     "done": true
   },
+  "reinfshulker:recipes/decorations/diamond_shulker_box": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-04 21:30:20 +0000"
@@ -3267,6 +3352,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-01-04 21:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },
@@ -3297,6 +3388,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-04 21:27:40 +0000"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
+    "criteria": {
+      "has_minecraft:diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },
@@ -3372,6 +3469,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-01-04 21:30:20 +0000"
@@ -3399,6 +3502,18 @@
   "farmersdelight:recipes/building_blocks/pumpkin_from_slices": {
     "criteria": {
       "has_pumpkin_slice": "2025-01-04 21:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-01-04 21:43:50 +0000"
     },
     "done": true
   },

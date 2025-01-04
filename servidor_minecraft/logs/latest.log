@@ -1209,3 +1209,6 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [21:35:16] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
 [21:36:16] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/94628, l='ServerLevel[world]', x=551.50, y=4.00, z=-1980.50]'
 [21:36:18] [Server thread/INFO]: Sander has made the advancement [Not Today, Thank You]
+[21:37:36] [Server thread/INFO]: Jerezzzito has made the advancement [Acquire Hardware]
+[21:43:28] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/97712, l='ServerLevel[world]', x=2517.50, y=-29.00, z=-213.50]'
+[21:43:50] [Server thread/INFO]: Coffeent has made the advancement [Diamonds!]

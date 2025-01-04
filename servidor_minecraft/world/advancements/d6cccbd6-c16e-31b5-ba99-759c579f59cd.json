@@ -986,6 +986,7 @@
       "cooked_porkchop": "2025-01-04 21:03:54 +0000",
       "mutton": "2025-01-04 18:50:53 +0000",
       "chicken": "2025-01-04 19:00:20 +0000",
+      "rotten_flesh": "2025-01-04 22:50:54 +0000",
       "cooked_cod": "2025-01-04 22:44:35 +0000",
       "porkchop": "2025-01-04 19:08:08 +0000",
       "carrot": "2025-01-04 19:42:20 +0000"
@@ -2181,6 +2182,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 22:47:26 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2025-01-04 22:21:39 +0000"
@@ -2343,6 +2350,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/tools/radio_collar": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 22:24:18 +0000"
@@ -2379,6 +2392,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 22:38:03 +0000"
@@ -2397,6 +2416,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-01-04 21:22:59 +0000"
@@ -2406,6 +2431,12 @@
   "handcrafted:recipes/misc/hammer": {
     "criteria": {
       "has_hammer": "2025-01-04 21:37:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-04 22:48:02 +0000"
     },
     "done": true
   },
@@ -2475,6 +2506,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/smarty_glasses": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-04 22:03:52 +0000"
@@ -2490,6 +2527,12 @@
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-04 22:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-01-04 22:48:02 +0000"
     },
     "done": true
   },
@@ -2643,9 +2686,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/spruce_couch": {
     "criteria": {
       "has_spruce_couch": "2025-01-04 21:18:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
     },
     "done": true
   },
@@ -2730,6 +2785,12 @@
   "reinfchest:recipes/decorations/copper_chest": {
     "criteria": {
       "has_chest": "2025-01-04 21:18:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
     },
     "done": true
   },
@@ -2907,6 +2968,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-04 22:48:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2025-01-04 21:37:36 +0000"
@@ -2952,6 +3019,12 @@
   "advancednetherite:recipes/misc/netherite_gold_ingot": {
     "criteria": {
       "has_minecraft:gold_ingot": "2025-01-04 22:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
     },
     "done": true
   },
@@ -3018,6 +3091,18 @@
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2025-01-04 21:37:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-01-04 22:47:26 +0000"
     },
     "done": true
   },
@@ -3228,6 +3313,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-01-04 22:38:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-04 22:50:00 +0000"
     },
     "done": true
   },

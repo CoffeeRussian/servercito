@@ -1387,3 +1387,85 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:56:32] [Server thread/INFO]: Sander fell from a high place
 [22:56:52] [Server thread/INFO]: [Not Secure] <Sander> [name:"Muerte 17:56:34 01-04-2025", x:2221, y:68, z:-1795, dim:minecraft:overworld]
 [22:57:10] [Server thread/INFO]: [Coffeent: Teleported Sander to 2221.500000, 68.000000, -1794.500000]
+[22:58:32] [Server thread/INFO]: [Coffeent: Set own game mode to Spectator Mode]
+[22:58:51] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
+[22:59:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> uy
+[22:59:49] [Server thread/INFO]: [Not Secure] <Jerezzzito> no se que encontre
+[23:00:43] [Server thread/INFO]: Coffeent has made the advancement [Minecraft: Trial(s) Edition]
+[23:01:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> mor
+[23:01:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> :C
+[23:01:11] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
+[23:01:17] [Server thread/INFO]: [Not Secure] <Coffeent> q
+[23:01:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo ves en el mapa?
+[23:01:25] [Server thread/INFO]: [Not Secure] <Coffeent> ah
+[23:01:27] [Server thread/INFO]: [Not Secure] <Coffeent> esa ya la encontre
+[23:01:28] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[23:01:32] [Server thread/INFO]: [Not Secure] <Coffeent> es la que justo acabe de encontrar
+[23:01:32] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[23:01:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
+[23:02:02] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/146667, l='ServerLevel[world]', x=2227.50, y=-14.00, z=-260.50]'
+[23:02:44] [Server thread/INFO]: Coffeent teleported to 2294.5 -32.0 -359.5 minecraft:overworld
+[23:02:47] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
+[23:02:48] [Server thread/INFO]: Jerezzzito has made the advancement [Minecraft: Trial(s) Edition]
+[23:02:52] [Server thread/INFO]: [Not Secure] <Coffeent> no rompas spawners aca
+[23:02:54] [Server thread/INFO]: [Not Secure] <Coffeent> y ten cuidado
+[23:02:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> ok
+[23:02:56] [Server thread/INFO]: [Not Secure] <Coffeent> XD
+[23:03:09] [pool-8-thread-10/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=3365, y=76, z=-1781}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1780} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=3365, y=76, z=-1780}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1782} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=3365, y=76, z=-1782}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=75, z=-1782} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=3365, y=75, z=-1782}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3364, y=73, z=-1781} but found not block entity block Block{minecraft:stone_stairs}[facing=north,half=bottom,shape=straight,waterlogged=false] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_stairs}[facing=north,half=bottom,shape=straight,waterlogged=false] but failed at location class_2338{x=3364, y=73, z=-1781}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=75, z=-1780} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=3365, y=75, z=-1780}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1781} but found not block entity block Block{minecraft:stripped_spruce_log}[axis=y] at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stripped_spruce_log}[axis=y] but failed at location class_2338{x=3365, y=76, z=-1781}
+[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3364, y=73, z=-1782} but found not block entity block Block{minecraft:stone} at location
+[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=3364, y=73, z=-1782}
+[23:03:27] [Server thread/INFO]: Jerezzzito has made the advancement [Wax Off]
+[23:04:06] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/148626, l='ServerLevel[world]', x=2190.50, y=-53.00, z=-370.50]'
+[23:04:10] [Server thread/INFO]: [Not Secure] <Coffeent> pasalsa
+[23:05:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> me anda muy mal el maus para pelear x,d
+[23:06:01] [Server thread/INFO]: [Not Secure] <Sander> chau
+[23:06:03] [Server thread/INFO]: Sander lost connection: Disconnected
+[23:06:03] [Server thread/INFO]: Sander left the game
+[23:06:16] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[23:06:19] [Server thread/INFO]: [Not Secure] <Coffeent> sabes dodne
+[23:06:20] [Server thread/INFO]: [Not Secure] <Coffeent> esta tu casA?
+[23:06:21] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
+[23:06:23] [Server thread/INFO]: [Not Secure] <Coffeent> no podemos ir
+[23:06:24] [Server thread/INFO]: [Not Secure] <Coffeent> a eso
+[23:06:25] [Server thread/INFO]: [Not Secure] <Coffeent> todavia
+[23:06:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
+[23:06:29] [Server thread/INFO]: [Not Secure] <Coffeent> es muyu peligroso
+[23:06:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> si se
+[23:06:37] [Server thread/INFO]: [Not Secure] <Jerezzzito> sino me mato
+[23:06:38] [Server thread/INFO]: [Not Secure] <Jerezzzito> peor
+[23:06:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> pero
+[23:06:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> toma
+[23:06:49] [Server thread/INFO]: [Not Secure] <Jerezzzito> t doy todo lo que consegui
+[23:06:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> :3
+[23:06:54] [Server thread/INFO]: [Not Secure] <Coffeent> no
+[23:06:56] [Server thread/INFO]: [Not Secure] <Coffeent> guardalo en cofres
+[23:06:57] [Server thread/INFO]: [Not Secure] <Coffeent> para ti
+[23:07:00] [Server thread/INFO]: [Not Secure] <Coffeent> ya vengo
+[23:07:00] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
+[23:07:01] [Server thread/INFO]: [Not Secure] <Coffeent> ve a tu casa
+[23:07:03] [Server thread/INFO]: [Not Secure] <Coffeent> manda cords
+[23:07:04] [Server thread/INFO]: [Not Secure] <Coffeent> y te llevo
+[23:07:07] [Server thread/INFO]: [Not Secure] <Coffeent> q si
+[23:07:08] [Server thread/INFO]: [Not Secure] <Coffeent> haz caso
+[23:07:24] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
+[23:07:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> [x:2485, y:62, z:-249, dim:minecraft:overworld]
+[23:07:54] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
+[23:08:05] [Server thread/INFO]: [Not Secure] <Jerezzzito> :c
+[23:08:12] [Server thread/INFO]: [Not Secure] <Jerezzzito> te amo
+[23:08:19] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2485.500000, 62.000000, -248.500000]
+[23:08:20] [Server thread/INFO]: [Not Secure] <Coffeent> te amo tambien
+[23:08:21] [Server thread/INFO]: [Not Secure] <Coffeent> tonta
+[23:08:25] [Server thread/INFO]: [Not Secure] <Coffeent> tonta que me quiero follar
+[23:08:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> u//u

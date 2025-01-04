@@ -536,6 +536,7 @@
       "minecraft:zombie": "2025-01-02 01:56:23 +0000",
       "minecraft:creeper": "2025-01-04 21:37:06 +0000",
       "minecraft:drowned": "2025-01-02 02:16:12 +0000",
+      "minecraft:husk": "2025-01-04 23:03:15 +0000",
       "minecraft:slime": "2025-01-04 22:06:51 +0000"
     },
     "done": false
@@ -785,8 +786,10 @@
       "cooked_porkchop": "2025-01-02 02:34:37 +0000",
       "apple": "2025-01-02 02:10:32 +0000",
       "bread": "2025-01-02 02:27:03 +0000",
+      "golden_apple": "2025-01-04 23:05:09 +0000",
       "rotten_flesh": "2025-01-02 02:07:51 +0000",
       "cooked_mutton": "2025-01-04 21:12:51 +0000",
+      "glow_berries": "2025-01-04 23:04:55 +0000",
       "dried_kelp": "2025-01-02 02:38:05 +0000",
       "cooked_beef": "2025-01-04 21:31:57 +0000",
       "beef": "2025-01-02 19:34:21 +0000",
@@ -3804,6 +3807,12 @@
   "handcrafted:recipes/misc/spruce_counter": {
     "criteria": {
       "has_spruce_counter": "2025-01-04 22:45:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-01-04 23:00:43 +0000"
     },
     "done": true
   },

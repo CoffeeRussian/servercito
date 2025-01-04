@@ -525,6 +525,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-02 02:59:56 +0000",
+      "minecraft:enderman": "2025-01-04 21:51:28 +0000",
       "minecraft:spider": "2025-01-04 20:04:00 +0000",
       "minecraft:zombie": "2025-01-02 01:56:23 +0000",
       "minecraft:creeper": "2025-01-04 21:37:06 +0000",
@@ -3073,6 +3074,12 @@
     },
     "done": true
   },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-04 21:51:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-04 21:27:40 +0000"
@@ -3217,6 +3224,12 @@
     },
     "done": true
   },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-04 21:51:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-01-04 21:43:50 +0000"
@@ -3226,6 +3239,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2025-01-04 21:43:50 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_dust": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-04 21:51:28 +0000"
     },
     "done": true
   },

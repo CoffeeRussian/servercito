@@ -1948,6 +1948,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-04 19:52:49 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/miso_paste": {
     "criteria": {
       "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
@@ -1963,6 +1969,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-04 19:52:49 +0000"
     },
     "done": true
   },
@@ -2485,6 +2497,12 @@
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-01-04 19:45:21 +0000"
     },
     "done": true
   },

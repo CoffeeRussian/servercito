@@ -11,6 +11,18 @@
     },
     "done": true
   },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-01-04 04:23:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-01-04 04:23:05 +0000"
+    },
+    "done": false
+  },
   "sawmill:recipes/sawmill": {
     "criteria": {
       "has_fences": "2025-01-04 04:23:57 +0000",
@@ -35,18 +47,6 @@
       "has_logs": "2025-01-04 04:23:57 +0000"
     },
     "done": true
-  },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2025-01-04 04:23:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2025-01-04 04:23:05 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {

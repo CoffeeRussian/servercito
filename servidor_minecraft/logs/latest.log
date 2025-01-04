@@ -1,10 +1,10 @@
-[16:43:56] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
-[16:43:57] [main/WARN]: Warnings were found!
+[18:34:44] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[18:34:45] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.1+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.3 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[16:43:57] [main/INFO]: Loading 170 mods:
+[18:34:45] [main/INFO]: Loading 170 mods:
 	- accessories 1.1.0-beta.19+1.21.1
 	- advancednetherite 2.2.1-1.21.1
 	- amendments 1.21-1.2.22
@@ -228,161 +228,161 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.21.1-Fabric-5.1.1
 	   \-- org_reflections_reflections 0.10.2
-[16:43:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servercito/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:43:57] [main/INFO]: Compatibility level set to JAVA_17
-[16:43:57] [main/INFO]: Compatibility level set to JAVA_21
-[16:43:57] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
-[16:43:57] [main/INFO]: Applying Nashorn fix
-[16:43:57] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:57] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[16:43:58] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[16:43:58] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[16:43:58] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[16:43:58] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[16:43:59] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[16:43:59] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[16:43:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
-[16:43:59] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[16:44:06] [main/INFO]: Vanilla bootstrap took 6442 milliseconds
-[16:44:06] [main/INFO]: Registered Trinkets Reloaded Listeners
-[16:44:06] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[16:44:06] [main/INFO]: Loaded config amendments-common.json
-[16:44:06] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[16:44:06] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[16:44:06] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[16:44:06] [main/ERROR]: No data fixer registered for artifacts:mimic
-[16:44:07] [main/INFO]: Reflections took 76 ms to scan 1 urls, producing 3 keys and 35 values
-[16:44:07] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[16:44:07] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[16:44:07] [main/INFO]: betterchunkloading mod initialized
-[16:44:07] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:07] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:07] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:07] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:44:08] [main/INFO]: Loaded config for: chunksending.json
-[16:44:08] [main/INFO]: chunksending mod initialized
-[16:44:08] [main/INFO]: Loading Collective version 7.87.
-[16:44:08] [main/INFO]: Connectivity initialized
-[16:44:08] [main/INFO]: Loaded config for: cupboard.json
-[16:44:08] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[16:44:08] [main/INFO]: Successfully Debugify'd your game!
-[16:44:08] [main/INFO]: Loaded config dummmmmmy-common.json
-[16:44:08] [main/INFO]: Constructing common components for easyanvils:main
-[16:44:08] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[16:44:08] [main/INFO]: Constructing common components for easymagic:main
-[16:44:08] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[16:44:08] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[16:44:08] [main/INFO]: ExpandAbility here, who dis?
-[16:44:09] [main/ERROR]: No data fixer registered for handcrafted
-[16:44:09] [main/INFO]: Constructing common components for iteminteractions:main
-[16:44:09] [main/INFO]: Initializing ServerSide Packet Registries
-[16:44:09] [main/INFO]: Definitely not up to no good
-[16:44:09] [main/INFO]: Loading Noisium.
-[16:44:09] [main/INFO]: [STDOUT]: All 10 have been set properly
-[16:44:09] [main/INFO]: chyz: bro, can you stop breathing
-[16:44:09] [main/INFO]: Constructing common components for puzzleslib:main
-[16:44:09] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
-[16:44:09] [main/INFO]: Loaded config supplementaries-common.json
-[16:44:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:44:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:09] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[16:44:10] [main/INFO]: Initialized block sets in 12ms
-[16:44:10] [main/ERROR]: No data fixer registered for falling_lantern
-[16:44:10] [main/ERROR]: No data fixer registered for target_dummy
-[16:44:10] [main/ERROR]: No data fixer registered for dispenser_minecart
-[16:44:10] [main/ERROR]: No data fixer registered for falling_urn
-[16:44:10] [main/ERROR]: No data fixer registered for falling_ash
-[16:44:10] [main/ERROR]: No data fixer registered for falling_sack
-[16:44:10] [main/ERROR]: No data fixer registered for brick_projectile
-[16:44:10] [main/ERROR]: No data fixer registered for slimeball_projectile
-[16:44:10] [main/ERROR]: No data fixer registered for bomb
-[16:44:10] [main/ERROR]: No data fixer registered for cannonball
-[16:44:10] [main/ERROR]: No data fixer registered for rope_arrow
-[16:44:10] [main/ERROR]: No data fixer registered for slingshot_projectile
-[16:44:10] [main/INFO]: Loaded config sawmill-common.json
-[16:44:10] [main/INFO]: Initialized color sets in 24ms
-[16:44:10] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 17, 3, 1] ms
-[16:44:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:44:10] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
-[16:44:10] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 26 ms
-[16:44:10] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 14 ms
-[16:44:11] [main/INFO]: Loaded config for: connectivity.json
-[16:44:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
+[18:34:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servercito/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:34:45] [main/INFO]: Compatibility level set to JAVA_17
+[18:34:45] [main/INFO]: Compatibility level set to JAVA_21
+[18:34:45] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
+[18:34:45] [main/INFO]: Applying Nashorn fix
+[18:34:45] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:34:45] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[18:34:45] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[18:34:45] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[18:34:45] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[18:34:46] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[18:34:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[18:34:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
+[18:34:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:34:54] [main/INFO]: Vanilla bootstrap took 7216 milliseconds
+[18:34:55] [main/INFO]: Registered Trinkets Reloaded Listeners
+[18:34:55] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[18:34:55] [main/INFO]: Loaded config amendments-common.json
+[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[18:34:55] [main/ERROR]: No data fixer registered for artifacts:mimic
+[18:34:55] [main/INFO]: Reflections took 92 ms to scan 1 urls, producing 3 keys and 35 values
+[18:34:55] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[18:34:55] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[18:34:55] [main/INFO]: betterchunkloading mod initialized
+[18:34:55] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:55] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:55] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[18:34:56] [main/INFO]: Loaded config for: chunksending.json
+[18:34:56] [main/INFO]: chunksending mod initialized
+[18:34:56] [main/INFO]: Loading Collective version 7.87.
+[18:34:56] [main/INFO]: Connectivity initialized
+[18:34:56] [main/INFO]: Loaded config for: cupboard.json
+[18:34:56] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[18:34:56] [main/INFO]: Successfully Debugify'd your game!
+[18:34:56] [main/INFO]: Loaded config dummmmmmy-common.json
+[18:34:56] [main/INFO]: Constructing common components for easyanvils:main
+[18:34:56] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[18:34:56] [main/INFO]: Constructing common components for easymagic:main
+[18:34:56] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[18:34:56] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[18:34:56] [main/INFO]: ExpandAbility here, who dis?
+[18:34:57] [main/ERROR]: No data fixer registered for handcrafted
+[18:34:57] [main/INFO]: Constructing common components for iteminteractions:main
+[18:34:57] [main/INFO]: Initializing ServerSide Packet Registries
+[18:34:57] [main/INFO]: Definitely not up to no good
+[18:34:57] [main/INFO]: Loading Noisium.
+[18:34:57] [main/INFO]: [STDOUT]: All 10 have been set properly
+[18:34:57] [main/INFO]: Maybe we take a page out of the Wisp Forest handbook: When in doubt, steal glisco's code
+[18:34:57] [main/INFO]: Constructing common components for puzzleslib:main
+[18:34:57] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
+[18:34:57] [main/INFO]: Loaded config supplementaries-common.json
+[18:34:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:58] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:34:58] [main/INFO]: Initialized block sets in 10ms
+[18:34:58] [main/ERROR]: No data fixer registered for falling_lantern
+[18:34:58] [main/ERROR]: No data fixer registered for target_dummy
+[18:34:58] [main/ERROR]: No data fixer registered for dispenser_minecart
+[18:34:58] [main/ERROR]: No data fixer registered for falling_urn
+[18:34:58] [main/ERROR]: No data fixer registered for falling_ash
+[18:34:58] [main/ERROR]: No data fixer registered for falling_sack
+[18:34:58] [main/ERROR]: No data fixer registered for brick_projectile
+[18:34:58] [main/ERROR]: No data fixer registered for slimeball_projectile
+[18:34:58] [main/ERROR]: No data fixer registered for bomb
+[18:34:58] [main/ERROR]: No data fixer registered for cannonball
+[18:34:58] [main/ERROR]: No data fixer registered for rope_arrow
+[18:34:58] [main/ERROR]: No data fixer registered for slingshot_projectile
+[18:34:58] [main/INFO]: Loaded config sawmill-common.json
+[18:34:58] [main/INFO]: Initialized color sets in 20ms
+[18:34:58] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 20, 3, 0] ms
+[18:34:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
+[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 21 ms
+[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 11 ms
+[18:34:59] [main/INFO]: Loaded config for: connectivity.json
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
      [supplementaries:quiver (from supplementaries)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
      [#artifacts:slot/belt (from artifacts)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:offhand/glove] to [accessories:hand]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:hand/glove] to [accessories:hand]: 
      [#artifacts:slot/hands (from artifacts)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
      [#artifacts:slot/head (from artifacts)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
      [supplementaries:key (from supplementaries), suppsquared:heavy_key? (from supplementaries)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
      [#artifacts:slot/feet (from artifacts)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
      [backpacked:backpack (from backpacked)]
-[16:44:12] [Worker-Main-1/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
+[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
      [#artifacts:slot/necklace (from artifacts)]
-[16:44:12] [main/INFO]: Intercepted tag results
-[16:44:12] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
-[16:44:12] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
+[18:35:00] [main/INFO]: Intercepted tag results
+[18:35:00] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
+[18:35:00] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: suppsquared:gold_candle_holder_soul; Map entry '1' : Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"item":"buzzier_bees:soul_candle"}]; Second: Failed to parse either. First: Not a json array: {"item":"buzzier_bees:soul_candle"}; Second: No key tag in MapLike[{"item":"buzzier_bees:soul_candle"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: buzzier_bees:soul_candle
-	at knot/com.mojang.serialization.DataResult$Error.md61f627$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md789626$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -398,262 +398,144 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[16:44:13] [main/INFO]: Generating Sawmill Recipes
-[16:44:13] [main/INFO]: Generated Sawmill recipes in 63 milliseconds
-[16:44:13] [main/INFO]: Loaded 3136 recipes
-[16:44:13] [main/INFO]: Loaded 2202 advancements
-[16:44:13] [main/INFO]: Applied 20 data villager trades
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[16:44:13] [main/INFO]: Loaded 27 flute songs
-[16:44:13] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
-[16:44:13] [main/INFO]: Registering custom dispenser behaviors
-[16:44:13] [main/INFO]: Applied 778 biome modifications to 64 of 64 new biomes in 23.43 ms
-[16:44:13] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[16:44:13] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[16:44:13] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[16:44:13] [Server thread/INFO]: Loading server configs...
-[16:44:13] [Server thread/INFO]: Injecting Carpenter Village Houses
-[16:44:13] [Server thread/INFO]: Starting background profiler...
-[16:44:13] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[16:44:13] [Server thread/INFO]: Loading properties
-[16:44:13] [Server thread/INFO]: Default game type: SURVIVAL
-[16:44:13] [Server thread/INFO]: Generating keypair
-[16:44:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:44:14] [Server thread/INFO]: Using epoll channel type
-[16:44:14] [Server thread/INFO]: Preparing level "world"
-[16:44:14] [Server thread/INFO]: Loaded config for: betterchunkloading.json
-[16:44:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:44:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:44:14] [Server thread/INFO]: Time elapsed: 560 ms
-[16:44:14] [Server thread/INFO]: Done (0.885s)! For help, type "help"
-[16:44:14] [Server thread/WARN]: Dedicated server took 19.704 seconds to load
-[16:44:14] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[16:44:15] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[16:44:15] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[16:44:15] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[16:44:15] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[16:44:15] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[16:44:15] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[16:44:15] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[16:44:15] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[16:44:15] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@289e8f2d for service interface journeymap.api.services.ClientPlatformService
-[16:44:15] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@1fcada8d for service interface journeymap.api.services.CommonPlatformService
-[16:44:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7130ms or 142 ticks behind
-[16:58:20] [User Authenticator #1/INFO]: UUID of player Coffeent is f5eb4f96-ef50-4c4d-aa92-105987e601c0
-[16:58:28] [Server thread/INFO]: Coffeent[/100.99.222.20:55490] logged in with entity id 17 at (-196.83823962470518, 72.0, -134.44649575721607)
-[16:58:28] [Server thread/INFO]: Sending server config values to client
-[16:58:28] [Server thread/INFO]: Coffeent joined the game
-[16:58:32] [Server thread/INFO]: Receiving client config
-[17:00:06] [Server thread/INFO]: Made Coffeent a server operator
-[17:00:12] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[17:05:52] [Server thread/INFO]: [Coffeent: Summoned new Cow]
-[17:06:08] [Server thread/INFO]: [Coffeent: Summoned new Rabbit]
-[17:06:28] [Server thread/INFO]: [Coffeent: Summoned new Spider]
-[17:06:33] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[17:06:37] [Server thread/INFO]: [Coffeent: Summoned new Spider]
-[17:07:05] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[17:07:30] [Server thread/INFO]: [Coffeent: Summoned new Cod]
-[17:07:34] [Server thread/INFO]: [Coffeent: Summoned new Cow]
-[17:07:39] [Server thread/INFO]: [Coffeent: Summoned new Pig]
-[17:11:26] [Server thread/INFO]: [Coffeent: Summoned new Cat]
-[17:34:36] [User Authenticator #2/INFO]: UUID of player Jerezzzito is 00bb83a7-4f80-43ff-a82f-7cf0b2f31993
-[17:34:39] [Server thread/INFO]: Jerezzzito[/100.68.115.18:59499] logged in with entity id 3960 at (-136.80768251229608, 71.0, -228.95980141905957)
-[17:34:39] [Server thread/INFO]: Sending server config values to client
-[17:34:39] [Server thread/INFO]: Jerezzzito joined the game
-[17:34:40] [Server thread/INFO]: Receiving client config
-[17:34:53] [Server thread/INFO]: <Jerezzzito> donde esta pues
-[17:35:54] [Server thread/INFO]: <Coffeent> tsss
-[17:36:00] [Server thread/INFO]: <Jerezzzito> tss q
-[17:36:41] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[17:37:57] [Worker-Main-9/WARN]: Tried to access a block entity before it was created. class_2338{x=63, y=-45, z=-116}
-[17:38:04] [Server thread/INFO]: <Coffeent> Hpña
-[17:38:06] [Server thread/INFO]: <Coffeent> Hola
-[17:38:07] [Server thread/INFO]: <Coffeent> ya llegue
-[17:38:08] [Server thread/INFO]: <Coffeent> XD
-[17:38:18] [Server thread/INFO]: <Jerezzzito> ola
-[17:38:23] [Server thread/INFO]: <Coffeent> ARA{ÑAA
-[17:38:52] [Server thread/INFO]: <Coffeent> vistel os mobs?
-[17:38:52] [Server thread/INFO]: <Coffeent> XD
-[17:39:02] [Server thread/INFO]: <Coffeent> sal y mira como se ven
-[17:39:02] [Server thread/INFO]: <Coffeent> LAKSJDAKS
-[17:39:10] [Server thread/INFO]: <Jerezzzito> veo las cosasa diferentes pero noinvestigue mucho
-[17:39:32] [Server thread/INFO]: <Coffeent> q fue
-[17:39:38] [Server thread/INFO]: <Jerezzzito> mire
-[17:40:03] [Server thread/INFO]: <Coffeent> XD
-[17:40:22] [Server thread/INFO]: [Coffeent: Set the time to 1000]
-[17:41:06] [Server thread/INFO]: <Jerezzzito> me anda de la mrda el maus
-[17:41:33] [Server thread/INFO]: <Jerezzzito> xD
-[17:41:57] [Server thread/INFO]: <Coffeent> Dame piedra
-[17:42:03] [Server thread/INFO]: Coffeent has made the advancement [Stone Age]
-[17:42:12] [Server thread/INFO]: Coffeent has made the advancement [Getting an Upgrade]
-[17:42:26] [Server thread/INFO]: <Jerezzzito> no te veo picar XDDD
-[17:42:31] [Server thread/INFO]: <Jerezzzito> tas tieso y sale igual
-[17:42:35] [Server thread/INFO]: <Coffeent> lo se
-[17:42:43] [Server thread/INFO]: <Coffeent> es por cosas del server
-[17:42:47] [Server thread/INFO]: <Jerezzzito> XD
-[17:44:22] [Server thread/INFO]: Jerezzzito has made the advancement [Getting an Upgrade]
-[17:45:05] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[17:45:24] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[17:45:25] [Server thread/INFO]: <Coffeent> toma
-[17:45:52] [Server thread/INFO]: <Coffeent> cuando le das a la E cerca de tu personaje hay un boton con un icono de sombrerito
-[17:45:58] [Server thread/INFO]: <Coffeent> dice open accesories
-[17:46:04] [Server thread/INFO]: <Coffeent> hay podes equiparte cosas, como mochila y amuletos y etc..
-[17:46:06] [Server thread/INFO]: <Coffeent> toma una mochila
-[17:46:17] [Server thread/INFO]: <Coffeent> en configuracion del teclado cambias la tecla con la que la abres
-[17:46:24] [Server thread/INFO]: <Coffeent> por default esta en la B
-[17:46:31] [Server thread/INFO]: <Coffeent> pero hay otra tecla con esa
-[17:46:33] [Server thread/INFO]: <Coffeent> asi que cambiala
-[17:46:34] [Server thread/INFO]: <Coffeent> o se bugea
-[17:47:13] [Server thread/INFO]: <Jerezzzito> LITO
-[17:47:22] [Server thread/INFO]: <Jerezzzito> lo puse con el bloq XD
-[17:47:28] [Server thread/INFO]: <Jerezzzito> creo que no fue buena idea
-[17:47:47] [Server thread/INFO]: <Jerezzzito> ahi mejor
-[17:47:51] [Server thread/INFO]: <Jerezzzito> la puse con al |
-[17:53:35] [Server thread/INFO]: <Coffeent> volvi
-[17:53:52] [Server thread/INFO]: <Jerezzzito> ya voy
-[17:53:58] [Server thread/INFO]: <Jerezzzito> te consegui hierro :3
-[17:55:23] [Server thread/INFO]: Jerezzzito has made the advancement [Acquire Hardware]
-[17:55:36] [Server thread/INFO]: <Coffeent> tengo mi mochilita :3
-[17:55:45] [Server thread/INFO]: <Jerezzzito> q bonita :3
-[17:56:10] [Server thread/INFO]: <Coffeent> no tenei carbon
-[17:56:11] [Server thread/INFO]: <Coffeent> ?
-[17:56:17] [Server thread/INFO]: <Jerezzzito> no encontre ni un puto carbon
-[17:56:21] [Server thread/INFO]: <Jerezzzito> pero 20 de hierro
-[17:56:28] [Server thread/INFO]: <Jerezzzito> y 45 de lo otro
-[17:56:30] [Server thread/INFO]: <Jerezzzito> esto
-[17:56:31] [Server thread/INFO]: <Coffeent> hay martillos
-[17:56:33] [Server thread/INFO]: <Coffeent> por si te interesan
-[17:56:35] [Server thread/INFO]: <Jerezzzito> naranja
-[17:56:38] [Server thread/INFO]: <Jerezzzito> si vi :3
-[17:57:09] [Server thread/INFO]: Jerezzzito has made the advancement [Isn't It Iron Pick]
-[17:58:12] [Server thread/INFO]: <Coffeent> si viste que los minerales
-[17:58:14] [Server thread/INFO]: <Coffeent> tienen textura 3D
-[17:58:15] [Server thread/INFO]: <Coffeent> ?
-[17:58:16] [Server thread/INFO]: <Coffeent> :3
-[17:58:44] [Server thread/INFO]: <Jerezzzito> zhi
-[17:58:45] [Server thread/INFO]: <Jerezzzito> dondetas
-[17:59:05] [Server thread/INFO]: Jerezzzito was slain by Coffeent
-[17:59:07] [Server thread/INFO]: Coffeent has made the advancement [Isn't It Iron Pick]
-[17:59:09] [Server thread/INFO]: <Coffeent> XD
-[17:59:10] [Server thread/INFO]: Coffeent has made the advancement [Acquire Hardware]
-[17:59:13] [Server thread/INFO]: <Jerezzzito> chingaderamadre
-[17:59:14] [Server thread/INFO]: <Jerezzzito> XDDDD
-[17:59:22] [Server thread/INFO]: <Jerezzzito> voy al baño
-[17:59:23] [Server thread/INFO]: <Coffeent> ´perdon
-[17:59:23] [Server thread/INFO]: <Coffeent> x,d
-[17:59:26] [Server thread/INFO]: <Jerezzzito> no pasa nada
-[17:59:30] [Server thread/INFO]: <Jerezzzito> habia salido por madera
-[17:59:40] [Server thread/INFO]: <Jerezzzito> y me habian comido de por si zombies y arañas
-[17:59:42] [Server thread/INFO]: <Coffeent> te hago tp?
-[17:59:44] [Server thread/INFO]: <Jerezzzito> no veia un culo
-[17:59:46] [Server thread/INFO]: <Jerezzzito> zhi
-[17:59:47] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[17:59:49] [Server thread/INFO]: <Jerezzzito> ya vuelvo
-[17:59:51] [Server thread/INFO]: <Jerezzzito> me meo
-[18:04:56] [Server thread/INFO]: <Coffeent> culo
-[18:05:26] [Server thread/INFO]: <Jerezzzito> ola
-[18:05:39] [Server thread/INFO]: <Jerezzzito> no podias llamada no?
-[18:05:56] [Server thread/INFO]: <Coffeent> nya
-[18:06:27] [Server thread/INFO]: <Jerezzzito> vamos para otra isla?
-[18:06:27] [Server thread/INFO]: <Coffeent> uwu ichi ni san
-[18:06:38] [Server thread/INFO]: <Jerezzzito> nya arigato
-[18:06:42] [Server thread/INFO]: <Jerezzzito> andele
-[18:06:48] [Server thread/INFO]: <Coffeent> volvi
-[18:06:54] [Server thread/INFO]: <Coffeent> ESO LO COLOCO SANDER
-[18:06:55] [Server thread/INFO]: <Coffeent> XDDD
-[18:07:00] [Server thread/INFO]: <Jerezzzito> XDDDDDDDDD
-[18:07:05] [Server thread/INFO]: <Jerezzzito> yo q
-[18:07:09] [Server thread/INFO]: <Jerezzzito> XDDDDD
-[18:07:10] [Server thread/INFO]: <Coffeent> tya vengo
-[18:07:15] [Server thread/INFO]: <Coffeent> es que sande escribio
-[18:07:17] [Server thread/INFO]: <Coffeent> haciendose pasar por mi
-[18:07:29] [Server thread/INFO]: <Jerezzzito> xD
-[18:07:59] [Server thread/INFO]: <Jerezzzito> poresodigo de llamada
-[18:08:02] [Server thread/INFO]: <Jerezzzito> estas con otros
-[18:08:05] [Server thread/INFO]: <Jerezzzito> no me entero
-[18:08:06] [Server thread/INFO]: <Jerezzzito> unu
-[18:08:29] [Server thread/INFO]: <Coffeent> XDDD
-[18:08:56] [Server thread/INFO]: <Jerezzzito> vamos
-[18:09:01] [Server thread/INFO]: Coffeent was slain by Zombie
-[18:09:01] [Server thread/INFO]: <Jerezzzito> quiero explorar
-[18:09:22] [Server thread/INFO]: <Jerezzzito> y ese wey q
-[18:16:25] [Server thread/INFO]: <Coffeent> volvi
-[18:16:26] [Server thread/INFO]: <Coffeent> me mataste
-[18:16:27] [Server thread/INFO]: <Coffeent> x,d
-[18:16:28] [Server thread/INFO]: <Jerezzzito> ola
-[18:16:29] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[18:16:30] [Server thread/INFO]: <Jerezzzito> no
-[18:16:30] [Server thread/INFO]: <Coffeent> mis cosas
-[18:16:31] [Server thread/INFO]: <Coffeent> pipipi
-[18:16:36] [Server thread/INFO]: <Jerezzzito> las recogi todas
-[18:16:39] [Server thread/INFO]: <Jerezzzito> toma
-[18:16:41] [Server thread/INFO]: <Coffeent> pasamelas bb
-[18:17:08] [Server thread/INFO]: <Jerezzzito> tenias piedra ms que anda
-[18:17:10] [Server thread/INFO]: <Jerezzzito> xd
-[18:17:15] [Server thread/INFO]: <Jerezzzito> dime que te paso
-[18:17:17] [Server thread/INFO]: <Jerezzzito> sino
-[18:18:15] [Server thread/INFO]: <Coffeent> ola
-[18:18:27] [Server thread/INFO]: <Jerezzzito> ola
-[18:18:43] [Server thread/INFO]: <Jerezzzito> ay
-[18:18:46] [Server thread/INFO]: <Jerezzzito> q muero
-[18:18:47] [Server thread/INFO]: <Jerezzzito> x,d
-[18:18:50] [Server thread/INFO]: <Coffeent> XD
-[18:19:05] [Server thread/INFO]: <Coffeent> mesa de crafteo?
-[18:19:19] [Server thread/INFO]: <Coffeent> ocupo pico de hierro
-[18:19:57] [Server thread/INFO]: <Jerezzzito> mua
-[18:20:51] [Server thread/INFO]: <Coffeent> ocupo madera
-[18:20:55] [Server thread/INFO]: <Coffeent> me quitaste toda la madera
-[18:20:55] [Server thread/INFO]: <Coffeent> x,d
-[18:21:10] [Server thread/INFO]: <Jerezzzito> toma
-[18:21:20] [Server thread/INFO]: <Jerezzzito> me estoy que me muro
-[18:21:42] [Server thread/INFO]: Jerezzzito was slain by Coffeent
-[18:21:46] [Server thread/INFO]: <Jerezzzito> grazhias
-[18:21:48] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[18:21:48] [Server thread/INFO]: <Jerezzzito> tp
-[18:22:04] [Server thread/INFO]: <Jerezzzito> la muchila es lo unico que no desaparece?
-[18:23:19] [Server thread/INFO]: Jerezzzito has made the advancement [Diamonds!]
-[18:23:45] [Server thread/INFO]: <Coffeent> hacker
-[18:23:58] [Server thread/INFO]: Coffeent has made the advancement [Diamonds!]
+[18:35:00] [main/INFO]: Generating Sawmill Recipes
+[18:35:01] [main/INFO]: Generated Sawmill recipes in 80 milliseconds
+[18:35:01] [main/INFO]: Loaded 3136 recipes
+[18:35:01] [main/INFO]: Loaded 2202 advancements
+[18:35:01] [main/INFO]: Applied 20 data villager trades
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[18:35:01] [main/INFO]: Loaded 27 flute songs
+[18:35:01] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
+[18:35:01] [main/INFO]: Registering custom dispenser behaviors
+[18:35:01] [main/INFO]: Applied 778 biome modifications to 64 of 64 new biomes in 24.33 ms
+[18:35:01] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[18:35:01] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[18:35:01] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[18:35:01] [Server thread/INFO]: Loading server configs...
+[18:35:01] [Server thread/INFO]: Injecting Carpenter Village Houses
+[18:35:01] [Server thread/INFO]: Starting background profiler...
+[18:35:01] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:35:01] [Server thread/INFO]: Loading properties
+[18:35:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:35:01] [Server thread/INFO]: Generating keypair
+[18:35:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:35:01] [Server thread/INFO]: Using epoll channel type
+[18:35:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:35:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:35:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:35:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:35:01] [Server thread/INFO]: Preparing level "world"
+[18:35:02] [Server thread/INFO]: Loaded config for: betterchunkloading.json
+[18:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:35:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:02] [Server thread/INFO]: Time elapsed: 545 ms
+[18:35:02] [Server thread/INFO]: Done (0.862s)! For help, type "help"
+[18:35:02] [Server thread/WARN]: Dedicated server took 19.126 seconds to load
+[18:35:02] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[18:35:02] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[18:35:02] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[18:35:02] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[18:35:02] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@37ad839e for service interface journeymap.api.services.ClientPlatformService
+[18:35:02] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@9cb620c for service interface journeymap.api.services.CommonPlatformService
+[18:35:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6996ms or 139 ticks behind
+[18:35:22] [Server thread/INFO]: Sander[/100.72.60.119:56281] logged in with entity id 45 at (873.1647806300209, 64.0, -1815.9485904841138)
+[18:35:22] [Server thread/INFO]: Sending server config values to client
+[18:35:22] [Server thread/INFO]: Sander joined the game
+[18:35:23] [Server thread/INFO]: Receiving client config
+[18:36:06] [Server thread/INFO]: Coffeent[/100.99.222.20:56235] logged in with entity id 439 at (-199.66999102251518, 72.0, -140.82495198242944)
+[18:36:06] [Server thread/INFO]: Sending server config values to client
+[18:36:06] [Server thread/INFO]: Coffeent joined the game
+[18:36:09] [Server thread/INFO]: Receiving client config
+[18:36:46] [Server thread/INFO]: Jerezzzito[/100.68.115.18:60209] logged in with entity id 820 at (-192.03913107840708, 72.0, -139.9039739535227)
+[18:36:46] [Server thread/INFO]: Sending server config values to client
+[18:36:46] [Server thread/INFO]: Jerezzzito joined the game
+[18:36:46] [Server thread/INFO]: Receiving client config
+[18:37:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> pegame
+[18:37:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> matame
+[18:37:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> poca vida
+[18:37:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> pipipipipi
+[18:37:55] [Server thread/INFO]: Jerezzzito was slain by Phantom
+[18:37:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> leto
+[18:38:23] [Server thread/INFO]: Coffeent was slain by Phantom
+[18:38:45] [Server thread/INFO]: [Not Secure] <Coffeent> ola
+[18:38:51] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Sander]
+[18:38:53] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
+[18:38:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> alm
+[18:39:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> pq
+[18:39:19] [Server thread/INFO]: [Not Secure] <Jerezzzito> SON CAMAS DE CATITOS
+[18:39:38] [Server thread/INFO]: [Not Secure] <Sander> conchudos
+[18:39:40] [Server thread/INFO]: [Not Secure] <Sander> mis gatos
+[18:40:03] [Server thread/INFO]: [Not Secure] <Sander> nya ichi ni san
+[18:40:06] [Server thread/INFO]: [Not Secure] <Sander> nya arigato
+[18:40:20] [Server thread/INFO]: Sander was shot by Skeleton
+[18:40:36] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
+[18:40:40] [Server thread/INFO]: Sander was shot by Skeleton
+[18:41:07] [Server thread/INFO]: [Coffeent: Set the time to 1000]
+[18:41:09] [Server thread/INFO]: Sander was shot by Skeleton
+[18:41:13] [Server thread/INFO]: Villager class_1646['Unemployed'/71, l='ServerLevel[world]', x=935.70, y=64.00, z=-1869.34] died, message: 'Unemployed was slain by Zombie'
+[18:42:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya estuvieron jugnado aca ustedes xD?¡
+[18:42:28] [Server thread/INFO]: Sander was slain by Zombie Villager
+[18:43:07] [Server thread/INFO]: [Not Secure] <Coffeent> dam
+[18:43:13] [Server thread/INFO]: [Not Secure] <Coffeent> tu ves los zombies y esqueletos bug?
+[18:43:19] [Server thread/INFO]: [Not Secure] <Coffeent> o los ves con textura?
+[18:43:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
+[18:43:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> con textura
+[18:43:27] [Server thread/INFO]: [Not Secure] <Coffeent> bn
+[18:43:33] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
+[18:43:43] [Server thread/INFO]: [Coffeent: Summoned new Zombie]
+[18:43:56] [Server thread/INFO]: [Coffeent: Summoned new Skeleton]
+[18:44:14] [Server thread/INFO]: Sander was shot by Skeleton
+[18:44:17] [Server thread/INFO]: Jerezzzito has made the advancement [Stone Age]
+[18:44:30] [Server thread/INFO]: Jerezzzito has made the advancement [Getting an Upgrade]
+[18:44:31] [Server thread/INFO]: Sander was shot by Skeleton
+[18:44:34] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
+[18:44:36] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
+[18:44:43] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]

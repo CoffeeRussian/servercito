@@ -521,6 +521,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-02 02:59:56 +0000",
+      "minecraft:spider": "2025-01-04 20:04:00 +0000",
       "minecraft:zombie": "2025-01-02 01:56:23 +0000",
       "minecraft:drowned": "2025-01-02 02:16:12 +0000"
     },
@@ -1930,6 +1931,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-01-04 19:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-04 19:57:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-04 19:59:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
@@ -1939,6 +1958,12 @@
   "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-04 19:59:31 +0000"
     },
     "done": true
   },
@@ -1984,6 +2009,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-01-04 19:59:41 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/radio_collar": {
     "criteria": {
       "has_redstone": "2025-01-04 19:41:01 +0000"
@@ -1993,6 +2024,18 @@
   "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/pianist_suit": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/bowtie": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2038,6 +2081,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-04 19:59:31 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/andesite_corner_trim": {
     "criteria": {
       "has_andesite_corner_trim": "2025-01-04 19:30:12 +0000"
@@ -2047,6 +2096,12 @@
   "doggytalents:recipes/food/uncooked_rice_bowl": {
     "criteria": {
       "has_dtn_rice_grains": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/guard_suit": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2110,6 +2165,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-01-04 19:59:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-01-04 19:31:04 +0000"
@@ -2125,6 +2186,12 @@
   "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_rei": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2146,9 +2213,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-01-04 19:58:23 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/decorations/lab_coat": {
     "criteria": {
       "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_cushion": {
+    "criteria": {
+      "has_gray_cushion": "2025-01-04 19:58:23 +0000"
     },
     "done": true
   },
@@ -2170,9 +2249,27 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/wig": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/soy_milk": {
     "criteria": {
       "has_dtn_soy_beans": "2025-01-04 19:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-04 19:59:41 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/wool_collar_thicc": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2191,6 +2288,12 @@
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-04 19:59:41 +0000"
     },
     "done": true
   },
@@ -2242,9 +2345,27 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_shin": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/empty_locator_orb": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/bach_wig": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2302,6 +2423,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/tengu_mask": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2025-01-04 19:31:04 +0000"
@@ -2311,6 +2438,12 @@
   "handcrafted:recipes/misc/granite_pillar_trim": {
     "criteria": {
       "has_granite_pillar_trim": "2025-01-04 19:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-01-04 19:59:31 +0000"
     },
     "done": true
   },
@@ -2344,6 +2477,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/tools/feathered_mantle": {
+    "criteria": {
+      "has_feather": "2025-01-04 19:58:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2025-01-04 19:43:29 +0000"
@@ -2371,6 +2510,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_sheet": {
+    "criteria": {
+      "has_gray_sheet": "2025-01-04 19:58:23 +0000"
     },
     "done": true
   },
@@ -2404,6 +2549,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_jin": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
@@ -2428,15 +2579,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-01-04 19:59:31 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/food/training_treat": {
     "criteria": {
       "has_dtn_rice_grains": "2025-01-04 19:31:04 +0000"
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/wool_collar": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/misc/gender_bone": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2449,6 +2618,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/kitsune_mask": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2470,6 +2645,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_chu": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-04 19:31:39 +0000"
@@ -2482,6 +2663,18 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/locator_orb_chi": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-01-04 19:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-04 19:41:01 +0000"
@@ -2491,6 +2684,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-01-04 19:31:39 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_tei": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2554,9 +2753,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-01-04 19:59:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-01-04 19:30:15 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_ko": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2569,6 +2780,12 @@
   "doggytalents:recipes/building_blocks/dog_bed_def": {
     "criteria": {
       "has_wool": "2025-01-04 19:30:13 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_gi": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },
@@ -2593,6 +2810,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-01-04 19:41:01 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/locator_orb_dyable": {
+    "criteria": {
+      "has_string": "2025-01-04 19:59:30 +0000"
     },
     "done": true
   },

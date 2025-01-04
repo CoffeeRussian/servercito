@@ -28,6 +28,7 @@
       "minecraft:river": "2025-01-02 02:11:33 +0000",
       "minecraft:birch_forest": "2025-01-02 02:11:58 +0000",
       "minecraft:dripstone_caves": "2025-01-04 19:14:10 +0000",
+      "minecraft:savanna": "2025-01-04 19:56:03 +0000",
       "minecraft:plains": "2025-01-02 01:54:34 +0000"
     },
     "done": false
@@ -2352,6 +2353,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-04 19:55:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-04 19:55:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_axe": "2025-01-04 19:31:27 +0000"
@@ -2382,15 +2395,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "reinfchest:recipes/decorations/diamond_chest": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/lab_coat": {
+    "criteria": {
+      "has_wool": "2025-01-04 20:01:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
     },
     "done": true
   },
@@ -2406,6 +2443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "backpacked:recipes/misc/backpack": {
     "criteria": {
       "has_hide": "2025-01-04 19:40:30 +0000"
@@ -2418,15 +2461,39 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/beastars_uniform_male": {
+    "criteria": {
+      "has_wool": "2025-01-04 20:01:02 +0000"
+    },
+    "done": true
+  },
   "reinfbarrel:recipes/decorations/diamond_barrel": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_pillar_trim": {
+    "criteria": {
+      "has_granite_pillar_trim": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-01-04 19:40:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
     },
     "done": true
   },
@@ -2442,15 +2509,45 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/conan_suit": {
+    "criteria": {
+      "has_wool": "2025-01-04 20:01:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "reinfshulker:recipes/decorations/diamond_shulker_box": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
     },
     "done": true
   },
+  "handcrafted:recipes/misc/granite_corner_trim": {
+    "criteria": {
+      "has_granite_corner_trim": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
     },
     "done": true
   },
@@ -2472,15 +2569,39 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
+    "criteria": {
+      "has_white_wool": "2025-01-04 20:01:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-01-04 19:33:40 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-01-04 19:55:57 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/building_blocks/dog_bed_def": {
+    "criteria": {
+      "has_wool": "2025-01-04 20:01:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-01-04 19:33:40 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_female": {
+    "criteria": {
+      "has_wool": "2025-01-04 20:01:02 +0000"
     },
     "done": true
   },

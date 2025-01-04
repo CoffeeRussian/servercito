@@ -1250,3 +1250,54 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:04:09] [Server thread/INFO]: [Not Secure] <Coffeent> ya te llevo
 [22:05:11] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/110515, l='ServerLevel[world]', x=1396.50, y=15.00, z=-3131.50]'
 [22:05:48] [Server thread/INFO]: Coffeent has made the advancement [Sneak 100]
+[22:07:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZ
+[22:08:01] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZZZZZZZZZZ
+[22:08:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZZ
+[22:08:03] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZ
+[22:08:05] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
+[22:08:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZ
+[22:08:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZ
+[22:08:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
+[22:08:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
+[22:08:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
+[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
+[22:08:11] [Server thread/INFO]: [Not Secure] <Sander> zzzn't
+[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
+[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
+[22:08:12] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZ
+[22:08:13] [Server thread/INFO]: [Not Secure] <Coffeent> nos e puede
+[22:08:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZ
+[22:08:14] [Server thread/INFO]: [Not Secure] <Coffeent> ando en dungeon
+[22:08:15] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZ
+[22:08:17] [Server thread/INFO]: [Not Secure] <Jerezzzito> zzz
+[22:08:28] [pool-8-thread-8/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=981, y=107, z=-3557}
+[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=106, z=-3556} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=981, y=106, z=-3556}
+[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=107, z=-3556} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
+[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=981, y=107, z=-3556}
+[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=104, z=-3558} but found not block entity block Block{minecraft:stone_stairs}[facing=west,half=bottom,shape=straight,waterlogged=false] at location
+[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_stairs}[facing=west,half=bottom,shape=straight,waterlogged=false] but failed at location class_2338{x=981, y=104, z=-3558}
+[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=980, y=104, z=-3558} but found not block entity block Block{minecraft:stone} at location
+[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=980, y=104, z=-3558}
+[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=107, z=-3557} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
+[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=981, y=107, z=-3557}
+[22:09:29] [Server thread/INFO]: Coffeent was blown up by Creeper
+[22:09:36] [Server thread/INFO]: Coffeent teleported to 1442.5 -1.0 -3069.5 minecraft:overworld
+[22:11:41] [Server thread/INFO]: Coffeent was blown up by Creeper
+[22:11:47] [Server thread/INFO]: Coffeent teleported to 1442.5 -1.0 -3113.5 minecraft:overworld
+[22:12:25] [Server thread/INFO]: [Not Secure] <Coffeent> de q
+[22:12:37] [Server thread/INFO]: [Not Secure] <Coffeent> si pero para qu
+[22:12:37] [Server thread/INFO]: [Not Secure] <Coffeent> e
+[22:12:46] [Server thread/INFO]: [Not Secure] <Coffeent> ps cualquiera
+[22:12:59] [Server thread/INFO]: [Not Secure] <Coffeent> -17
+[22:14:00] [Server thread/INFO]: Sander was slain by Zombie
+[22:14:20] [Server thread/INFO]: [Not Secure] <Sander> [name:"Muerte 17:14:02 01-04-2025", x:1159, y:141, z:-3589, dim:minecraft:overworld]
+[22:14:35] [Server thread/INFO]: [Coffeent: Teleported Sander to 11591.500000, 41.000000, -3588.500000]
+[22:14:38] [Server thread/INFO]: [Not Secure] <Coffeent> Jerezzzito si
+[22:14:48] [Server thread/INFO]: Sander suffocated in a wall
+[22:15:06] [Server thread/INFO]: [Coffeent: Teleported Sander to 1159.500000, 141.000000, -3588.500000]
+[22:16:39] [pool-8-thread-9/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=1029, y=73, z=-3861}
+[22:18:08] [Server thread/INFO]: Coffeent lost connection: Disconnected
+[22:18:08] [Server thread/INFO]: Coffeent left the game
+[22:20:12] [Server thread/INFO]: Sander has made the advancement [Ah, you scared me!]
+[22:21:39] [Server thread/INFO]: Jerezzzito has made the advancement [Diamonds!]

@@ -1301,3 +1301,25 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:18:08] [Server thread/INFO]: Coffeent left the game
 [22:20:12] [Server thread/INFO]: Sander has made the advancement [Ah, you scared me!]
 [22:21:39] [Server thread/INFO]: Jerezzzito has made the advancement [Diamonds!]
+[22:29:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> y kenneth xd?
+[22:29:23] [Server thread/INFO]: [Not Secure] <Sander> lo mate
+[22:29:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> D:
+[22:29:46] [Server thread/INFO]: Coffeent[/100.99.222.20:57379] logged in with entity id 127389 at (1421.680856204559, 15.0, -3128.699999988079)
+[22:29:46] [Server thread/INFO]: Sending server config values to client
+[22:29:46] [Server thread/INFO]: Coffeent joined the game
+[22:29:46] [Server thread/INFO]: Receiving client config
+[22:30:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> a no mame
+[22:30:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre unas vias
+[22:32:37] [Server thread/INFO]: [Not Secure] <Coffeent> aa
+[22:32:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> q paso :c
+[22:32:59] [Server thread/INFO]: Sander lost connection: You logged in from another location
+[22:32:59] [Server thread/INFO]: Sander left the game
+[22:32:59] [Server thread/WARN]: handleDisconnection() called twice
+[22:33:01] [Server thread/INFO]: Sander[/100.72.60.119:63007] logged in with entity id 129136 at (984.6999999880791, 64.0, -1901.3275025061942)
+[22:33:01] [Server thread/INFO]: Sending server config values to client
+[22:33:01] [Server thread/INFO]: Sander joined the game
+[22:33:02] [Server thread/INFO]: Receiving client config
+[22:33:10] [Server thread/INFO]: [Not Secure] <Coffeent> nada
+[22:33:11] [Server thread/INFO]: [Not Secure] <Coffeent> aguanta
+[22:33:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> aguanto
+[22:36:17] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]

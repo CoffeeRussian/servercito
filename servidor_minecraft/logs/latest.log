@@ -1,10 +1,11 @@
-[18:34:44] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
-[18:34:45] [main/WARN]: Warnings were found!
+[02:20:54] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[02:20:54] [ForkJoinPool-1-worker-1/WARN]: Mod betterdogs_dtn uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:20:55] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21.1+1.0 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.3 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[18:34:45] [main/INFO]: Loading 170 mods:
+[02:20:55] [main/INFO]: Loading 191 mods:
 	- accessories 1.1.0-beta.19+1.21.1
 	- advancednetherite 2.2.1-1.21.1
 	- amendments 1.21-1.2.22
@@ -23,6 +24,7 @@
 	- betterchunkloading 1.21-5.2
 	- betterdeserttemples 1.21.1-Fabric-4.1.2
 	   \-- org_reflections_reflections 0.10.2
+	- betterdogs_dtn ${version}
 	- betterdungeons 1.21.1-Fabric-5.1.4
 	   \-- org_reflections_reflections 0.10.2
 	- betterendisland 1.21.1-Fabric-3.1.1
@@ -39,8 +41,12 @@
 	   \-- org_reflections_reflections 0.10.2
 	- betterwitchhuts 1.21.1-Fabric-4.1.1
 	   \-- org_reflections_reflections 0.10.2
+	- blastingraw 1.21.1-2-fabric
+	- blastingsand 1.21.1-11-fabric
 	- bookshelf 21.1.29
+	- carryon 2.2.2
 	- chunksending 1.21-2.8
+	- clayblasting 1.21.1-0-fabric
 	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
 	- clumps 19.0.0.1
@@ -48,7 +54,10 @@
 	- collective 7.87
 	- connectivity 1.21-6.4
 	- cupboard 1.21-2.7
+	- darkloot 1.2.8
+	- darkpaintings 21.1.2
 	- debugify 1.21.1+1.0
+	- disenchanting_table 3.1.0
 	- doggytalents 1.18.38
 	- dummmmmmy 1.21-2.0.6
 	- easyanvils 21.1.0
@@ -155,6 +164,7 @@
 	        \-- porting_lib_gametest 3.1.0-beta.47.hotfix.2+1.21.1
 	- fastasyncworldsave 1.21-2.1
 	- ferritecore 7.0.2-hotfix
+	- followersteleporttoo 2.6
 	- forgeconfigapiport 21.1.3
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
@@ -170,12 +180,21 @@
 	   |-- ar_com_hjg_pngj 2.1.0
 	   |-- commonnetworking 1.0.16-1.21.1
 	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
+	- lavender 0.1.14+1.21
+	   |-- lavender-md 0.1.2+1.21
+	   \-- lavender-md-owo-ui 0.1.2+1.21
+	- lootintegrations 1.21-4.0
+	- mcwfurnitures 3.3.0
+	- mcwpaintings 1.0.5
 	- merenc 4.1
 	- minecraft 1.21.1
 	- modernfix 5.20.0+mc1.21.1
 	- monolib 1.4.1
 	- moonlight 1.21-2.17.12
+	- more_bows_and_arrows 4.0.0
 	- nerb 0.4.1
+	- netherrackblasting 1.21.1-0-fabric
+	- nets 0.3.6
 	- noisium 2.3.0+mc1.21-1.21.1
 	- octolib 0.5.0.1
 	   \-- org_yaml_snakeyaml 2.2
@@ -187,6 +206,7 @@
 	   |-- io_wispforest_endec_jankson 0.1.3
 	   \-- io_wispforest_endec_netty 0.1.2
 	- playeranimator 2.0.1+1.21.1
+	- potionring 1.21.1-1.1
 	- prickle 21.1.6
 	- puzzleslib 21.1.24
 	- reinfbarrel 2.6.1+1.21.1
@@ -200,6 +220,7 @@
 	   \-- com_teamresourceful_yabn 1.0.3
 	- sawmill 1.21-1.5.12
 	- sittingplus 1.0.0
+	- smeltingstone 1.21.1-0-fabric
 	- smoothchunk 1.21-3.8
 	- spark 1.10.109
 	   \-- fabric-permissions-api-v0 0.3.1
@@ -209,6 +230,7 @@
 	- tclayer 3.10.0+beta.19
 	   |-- cardinal-components-base 6.1.0
 	   \-- cardinal-components-entity 6.1.0
+	- things 0.4.2+1.21
 	- treeharvester 9.1
 	- trop 24.8.29
 	- waystones 21.1.5
@@ -228,161 +250,182 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.21.1-Fabric-5.1.1
 	   \-- org_reflections_reflections 0.10.2
-[18:34:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servercito/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:34:45] [main/INFO]: Compatibility level set to JAVA_17
-[18:34:45] [main/INFO]: Compatibility level set to JAVA_21
-[18:34:45] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
-[18:34:45] [main/INFO]: Applying Nashorn fix
-[18:34:45] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:34:45] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[18:34:45] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[18:34:45] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[18:34:45] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[18:34:46] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[18:34:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[18:34:46] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[18:34:46] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[18:34:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
-[18:34:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[18:34:54] [main/INFO]: Vanilla bootstrap took 7216 milliseconds
-[18:34:55] [main/INFO]: Registered Trinkets Reloaded Listeners
-[18:34:55] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[18:34:55] [main/INFO]: Loaded config amendments-common.json
-[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[18:34:55] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[18:34:55] [main/ERROR]: No data fixer registered for artifacts:mimic
-[18:34:55] [main/INFO]: Reflections took 92 ms to scan 1 urls, producing 3 keys and 35 values
-[18:34:55] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[18:34:55] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[18:34:55] [main/INFO]: betterchunkloading mod initialized
-[18:34:55] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:55] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:55] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[18:34:56] [main/INFO]: Loaded config for: chunksending.json
-[18:34:56] [main/INFO]: chunksending mod initialized
-[18:34:56] [main/INFO]: Loading Collective version 7.87.
-[18:34:56] [main/INFO]: Connectivity initialized
-[18:34:56] [main/INFO]: Loaded config for: cupboard.json
-[18:34:56] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[18:34:56] [main/INFO]: Successfully Debugify'd your game!
-[18:34:56] [main/INFO]: Loaded config dummmmmmy-common.json
-[18:34:56] [main/INFO]: Constructing common components for easyanvils:main
-[18:34:56] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[18:34:56] [main/INFO]: Constructing common components for easymagic:main
-[18:34:56] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[18:34:56] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[18:34:56] [main/INFO]: ExpandAbility here, who dis?
-[18:34:57] [main/ERROR]: No data fixer registered for handcrafted
-[18:34:57] [main/INFO]: Constructing common components for iteminteractions:main
-[18:34:57] [main/INFO]: Initializing ServerSide Packet Registries
-[18:34:57] [main/INFO]: Definitely not up to no good
-[18:34:57] [main/INFO]: Loading Noisium.
-[18:34:57] [main/INFO]: [STDOUT]: All 10 have been set properly
-[18:34:57] [main/INFO]: Maybe we take a page out of the Wisp Forest handbook: When in doubt, steal glisco's code
-[18:34:57] [main/INFO]: Constructing common components for puzzleslib:main
-[18:34:57] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
-[18:34:57] [main/INFO]: Loaded config supplementaries-common.json
-[18:34:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:58] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:34:58] [main/INFO]: Initialized block sets in 10ms
-[18:34:58] [main/ERROR]: No data fixer registered for falling_lantern
-[18:34:58] [main/ERROR]: No data fixer registered for target_dummy
-[18:34:58] [main/ERROR]: No data fixer registered for dispenser_minecart
-[18:34:58] [main/ERROR]: No data fixer registered for falling_urn
-[18:34:58] [main/ERROR]: No data fixer registered for falling_ash
-[18:34:58] [main/ERROR]: No data fixer registered for falling_sack
-[18:34:58] [main/ERROR]: No data fixer registered for brick_projectile
-[18:34:58] [main/ERROR]: No data fixer registered for slimeball_projectile
-[18:34:58] [main/ERROR]: No data fixer registered for bomb
-[18:34:58] [main/ERROR]: No data fixer registered for cannonball
-[18:34:58] [main/ERROR]: No data fixer registered for rope_arrow
-[18:34:58] [main/ERROR]: No data fixer registered for slingshot_projectile
-[18:34:58] [main/INFO]: Loaded config sawmill-common.json
-[18:34:58] [main/INFO]: Initialized color sets in 20ms
-[18:34:58] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 20, 3, 0] ms
-[18:34:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
-[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 21 ms
-[18:34:59] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 11 ms
-[18:34:59] [main/INFO]: Loaded config for: connectivity.json
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:34:59] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
+[02:20:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servercito/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:20:55] [main/INFO]: Compatibility level set to JAVA_17
+[02:20:55] [main/INFO]: Compatibility level set to JAVA_21
+[02:20:55] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
+[02:20:55] [main/INFO]: Applying Nashorn fix
+[02:20:55] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:55] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[02:20:56] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[02:20:56] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found things.mixins.json:TooltipComponentMixin from mod things
+[02:20:56] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[02:20:56] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[02:20:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
+[02:20:57] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:21:03] [main/INFO]: Vanilla bootstrap took 6231 milliseconds
+[02:21:04] [main/INFO]: Registered Trinkets Reloaded Listeners
+[02:21:04] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[02:21:04] [main/INFO]: Loaded config amendments-common.json
+[02:21:04] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[02:21:04] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[02:21:04] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[02:21:04] [main/ERROR]: No data fixer registered for artifacts:mimic
+[02:21:04] [main/INFO]: Reflections took 73 ms to scan 1 urls, producing 3 keys and 35 values
+[02:21:04] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[02:21:04] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[02:21:04] [main/INFO]: betterchunkloading mod initialized
+[02:21:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:21:05] [main/INFO]: Loaded config for: chunksending.json
+[02:21:05] [main/INFO]: chunksending mod initialized
+[02:21:05] [main/INFO]: Loading Collective version 7.87.
+[02:21:05] [main/INFO]: Connectivity initialized
+[02:21:05] [main/INFO]: Loaded config for: cupboard.json
+[02:21:05] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[02:21:05] [main/INFO]: Successfully Debugify'd your game!
+[02:21:05] [main/INFO]: Loaded config dummmmmmy-common.json
+[02:21:05] [main/INFO]: Constructing common components for easyanvils:main
+[02:21:05] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[02:21:05] [main/INFO]: Constructing common components for easymagic:main
+[02:21:05] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[02:21:06] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[02:21:06] [main/INFO]: ExpandAbility here, who dis?
+[02:21:06] [main/ERROR]: No data fixer registered for handcrafted
+[02:21:06] [main/INFO]: Constructing common components for iteminteractions:main
+[02:21:06] [main/INFO]: Initializing ServerSide Packet Registries
+[02:21:06] [main/INFO]: Definitely not up to no good
+[02:21:06] [main/INFO]: Loading Noisium.
+[02:21:06] [main/INFO]: [STDOUT]: All 10 have been set properly
+[02:21:06] [main/INFO]: dead people should put things in their grave, I have bills to pay - Blodgharm
+[02:21:06] [main/INFO]: Potion Ring - REFORGED is Loading...
+[02:21:06] [main/INFO]: Potion Ring - REFORGED is Charged !
+[02:21:06] [main/INFO]: Constructing common components for puzzleslib:main
+[02:21:07] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
+[02:21:07] [main/INFO]: Loaded config supplementaries-common.json
+[02:21:07] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:07] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[02:21:07] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:07] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[02:21:07] [main/INFO]: Initialized block sets in 15ms
+[02:21:07] [main/ERROR]: No data fixer registered for falling_lantern
+[02:21:07] [main/ERROR]: No data fixer registered for target_dummy
+[02:21:07] [main/ERROR]: No data fixer registered for dispenser_minecart
+[02:21:07] [main/ERROR]: No data fixer registered for falling_urn
+[02:21:07] [main/ERROR]: No data fixer registered for falling_ash
+[02:21:07] [main/ERROR]: No data fixer registered for falling_sack
+[02:21:08] [main/ERROR]: No data fixer registered for brick_projectile
+[02:21:08] [main/ERROR]: No data fixer registered for slimeball_projectile
+[02:21:08] [main/ERROR]: No data fixer registered for bomb
+[02:21:08] [main/ERROR]: No data fixer registered for cannonball
+[02:21:08] [main/ERROR]: No data fixer registered for rope_arrow
+[02:21:08] [main/ERROR]: No data fixer registered for slingshot_projectile
+[02:21:08] [main/INFO]: Loaded config sawmill-common.json
+[02:21:08] [main/INFO]: Initialized color sets in 29ms
+[02:21:08] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 19, 3, 0] ms
+[02:21:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:21:08] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
+[02:21:08] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 27 ms
+[02:21:08] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 16 ms
+[02:21:09] [main/INFO]: Loaded config for: connectivity.json
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/minecraft:entities/magma_cube - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:09] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:wrist] to [trinkets:offhand/wrist]: 
+     [things:broken_watch (from things)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
      [supplementaries:quiver (from supplementaries)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:face] to [trinkets:head/face]: 
+     [things:monocle (from things), minecraft:apple (from owo)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
      [#artifacts:slot/belt (from artifacts)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:hand/glove] to [accessories:hand]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:belt] to [trinkets:legs/belt]: 
+     [things:ender_pouch (from things)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:hand/glove] to [accessories:hand]: 
      [#artifacts:slot/hands (from artifacts)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:hand] to [trinkets:offhand/glove]: 
+     [things:riot_gauntlet (from things), things:mining_gloves (from things), things:arm_extender (from things)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:hand/ring] to [accessories:ring]: 
+     [potionring:potion_ring (from potionring), potionring:ring_of_strengh (from potionring), potionring:ring_of_speed (from potionring), potionring:ring_of_resistance (from potionring), potionring:ring_of_jump_boost (from potionring), potionring:ring_of_haste (from potionring), potionring:ring_of_regeneration (from potionring), potionring:ring_of_growing (from potionring), potionring:ring_of_shrinking (from potionring), potionring:ring_of_widening (from potionring), potionring:ring_of_thinning (from potionring)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
      [#artifacts:slot/head (from artifacts)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
      [supplementaries:key (from supplementaries), suppsquared:heavy_key? (from supplementaries)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
      [#artifacts:slot/feet (from artifacts)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:shoes] to [trinkets:feet/shoes]: 
+     [things:enchanted_wax_gland (from things), things:rabbit_foot_charm (from things), things:socks (from things), things:shock_absorber (from things)]
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
      [backpacked:backpack (from backpacked)]
-[18:35:00] [Worker-Main-3/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
      [#artifacts:slot/necklace (from artifacts)]
-[18:35:00] [main/INFO]: Intercepted tag results
-[18:35:00] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
-[18:35:00] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
+[02:21:10] [Worker-Main-3/WARN]: Adding Entries from [accessories:necklace] to [trinkets:chest/necklace]: 
+     [things:moss_necklace (from things), things:placebo (from things), things:luck_of_the_irish (from things), things:hades_crystal (from things)]
+[02:21:10] [main/INFO]: Intercepted tag results
+[02:21:10] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
+[02:21:10] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: suppsquared:gold_candle_holder_soul; Map entry '1' : Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"item":"buzzier_bees:soul_candle"}]; Second: Failed to parse either. First: Not a json array: {"item":"buzzier_bees:soul_candle"}; Second: No key tag in MapLike[{"item":"buzzier_bees:soul_candle"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: buzzier_bees:soul_candle
-	at knot/com.mojang.serialization.DataResult$Error.md789626$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.mdda3817$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -398,1098 +441,99 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[18:35:00] [main/INFO]: Generating Sawmill Recipes
-[18:35:01] [main/INFO]: Generated Sawmill recipes in 80 milliseconds
-[18:35:01] [main/INFO]: Loaded 3136 recipes
-[18:35:01] [main/INFO]: Loaded 2202 advancements
-[18:35:01] [main/INFO]: Applied 20 data villager trades
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[18:35:01] [main/INFO]: Loaded 27 flute songs
-[18:35:01] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
-[18:35:01] [main/INFO]: Registering custom dispenser behaviors
-[18:35:01] [main/INFO]: Applied 778 biome modifications to 64 of 64 new biomes in 24.33 ms
-[18:35:01] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[18:35:01] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[18:35:01] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[18:35:01] [Server thread/INFO]: Loading server configs...
-[18:35:01] [Server thread/INFO]: Injecting Carpenter Village Houses
-[18:35:01] [Server thread/INFO]: Starting background profiler...
-[18:35:01] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[18:35:01] [Server thread/INFO]: Loading properties
-[18:35:01] [Server thread/INFO]: Default game type: SURVIVAL
-[18:35:01] [Server thread/INFO]: Generating keypair
-[18:35:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:35:01] [Server thread/INFO]: Using epoll channel type
-[18:35:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:35:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:35:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:35:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:35:01] [Server thread/INFO]: Preparing level "world"
-[18:35:02] [Server thread/INFO]: Loaded config for: betterchunkloading.json
-[18:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:35:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:35:02] [Server thread/INFO]: Time elapsed: 545 ms
-[18:35:02] [Server thread/INFO]: Done (0.862s)! For help, type "help"
-[18:35:02] [Server thread/WARN]: Dedicated server took 19.126 seconds to load
-[18:35:02] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[18:35:02] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[18:35:02] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[18:35:02] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[18:35:02] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[18:35:02] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@37ad839e for service interface journeymap.api.services.ClientPlatformService
-[18:35:02] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@9cb620c for service interface journeymap.api.services.CommonPlatformService
-[18:35:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6996ms or 139 ticks behind
-[18:35:22] [Server thread/INFO]: Sander[/100.72.60.119:56281] logged in with entity id 45 at (873.1647806300209, 64.0, -1815.9485904841138)
-[18:35:22] [Server thread/INFO]: Sending server config values to client
-[18:35:22] [Server thread/INFO]: Sander joined the game
-[18:35:23] [Server thread/INFO]: Receiving client config
-[18:36:06] [Server thread/INFO]: Coffeent[/100.99.222.20:56235] logged in with entity id 439 at (-199.66999102251518, 72.0, -140.82495198242944)
-[18:36:06] [Server thread/INFO]: Sending server config values to client
-[18:36:06] [Server thread/INFO]: Coffeent joined the game
-[18:36:09] [Server thread/INFO]: Receiving client config
-[18:36:46] [Server thread/INFO]: Jerezzzito[/100.68.115.18:60209] logged in with entity id 820 at (-192.03913107840708, 72.0, -139.9039739535227)
-[18:36:46] [Server thread/INFO]: Sending server config values to client
-[18:36:46] [Server thread/INFO]: Jerezzzito joined the game
-[18:36:46] [Server thread/INFO]: Receiving client config
-[18:37:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> pegame
-[18:37:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> matame
-[18:37:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> poca vida
-[18:37:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> pipipipipi
-[18:37:55] [Server thread/INFO]: Jerezzzito was slain by Phantom
-[18:37:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> leto
-[18:38:23] [Server thread/INFO]: Coffeent was slain by Phantom
-[18:38:45] [Server thread/INFO]: [Not Secure] <Coffeent> ola
-[18:38:51] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Sander]
-[18:38:53] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[18:38:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> alm
-[18:39:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> pq
-[18:39:19] [Server thread/INFO]: [Not Secure] <Jerezzzito> SON CAMAS DE CATITOS
-[18:39:38] [Server thread/INFO]: [Not Secure] <Sander> conchudos
-[18:39:40] [Server thread/INFO]: [Not Secure] <Sander> mis gatos
-[18:40:03] [Server thread/INFO]: [Not Secure] <Sander> nya ichi ni san
-[18:40:06] [Server thread/INFO]: [Not Secure] <Sander> nya arigato
-[18:40:20] [Server thread/INFO]: Sander was shot by Skeleton
-[18:40:36] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[18:40:40] [Server thread/INFO]: Sander was shot by Skeleton
-[18:41:07] [Server thread/INFO]: [Coffeent: Set the time to 1000]
-[18:41:09] [Server thread/INFO]: Sander was shot by Skeleton
-[18:41:13] [Server thread/INFO]: Villager class_1646['Unemployed'/71, l='ServerLevel[world]', x=935.70, y=64.00, z=-1869.34] died, message: 'Unemployed was slain by Zombie'
-[18:42:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya estuvieron jugnado aca ustedes xD?¡
-[18:42:28] [Server thread/INFO]: Sander was slain by Zombie Villager
-[18:43:07] [Server thread/INFO]: [Not Secure] <Coffeent> dam
-[18:43:13] [Server thread/INFO]: [Not Secure] <Coffeent> tu ves los zombies y esqueletos bug?
-[18:43:19] [Server thread/INFO]: [Not Secure] <Coffeent> o los ves con textura?
-[18:43:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
-[18:43:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> con textura
-[18:43:27] [Server thread/INFO]: [Not Secure] <Coffeent> bn
-[18:43:33] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
-[18:43:43] [Server thread/INFO]: [Coffeent: Summoned new Zombie]
-[18:43:56] [Server thread/INFO]: [Coffeent: Summoned new Skeleton]
-[18:44:14] [Server thread/INFO]: Sander was shot by Skeleton
-[18:44:17] [Server thread/INFO]: Jerezzzito has made the advancement [Stone Age]
-[18:44:30] [Server thread/INFO]: Jerezzzito has made the advancement [Getting an Upgrade]
-[18:44:31] [Server thread/INFO]: Sander was shot by Skeleton
-[18:44:34] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[18:44:36] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
-[18:44:43] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[18:45:30] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[18:45:50] [Server thread/INFO]: [Coffeent: Summoned new Skeleton]
-[18:45:57] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[18:46:26] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[18:46:42] [Server thread/INFO]: [Coffeent: Summoned new Skeleton]
-[18:46:46] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[18:47:44] [Server thread/INFO]: [Coffeent: Summoned new Skeleton]
-[18:47:54] [Server thread/INFO]: [Coffeent: Summoned new Spider]
-[18:48:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> sirve de algo el cobre xd?
-[18:48:24] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[18:48:40] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[18:49:51] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[18:50:04] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[18:50:11] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[18:50:13] [Server thread/INFO]: [Not Secure] <Coffeent> sh
-[18:50:14] [Server thread/INFO]: [Not Secure] <Jerezzzito> ay gracias
-[18:50:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> ay
-[18:50:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDDDDD
-[18:50:26] [Server thread/INFO]: [Not Secure] <Coffeent> pasa uno
-[18:50:33] [Server thread/INFO]: [Not Secure] <Jerezzzito> no podes llamada no xD?
-[18:50:38] [Server thread/INFO]: [Not Secure] <Coffeent> ah
-[18:50:39] [Server thread/INFO]: [Not Secure] <Coffeent> creo que si
-[18:50:46] [Server thread/INFO]: Jerezzzito has made the advancement [Monster Hunter]
-[18:51:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> llamame si podes
-[18:51:17] [Server thread/INFO]: [Not Secure] <Jerezzzito> voy a cambiarle las pilas al maus
-[18:51:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> sino lo cambio
-[18:51:29] [Server thread/INFO]: [Not Secure] <Sander> no lo cambies
-[18:51:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> me esta tosqueando mucho que deje de clicekar
-[18:51:36] [Server thread/INFO]: [Not Secure] <Coffeent> kalsdas
-[18:51:37] [Server thread/INFO]: [Not Secure] <Coffeent> okey
-[18:51:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> como q no lo cambie
-[18:52:25] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[18:52:34] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[18:52:37] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[18:52:57] [Server thread/INFO]: Coffeent has made the advancement [Ah, you scared me!]
-[18:53:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> bueno no puedo cambiar las pilas
-[18:53:38] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[18:53:40] [Server thread/INFO]: [Not Secure] <Jerezzzito> xd
-[18:53:40] [Server thread/INFO]: Jerezzzito has made the advancement [Sweet Dreams]
-[18:53:42] [Server thread/INFO]: [Not Secure] <Coffeent> pq no
-[18:54:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> las pilas de repuesto se explotaron, tienen esa cosa que se hace por la humedad
-[18:54:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> pero decore con balsosas pues
-[18:54:29] [Server thread/INFO]: [Not Secure] <Coffeent> no hay cerca una tienda de pilas?
-[18:54:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> adkljhasñkdjhsd un perrito
-[18:54:39] [Server thread/INFO]: [Not Secure] <Coffeent> te di un cofre
-[18:54:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> me voy a tardar media hora
-[18:54:41] [Server thread/INFO]: [Not Secure] <Coffeent> debes tenerlo en el inv
-[18:54:44] [Server thread/INFO]: [Not Secure] <Coffeent> con eso conseguis un perrito
-[18:54:56] [Server thread/INFO]: [Not Secure] <Coffeent> dogy charm
-[18:55:07] [Server thread/INFO]: Jerezzzito has made the advancement [Ah, you scared me!]
-[18:55:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> ESROSITA
-[18:55:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> ay se llama cherry
-[18:55:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> deja hojitas lkdhjsakdjhlsa}
-[18:56:04] [Server thread/INFO]: [Not Secure] <Sander> mis gatos son mas bonitos
-[18:56:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> q fea casa
-[18:56:15] [Server thread/INFO]: [Not Secure] <Sander> JAJAJ
-[18:59:42] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[19:02:08] [Server thread/INFO]: Sander was slain by Iron Golem
-[19:03:08] [pool-8-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=1307, y=74, z=-1397}
-[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=73, z=-1396} but found not block entity block Block{supplementaries:candle_holder}[lit=true,facing=north,candles=1,waterlogged=false,face=ceiling] at location
-[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{supplementaries:candle_holder}[lit=true,facing=north,candles=1,waterlogged=false,face=ceiling] but failed at location class_2338{x=1307, y=73, z=-1396}
-[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=74, z=-1397} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
-[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=1307, y=74, z=-1397}
-[19:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1307, y=74, z=-1396} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
-[19:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=1307, y=74, z=-1396}
-[19:04:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> uy
-[19:04:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> me voy a tener q ir parece ser
-[19:04:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> mi papa rompio su celular xd
-[19:05:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo tiro al piso
-[19:05:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> porque le andaba lento
-[19:05:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDD
-[19:05:16] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[19:05:17] [pool-8-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=1237, y=67, z=-1083}
-[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1237, y=67, z=-1083} but found not block entity block Block{minecraft:spruce_trapdoor}[open=false,half=bottom,facing=north,waterlogged=false,powered=false] at location
-[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[open=false,half=bottom,facing=north,waterlogged=false,powered=false] but failed at location class_2338{x=1237, y=67, z=-1083}
-[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1238, y=65, z=-1084} but found not block entity block Block{minecraft:lantern}[hanging=false,waterlogged=false] at location
-[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=false,waterlogged=false] but failed at location class_2338{x=1238, y=65, z=-1084}
-[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1237, y=64, z=-1084} but found not block entity block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] at location
-[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] but failed at location class_2338{x=1237, y=64, z=-1084}
-[19:05:18] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1238, y=64, z=-1084} but found not block entity block Block{minecraft:stone} at location
-[19:05:18] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=1238, y=64, z=-1084}
-[19:06:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> alv un esqueleto indio
-[19:06:25] [Server thread/INFO]: Coffeent has made the advancement [Best Friends Forever]
-[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
-[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
-[19:06:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
-[19:07:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
-[19:07:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
-[19:07:17] [pool-8-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=1573, y=89, z=-901}
-[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.607968320051441,0.0,10.064635388892157
-[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.7066815511309414,0.0,10.452233948657977
-[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.8053505061980104,0.0,10.839845777556775
-[19:07:18] [Server thread/WARN]: Oak Boat (vehicle of Jerezzzito) moved too quickly! 2.90397961285521,0.0,11.227469548675117
-[19:07:20] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1573, y=89, z=-901} but found not block entity block Block{minecraft:air} at location
-[19:07:20] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=1573, y=89, z=-901}
-[19:07:21] [Server thread/INFO]: [Coffeent: Gave 1 [Saddle] to Coffeent]
-[19:07:43] [Server thread/INFO]: Sander was slain by Zombie
-[19:09:04] [Server thread/INFO]: Coffeent was shot by Skeleton
-[19:09:18] [Server thread/INFO]: Sander was shot by Skeleton
-[19:10:11] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[19:10:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> ola
-[19:10:46] [Server thread/INFO]: [Not Secure] <Jerezzzito> no podes ponerlo de dia xd?
-[19:10:49] [Server thread/INFO]: [Not Secure] <Coffeent> pa q
-[19:10:51] [Server thread/INFO]: [Not Secure] <Sander> no
-[19:10:54] [Server thread/INFO]: [Not Secure] <Jerezzzito> para ver
-[19:10:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> no veo un klo
-[19:11:00] [Server thread/INFO]: [Not Secure] <Coffeent> usa antorchas
-[19:11:01] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[19:11:01] [Server thread/INFO]: [Not Secure] <Sander> mirar para ver
-[19:11:03] [Server thread/INFO]: [Not Secure] <Coffeent> con eso ves
-[19:11:04] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[19:11:13] [Server thread/INFO]: [Not Secure] <Coffeent> o subele el birllo
-[19:11:15] [Server thread/INFO]: [Not Secure] <Coffeent> brillo
-[19:11:16] [Server thread/INFO]: [Not Secure] <Coffeent> al juego
-[19:11:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> esta al 100+
-[19:11:26] [Server thread/INFO]: [Not Secure] <Coffeent> entonces estas ciega
-[19:11:27] [Server thread/INFO]: [Not Secure] <Coffeent> x,d
-[19:11:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
-[19:11:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo que tengo es
-[19:11:37] [Server thread/INFO]: [Not Secure] <Jerezzzito> ey
-[19:11:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> veni
-[19:11:43] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre algo
-[19:13:29] [Server thread/INFO]: Jerezzzito was blown up by Creeper
-[19:13:33] [Server thread/INFO]: [Not Secure] <Jerezzzito> tpptptptpt
-[19:13:34] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[19:13:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[19:13:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya viste a lo que voy?
-[19:13:59] [Server thread/INFO]: [Not Secure] <Coffeent> conejos
-[19:14:00] [Server thread/INFO]: [Not Secure] <Coffeent> matar
-[19:14:01] [Server thread/INFO]: [Not Secure] <Coffeent> :D
-[19:14:24] [Server thread/INFO]: Jerezzzito has made the advancement [Ice Bucket Challenge]
-[19:14:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> toma
-[19:14:39] [Server thread/INFO]: [Not Secure] <Coffeent> mata cnojeos
-[19:14:40] [Server thread/INFO]: [Not Secure] <Coffeent> x,d
-[19:14:54] [Server thread/INFO]: [Not Secure] <Coffeent> los necesitmaos para hacernos mochila
-[19:15:03] [Server thread/INFO]: [Not Secure] <Jerezzzito> ymiperrito?
-[19:15:09] [Server thread/INFO]: [Not Secure] <Coffeent> no se donde lo hayas dejado
-[19:15:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> a
-[19:15:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> no tan lejos
-[19:15:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> tenes silvato?
-[19:16:01] [Server thread/INFO]: [Not Secure] <Coffeent> tu deberias tener
-[19:16:01] [Server thread/INFO]: [Not Secure] <Coffeent> ps
-[19:16:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> mori
-[19:16:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> genio
-[19:16:15] [Server thread/INFO]: [Not Secure] <Coffeent> no recogiste las cosas?
-[19:16:16] [Server thread/INFO]: [Not Secure] <Coffeent> genia
-[19:16:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> pues parece que eso no
-[19:16:25] [Server thread/INFO]: [Not Secure] <Jerezzzito> geni
-[19:16:29] [Server thread/INFO]: [Not Secure] <Jerezzzito> o
-[19:16:29] [Server thread/INFO]: [Not Secure] <Coffeent> que tonta
-[19:16:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> dame el cilvato
-[19:16:42] [Server thread/INFO]: [Not Secure] <Coffeent> consiguete uno
-[19:16:46] [Server thread/INFO]: [Not Secure] <Jerezzzito> dame
-[19:17:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> miedoso
-[19:18:15] [Server thread/INFO]: Jerezzzito was slain by Coffeent
-[19:18:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> ery
-[19:18:22] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[19:18:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDDDDDD
-[19:18:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> no ya no quiero nota
-[19:18:29] [Server thread/INFO]: [Not Secure] <Jerezzzito> nada
-[19:18:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> ninini
-[19:19:15] [Server thread/INFO]: [Not Secure] <Jerezzzito> y ahora no tengo la brujula
-[19:19:41] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[19:20:37] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[19:20:38] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[19:21:36] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[19:21:50] [Server thread/INFO]: Sander lost connection: Disconnected
-[19:21:50] [Server thread/INFO]: Sander left the game
-[19:22:25] [Server thread/INFO]: [Not Secure] <Coffeent> aa
-[19:22:28] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[19:22:40] [Server thread/INFO]: [Not Secure] <Coffeent> Toma
-[19:22:48] [Server thread/INFO]: [Not Secure] <Coffeent> tontita
-[19:22:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> y ese creativo q
-[19:23:12] [Server thread/INFO]: [Not Secure] <Coffeent> ya la agarraste vdd bb?
-[19:23:13] [Server thread/INFO]: [Not Secure] <Coffeent> mi bb
-[19:23:25] [Server thread/INFO]: [Not Secure] <Coffeent> si me amas? :c
-[19:23:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> zhi
-[19:23:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> bobito
-[19:23:34] [Server thread/INFO]: [Not Secure] <Coffeent> dame teta
-[19:23:35] [Server thread/INFO]: [Not Secure] <Coffeent> :c
-[19:23:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> escucho el perro pero no lo veo
-[19:23:52] [Server thread/INFO]: [Not Secure] <Coffeent> creo q se bugeo
-[19:23:53] [Server thread/INFO]: [Not Secure] <Coffeent> XDD
-[19:24:18] [Server thread/INFO]: [Not Secure] <Coffeent> sal y entra
-[19:24:19] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[19:24:19] [Server thread/INFO]: Coffeent left the game
-[19:24:26] [Server thread/INFO]: Coffeent[/100.99.222.20:56476] logged in with entity id 24610 at (1456.631625063291, 120.0, -899.6208058804662)
-[19:24:26] [Server thread/INFO]: Sending server config values to client
-[19:24:26] [Server thread/INFO]: Coffeent joined the game
-[19:24:26] [Server thread/INFO]: Receiving client config
-[19:24:40] [Server thread/INFO]: Jerezzzito lost connection: Disconnected
-[19:24:40] [Server thread/INFO]: Jerezzzito left the game
-[19:24:45] [Server thread/INFO]: Jerezzzito[/100.68.115.18:60829] logged in with entity id 24650 at (1456.5433970569002, 120.0, -902.854752941216)
-[19:24:45] [Server thread/INFO]: Sending server config values to client
-[19:24:45] [Server thread/INFO]: Jerezzzito joined the game
-[19:24:45] [Server thread/INFO]: Receiving client config
-[19:24:47] [Server thread/INFO]: [Not Secure] <Coffeent> ya esta
-[19:24:58] [Server thread/INFO]: [Not Secure] <Jerezzzito> apoco quiere teta
-[19:25:05] [Server thread/INFO]: [Not Secure] <Coffeent> y ya te pase mochila
-[19:25:13] [Server thread/INFO]: [Not Secure] <Coffeent> alfinal no vas a salir?
-[19:25:18] [Server thread/INFO]: [Not Secure] <Coffeent> tampoco me respondiste la llamada de discord
-[19:25:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> hoy?
-[19:25:19] [Server thread/INFO]: [Not Secure] <Coffeent> y aja
-[19:25:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> a
-[19:25:23] [Server thread/INFO]: [Not Secure] <Coffeent> dijiste que tenias que irte
-[19:25:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> pérodn
-[19:25:24] [Server thread/INFO]: [Not Secure] <Coffeent> por tu papa
-[19:25:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> si
-[19:25:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> se fue enojado con mama
-[19:25:36] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[19:25:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> a la llamada de dc nunca la escuche
-[19:25:53] [Server thread/INFO]: [Not Secure] <Jerezzzito> por eso no entre
-[19:25:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> raro
-[19:26:00] [Server thread/INFO]: [Not Secure] <Jerezzzito> no suena el dc
-[19:26:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> aun queres llamada?
-[19:26:46] [Server thread/INFO]: Jerezzzito was slain by Zombie
-[19:26:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> ijole
-[19:26:53] [Server thread/INFO]: Coffeent was slain by Zombie
-[19:26:54] [Server thread/INFO]: [Not Secure] <Jerezzzito> amorcito
-[19:26:55] [Server thread/INFO]: [Not Secure] <Jerezzzito> nooo
-[19:26:57] [Server thread/INFO]: [Not Secure] <Jerezzzito> waa
-[19:28:03] [Server thread/INFO]: [Not Secure] <Jerezzzito> nomames
-[19:28:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> le cayo un rayo a los animales de sander
-[19:29:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> q tiene sander ya le cayeron dos rayos a su caballo
-[19:29:22] [Server thread/INFO]: Sander[/100.72.60.119:59165] logged in with entity id 25508 at (833.9556333354807, -40.0, -1784.2790049337532)
-[19:29:22] [Server thread/INFO]: Sending server config values to client
-[19:29:22] [Server thread/INFO]: Sander joined the game
-[19:29:22] [Server thread/INFO]: Receiving client config
-[19:29:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> sander a tus mascotas les cayeron rayos
-[19:29:38] [Server thread/INFO]: [Not Secure] <Jerezzzito> y se fueron
-[19:29:41] [Server thread/INFO]: [Not Secure] <Jerezzzito> los gatos
-[19:29:43] [Server thread/INFO]: [Not Secure] <Jerezzzito> estan afuer
-[19:29:50] [Server thread/INFO]: [Not Secure] <Sander> te voy a matar
-[19:29:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> nohicenadalojuro
-[19:30:03] [Server thread/INFO]: Coffeent teleported to -127.5 55.0 -205.5 minecraft:overworld
-[19:30:05] [Server thread/INFO]: Coffeent teleported to 1455.5 120.0 -899.5 minecraft:overworld
-[19:30:15] [Server thread/INFO]: Coffeent has made the advancement [Ice Bucket Challenge]
-[19:30:28] [Server thread/INFO]: [Not Secure] <Coffeent> jerez
-[19:30:29] [Server thread/INFO]: [Not Secure] <Coffeent> te moriste?
-[19:30:29] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[19:30:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> si
-[19:30:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> nos
-[19:30:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> morimos
-[19:30:39] [Server thread/INFO]: Coffeent was slain by Zombie
-[19:30:43] [Server thread/INFO]: Coffeent teleported to 1455.5 120.0 -899.5 minecraft:overworld
-[19:30:46] [Server thread/INFO]: [Coffeent: Set the time to 1000]
-[19:30:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> m esta acosando un caballo wtf
-[19:31:25] [Server thread/INFO]: Sander has made the advancement [Amateur Archaeologist]
-[19:31:39] [Server thread/INFO]: [Coffeent: Teleported 53 entities to Coffeent]
-[19:31:39] [Server thread/INFO]: Coffeent has made the advancement [Amateur Archaeologist]
-[19:33:40] [Server thread/INFO]: Sander has made the advancement [Diamonds!]
-[19:35:28] [Server thread/INFO]: Sander was shot by Skeleton
-[19:40:23] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[19:42:48] [Server thread/INFO]: Sander was shot by Skeleton
-[19:42:55] [Server thread/INFO]: Jerezzzito was slain by Zombie
-[19:43:56] [Server thread/INFO]: Jerezzzito has made the advancement [Cobweb Entanglement]
-[19:44:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> chingue
-[19:44:56] [Server thread/INFO]: [Not Secure] <Coffeent> pq
-[19:45:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> no tenia comida
-[19:45:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> como se revivia?
-[19:45:38] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[19:45:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> con comida
-[19:46:01] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[19:46:01] [Server thread/INFO]: [Not Secure] <Jerezzzito> ijole
-[19:46:16] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[19:46:17] [Server thread/INFO]: [Not Secure] <Coffeent> que paso?
-[19:46:21] [Server thread/INFO]: Sander hit the ground too hard while trying to escape Skeleton
-[19:47:09] [Server thread/INFO]: Jerezzzito was slain by Zombie
-[19:56:14] [Server thread/INFO]: Jerezzzito was slain by Cave Spider
-[19:56:19] [Server thread/INFO]: [Not Secure] <Jerezzzito> ni modo
-[19:56:36] [Server thread/INFO]: [Not Secure] <Coffeent> has perdido algo?
-[19:56:40] [Server thread/INFO]: [Not Secure] <Jerezzzito> se
-[19:56:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> pero no puedo entrar xd
-[19:56:47] [Server thread/INFO]: [Not Secure] <Coffeent> pero si estas guardadnod cosas en la mochila?
-[19:56:52] [Server thread/INFO]: [Not Secure] <Jerezzzito> chae
-[19:56:57] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
-[19:56:58] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[19:57:05] [Server thread/INFO]: [Not Secure] <Coffeent> si la tienes?
-[19:57:05] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[19:57:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> si
-[19:57:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> de suerte si
-[19:57:14] [Server thread/INFO]: [Not Secure] <Coffeent> guarda cosas en ellas
-[19:57:14] [Server thread/INFO]: [Not Secure] <Coffeent> nmms
-[19:57:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> bueno pues
-[19:57:25] [Server thread/INFO]: [Not Secure] <Jerezzzito> igual ya no tengo nad
-[19:57:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> x,d
-[19:57:59] [Server thread/INFO]: [Coffeent: Teleported 157 entities to Coffeent]
-[19:59:07] [Server thread/INFO]: [Coffeent: Teleported 62 entities to Coffeent]
-[20:01:25] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:01:50] [Server thread/INFO]: Sander lost connection: Disconnected
-[20:01:50] [Server thread/INFO]: Sander left the game
-[20:02:11] [Server thread/INFO]: [Not Secure] <Coffeent> AMOR
-[20:02:13] [Server thread/INFO]: [Not Secure] <Coffeent> Sal
-[20:02:14] [Server thread/INFO]: [Not Secure] <Coffeent> de hay
-[20:02:18] [Server thread/INFO]: [Not Secure] <Coffeent> rapido
-[20:02:22] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:02:24] [Server thread/INFO]: [Not Secure] <Jerezzzito> perdon
-[20:02:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> me esta hablando mi mam
-[20:02:33] [Server thread/INFO]: [Not Secure] <Coffeent> ntp
-[20:02:40] [Server thread/INFO]: [Not Secure] <Coffeent> guarda todo en tu mochila
-[20:02:41] [Server thread/INFO]: [Not Secure] <Coffeent> y matate
-[20:02:45] [Server thread/INFO]: [Not Secure] <Coffeent> estas aparaciendo en la casa de sander
-[20:02:47] [Server thread/INFO]: [Not Secure] <Coffeent> vdd?
-[20:02:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> si
-[20:02:54] [Server thread/INFO]: [Not Secure] <Coffeent> guarda todo
-[20:02:57] [Server thread/INFO]: [Not Secure] <Coffeent> y te matas
-[20:02:58] [Server thread/INFO]: [Not Secure] <Coffeent> para ir
-[20:03:16] [Server thread/INFO]: [Not Secure] <Coffeent> mua
-[20:03:17] [Server thread/INFO]: Jerezzzito drowned
-[20:03:18] [Server thread/INFO]: [Not Secure] <Coffeent> te amo
-[20:03:20] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:03:22] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:03:26] [Server thread/INFO]: [Not Secure] <Coffeent> Mira
-[20:03:27] [Server thread/INFO]: [Not Secure] <Jerezzzito> pa q quiero tar aca?
-[20:03:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[20:03:28] [Server thread/INFO]: [Not Secure] <Coffeent> Mi caballito
-[20:03:29] [Server thread/INFO]: [Not Secure] <Coffeent> :3
-[20:03:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> a
-[20:03:32] [Server thread/INFO]: [Not Secure] <Coffeent> Para nada enrealidada
-[20:03:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> era tuyo?¡
-[20:03:36] [Server thread/INFO]: [Not Secure] <Coffeent> yo queria venir
-[20:03:36] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:03:38] [Server thread/INFO]: [Not Secure] <Coffeent> si, es mio
-[20:03:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> le cayo dos rayos
-[20:03:48] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:03:51] [Server thread/INFO]: [Not Secure] <Coffeent> es fuerte
-[20:03:53] [Server thread/INFO]: [Not Secure] <Coffeent> no se inmuta
-[20:03:54] [Server thread/INFO]: [Not Secure] <Coffeent> B)
-[20:04:12] [Server thread/INFO]: [Not Secure] <Jerezzzito> a
-[20:04:14] [Server thread/INFO]: [Not Secure] <Coffeent> mua <3
-[20:04:17] [Server thread/INFO]: [Not Secure] <Coffeent> te amo dam
-[20:04:18] [Server thread/INFO]: [Not Secure] <Coffeent> :3
-[20:04:19] [Server thread/INFO]: [Not Secure] <Jerezzzito> queria hacer mi casa por donde vi
-[20:04:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> te amo
-[20:04:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> mua
-[20:04:24] [Server thread/INFO]: [Not Secure] <Coffeent> quieres?
-[20:04:27] [Server thread/INFO]: [Not Secure] <Coffeent> yo aun n ose donde hacer mi casa
-[20:04:28] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:04:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> mira
-[20:04:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre nieve
-[20:04:37] [Server thread/INFO]: [Not Secure] <Coffeent> toma
-[20:04:42] [Server thread/INFO]: Coffeent was slain by Zombie
-[20:04:43] [Server thread/INFO]: Jerezzzito was slain by Zombie
-[20:04:53] [Server thread/INFO]: [Not Secure] <Coffeent> se van a confundir
-[20:04:54] [Server thread/INFO]: [Not Secure] <Coffeent> nuestra cosas x,d
-[20:04:58] [Server thread/INFO]: [Not Secure] <Jerezzzito> si xd
-[20:05:01] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[20:05:03] [Server thread/INFO]: [Not Secure] <Coffeent> pasa
-[20:05:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> yo no tengo hahca
-[20:05:13] [Server thread/INFO]: [Not Secure] <Coffeent> tu tenias un monton de basura de madura
-[20:05:14] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:05:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> t falta algo?
-[20:05:41] [Server thread/INFO]: [Not Secure] <Coffeent> estas re pobre tu
-[20:05:44] [Server thread/INFO]: [Not Secure] <Coffeent> ire a hacer mi casa
-[20:05:46] [Server thread/INFO]: [Not Secure] <Coffeent> asi te adopto
-[20:05:47] [Server thread/INFO]: [Not Secure] <Coffeent> temporalmente
-[20:05:51] [Server thread/INFO]: [Not Secure] <Coffeent> pq es una casa temporal
-[20:05:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> ononon
-[20:05:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> yo estoy pobre porque mori
-[20:05:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> XD
-[20:06:04] [Server thread/INFO]: [Not Secure] <Coffeent> estabas llendo a recupera las cosas?
-[20:06:04] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:06:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> voy a hacer mi casa
-[20:06:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> lejos
-[20:06:15] [Server thread/INFO]: [Not Secure] <Coffeent> no quieres que estemos cerca? :c
-[20:06:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya no, no hay retorno para las cosas que tenia
-[20:06:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> queres acompañarme?
-[20:07:04] [Server thread/INFO]: [Not Secure] <Coffeent> luego
-[20:07:06] [Server thread/INFO]: [Not Secure] <Coffeent> ve llendote
-[20:07:12] [Server thread/INFO]: [Not Secure] <Coffeent> luego voy
-[20:07:16] [Server thread/INFO]: [Not Secure] <Coffeent> tengo que acomodar cosas
-[20:07:18] [Server thread/INFO]: [Not Secure] <Coffeent> tengo 10 stacks de hiero
-[20:07:23] [Server thread/INFO]: [Not Secure] <Coffeent> encontre una mina donde todo era de hierro
-[20:07:24] [Server thread/INFO]: [Not Secure] <Jerezzzito> rico
-[20:07:24] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:07:33] [Server thread/INFO]: [Not Secure] <Coffeent> tengo que fundirlos
-[20:09:06] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[20:09:48] [Server thread/INFO]: [Not Secure] <Coffeent> ten
-[20:09:50] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[20:09:51] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:09:54] [Server thread/INFO]: [Not Secure] <Coffeent> toma
-[20:09:56] [Server thread/INFO]: [Not Secure] <Coffeent> EY
-[20:09:58] [Server thread/INFO]: [Not Secure] <Coffeent> mrd
-[20:10:16] [Server thread/INFO]: [Not Secure] <Coffeent> te lo puse en la maleta
-[20:10:17] [Server thread/INFO]: [Not Secure] <Coffeent> una cama
-[20:10:20] [Server thread/INFO]: [Not Secure] <Coffeent> y una piedra de tp
-[20:10:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> oki
-[20:10:28] [Server thread/INFO]: [Not Secure] <Coffeent> si la usas puedes ir a la casa provisional
-[20:10:30] [Server thread/INFO]: [Not Secure] <Coffeent> odndfe estare
-[20:10:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> grazhias
-[20:10:40] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
-[20:10:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> q e eto
-[20:10:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> mire
-[20:10:44] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[20:10:45] [Server thread/INFO]: [Not Secure] <Coffeent> q cosa
-[20:10:47] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:10:52] [Server thread/INFO]: [Not Secure] <Coffeent> es yn temlpo
-[20:10:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> ijole no mire ya se q e
-[20:10:57] [Server thread/INFO]: [Not Secure] <Coffeent> encontraste otro
-[20:10:59] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:11:13] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:11:18] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
-[20:11:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> q suerte la mia
-[20:11:29] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
-[20:12:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> amor
-[20:12:24] [Server thread/INFO]: [Not Secure] <Coffeent> Dime
-[20:12:26] [Server thread/INFO]: [Not Secure] <Jerezzzito> feliz dia
-[20:12:30] [Server thread/INFO]: [Not Secure] <Coffeent> dia de que?
-[20:12:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> es 4
-[20:12:39] [Server thread/INFO]: [Not Secure] <Coffeent> y eso q?
-[20:12:42] [Server thread/INFO]: [Not Secure] <Coffeent> feliz aniversario?
-[20:12:46] [Server thread/INFO]: [Not Secure] <Jerezzzito> zhi
-[20:12:54] [Server thread/INFO]: [Not Secure] <Coffeent> no habias terminado?
-[20:12:54] [Server thread/INFO]: [Not Secure] <Coffeent> e.e
-[20:13:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> feliz 4
-[20:13:05] [Server thread/INFO]: [Not Secure] <Coffeent> ninini
-[20:13:07] [Server thread/INFO]: [Not Secure] <Coffeent> feliz 4
-[20:13:08] [Server thread/INFO]: [Not Secure] <Coffeent> tonta
-[20:13:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> kasjdkhjasd
-[20:13:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> te amo
-[20:13:15] [Server thread/INFO]: [Not Secure] <Jerezzzito> perdon :c
-[20:13:24] [Server thread/INFO]: [Not Secure] <Coffeent> tonta
-[20:13:25] [Server thread/INFO]: [Not Secure] <Coffeent> tontita
-[20:13:29] [Server thread/INFO]: [Not Secure] <Jerezzzito> me pone feliz saber que estoy a tu lado otro 4 mas
-[20:13:35] [Server thread/INFO]: [Not Secure] <Coffeent> ya cuantos van?
-[20:13:36] [Server thread/INFO]: [Not Secure] <Coffeent> 6?
-[20:13:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> meses?
-[20:13:47] [Server thread/INFO]: [Not Secure] <Jerezzzito> mas
-[20:13:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> amor
-[20:13:50] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDD
-[20:14:01] [Server thread/INFO]: [Not Secure] <Jerezzzito> estamos desde abril
-[20:14:03] [Server thread/INFO]: [Not Secure] <Coffeent> enserio llevamos tanto?
-[20:14:05] [Server thread/INFO]: [Not Secure] <Coffeent> la mrd
-[20:14:05] [Server thread/INFO]: [Not Secure] <Jerezzzito> si
-[20:14:06] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:14:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDD
-[20:14:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> vamos 10
-[20:14:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> o 9
-[20:14:25] [Server thread/INFO]: [Not Secure] <Jerezzzito> avr pera
-[20:14:26] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:14:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> ay no se
-[20:15:01] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
-[20:15:04] [Server thread/INFO]: [Not Secure] <Jerezzzito> 9 mese
-[20:15:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> :3
-[20:15:15] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
-[20:15:20] [Server thread/INFO]: [Not Secure] <Coffeent> ijole
-[20:15:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya voy a parir al bebe
-[20:15:22] [Server thread/INFO]: [Not Secure] <Coffeent> enesrio tanto?
-[20:15:23] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:15:24] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDDDDDD
-[20:15:55] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[20:15:55] [Server thread/INFO]: Coffeent left the game
-[20:16:00] [Server thread/INFO]: Coffeent[/100.99.222.20:56710] logged in with entity id 52492 at (984.0216850160011, 63.0, -1898.9468535615504)
-[20:16:00] [Server thread/INFO]: Sending server config values to client
-[20:16:00] [Server thread/INFO]: Coffeent joined the game
-[20:16:00] [Server thread/INFO]: Receiving client config
-[20:19:50] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/54428, l='ServerLevel[world]', x=1722.50, y=86.00, z=-454.50]'
-[20:22:13] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/55111, l='ServerLevel[world]', x=1785.50, y=83.00, z=-446.50]'
-[20:23:24] [Server thread/INFO]: [Not Secure] <Coffeent> hola chiki baby
-[20:23:27] [Server thread/INFO]: [Not Secure] <Coffeent> avr ese par de nalgas
-[20:24:26] [Server thread/INFO]: [Not Secure] <Coffeent> ola
-[20:24:27] [Server thread/INFO]: [Not Secure] <Coffeent> ola?
-[20:24:28] [Server thread/INFO]: [Not Secure] <Coffeent> estas?
-[20:24:29] [Server thread/INFO]: [Not Secure] <Coffeent> no estas?
-[20:24:42] [Server thread/INFO]: [Not Secure] <Coffeent> di
-[20:24:46] [Server thread/INFO]: [Not Secure] <Coffeent> " te quiero comer la verga"
-[20:24:48] [Server thread/INFO]: [Not Secure] <Coffeent> avr si se te escucha
-[20:24:51] [Server thread/INFO]: [Not Secure] <Coffeent> APOCOO
-[20:24:54] [Server thread/INFO]: [Not Secure] <Coffeent> apoco ya andas horny
-[20:25:04] [Server thread/INFO]: [Not Secure] <Coffeent> apoco solo por eso
-[20:25:13] [Server thread/INFO]: [Not Secure] <Coffeent> que obediente
-[20:25:20] [Server thread/INFO]: [Not Secure] <Coffeent> ve a sacarte una foto en bragas y me la mandas
-[20:25:31] [Server thread/INFO]: [Not Secure] <Coffeent> como qn osabes
-[20:25:42] [Server thread/INFO]: [Coffeent: Gave 64 [Block of Coal] to Coffeent]
-[20:25:44] [Server thread/INFO]: [Not Secure] <Coffeent> ve ps
-[20:25:44] [Server thread/INFO]: [Not Secure] <Coffeent> ve
-[20:25:50] [Server thread/INFO]: [Not Secure] <Coffeent> apoco vas
-[20:25:51] [Server thread/INFO]: [Not Secure] <Coffeent> KALSDJASK
-[20:25:52] [Server thread/INFO]: [Not Secure] <Coffeent> por ws
-[20:26:07] [Server thread/INFO]: [Not Secure] <Coffeent> si puede ser video mejor
-[20:26:26] [Server thread/INFO]: [Not Secure] <Coffeent> lo que tu quieras ps
-[20:26:28] [Server thread/INFO]: [Not Secure] <Coffeent> pervertida
-[20:26:30] [Server thread/INFO]: [Not Secure] <Coffeent> golosa
-[20:26:40] [Server thread/INFO]: [Not Secure] <Coffeent> en
-[20:26:45] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:27:33] [Server thread/INFO]: [Coffeent: Gave 1 [Hopper] to Coffeent]
-[20:27:46] [Server thread/INFO]: [Coffeent: Gave 1 [Hopper] to Coffeent]
-[20:27:47] [Server thread/INFO]: [Coffeent: Gave 1 [Hopper] to Coffeent]
-[20:28:04] [Server thread/INFO]: [Coffeent: Gave 64 [Block of Coal] to Coffeent]
-[20:28:05] [Server thread/INFO]: [Coffeent: Gave 64 [Block of Coal] to Coffeent]
-[20:28:05] [Server thread/INFO]: [Coffeent: Gave 64 [Block of Coal] to Coffeent]
-[20:28:05] [Server thread/INFO]: [Coffeent: Gave 64 [Block of Coal] to Coffeent]
-[20:28:15] [Server thread/INFO]: [Not Secure] <Coffeent> apoco tna rapido
-[20:28:16] [Server thread/INFO]: [Not Secure] <Coffeent> KLASDJS
-[20:28:34] [Server thread/INFO]: [Not Secure] <Coffeent> pq lo dices asi
-[20:28:36] [Server thread/INFO]: [Not Secure] <Coffeent> ni que tuvieras 11
-[20:33:47] [Server thread/INFO]: [Coffeent: Gave 1 [Hopper] to Coffeent]
-[20:33:53] [Server thread/INFO]: [Coffeent: Gave 1 [Chest] to Coffeent]
-[20:36:41] [Server thread/INFO]: [Not Secure] <Coffeent> q
-[20:36:46] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[20:36:47] [Server thread/INFO]: Sander[/100.72.60.119:60847] logged in with entity id 58861 at (1097.699999988079, 67.0, -2107.699999988079)
-[20:36:47] [Server thread/INFO]: Sending server config values to client
-[20:36:47] [Server thread/INFO]: Sander joined the game
-[20:36:47] [Server thread/INFO]: Receiving client config
-[20:36:52] [Server thread/INFO]: [Not Secure] <Coffeent> en mi casa ps
-[20:36:56] [Server thread/INFO]: [Not Secure] <Coffeent> ya te di el coso ese
-[20:36:58] [Server thread/INFO]: [Not Secure] <Coffeent> para que vengas
-[20:37:09] [Server thread/INFO]: [Coffeent: Gave 2 [Hopper] to Coffeent]
-[20:37:13] [Server thread/INFO]: [Coffeent: Gave 1 [Chest] to Coffeent]
-[20:38:46] [Server thread/INFO]: Jerezzzito was shot by Skeleton
-[20:39:02] [Server thread/INFO]: [Not Secure] <Coffeent> recuerda guardar todo lo que puedas
-[20:39:03] [Server thread/INFO]: [Not Secure] <Coffeent> en la maleta
-[20:39:27] [Server thread/INFO]: [Not Secure] <Coffeent> duerme
-[20:39:28] [Server thread/INFO]: [Not Secure] <Coffeent> guarda spawn
-[20:40:09] [Server thread/INFO]: [Not Secure] <Coffeent> tienes el hueso
-[20:40:11] [Server thread/INFO]: [Not Secure] <Coffeent> que le hace tp
-[20:40:26] [Server thread/INFO]: [Not Secure] <Coffeent> recuerda guardar cosas en la maleta tonta
-[20:40:31] [Server thread/INFO]: [Not Secure] <Coffeent> te deja?
-[20:40:32] [Server thread/INFO]: [Not Secure] <Coffeent> o no?
-[20:40:45] [Server thread/INFO]: [Not Secure] <Coffeent> q te sale o q
-[20:40:54] [Server thread/INFO]: [Not Secure] <Coffeent> dale click
-[20:40:55] [Server thread/INFO]: [Not Secure] <Coffeent> al dog
-[20:41:01] [Server thread/INFO]: [Not Secure] <Coffeent> sal y entra
-[20:41:04] [Server thread/INFO]: Jerezzzito lost connection: Disconnected
-[20:41:04] [Server thread/INFO]: Jerezzzito left the game
-[20:41:24] [Server thread/INFO]: Jerezzzito[/100.68.115.18:61732] logged in with entity id 60777 at (986.1747906482337, 66.0, -1901.5400934453107)
-[20:41:24] [Server thread/INFO]: Sending server config values to client
-[20:41:24] [Server thread/INFO]: Jerezzzito joined the game
-[20:41:25] [Server thread/INFO]: Receiving client config
-[20:41:41] [Server thread/INFO]: [Not Secure] <Coffeent> ya ves tu perro o no
-[20:41:56] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[20:41:56] [Server thread/INFO]: Coffeent left the game
-[20:42:01] [Server thread/INFO]: Coffeent[/100.99.222.20:56856] logged in with entity id 60959 at (987.1883893343802, 66.0, -1904.9458907295743)
-[20:42:01] [Server thread/INFO]: Sending server config values to client
-[20:42:01] [Server thread/INFO]: Coffeent joined the game
-[20:42:02] [Server thread/INFO]: Receiving client config
-[20:42:33] [Server thread/INFO]: [Not Secure] <Coffeent> esta vivo
-[20:42:36] [Server thread/INFO]: [Not Secure] <Coffeent> deja que se recupere
-[20:42:38] [Server thread/INFO]: [Not Secure] <Coffeent> con el tiempo
-[20:43:08] [Server thread/INFO]: [Not Secure] <Coffeent> pasa cords
-[20:43:23] [Server thread/INFO]: [Not Secure] <Coffeent> dale a share waypoint
-[20:43:33] [Server thread/INFO]: [Not Secure] <Coffeent> con n ves los waypoint
-[20:43:35] [Server thread/INFO]: [Not Secure] <Coffeent> como q no
-[20:43:36] [Server thread/INFO]: [Not Secure] <Coffeent> se guardan solas
-[20:43:37] [Server thread/INFO]: [Not Secure] <Coffeent> xd
-[20:43:53] [Server thread/INFO]: [Not Secure] <Coffeent> es sander
-[20:43:53] [Server thread/INFO]: [Not Secure] <Jerezzzito> [name:"Muerte 17:38:49 01-04-2025", x:1869, y:58, z:-547, dim:minecraft:overworld]
-[20:43:56] [Server thread/INFO]: [Not Secure] <Coffeent> nos esta tirando flechas
-[20:43:56] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[20:44:29] [Server thread/INFO]: Coffeent teleported to 1869.5 58.0 -546.5 minecraft:overworld
-[20:44:33] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[20:44:41] [Server thread/INFO]: Sander has made the advancement [Suit Up]
-[20:45:05] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
-[20:45:19] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
-[20:48:39] [Server thread/INFO]: [Not Secure] <Coffeent> dam
-[20:48:44] [Server thread/INFO]: [Not Secure] <Coffeent> tienes bronce?
-[20:48:51] [Server thread/INFO]: [Not Secure] <Coffeent> alparecer si sirve
-[20:48:52] [Server thread/INFO]: [Not Secure] <Coffeent> XDDD
-[20:49:03] [Server thread/INFO]: [Not Secure] <Coffeent> para mejoras
-[20:49:22] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/64705, l='ServerLevel[world]', x=950.50, y=21.00, z=-2016.50]'
-[20:52:26] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
-[20:52:30] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
-[20:52:42] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
-[20:54:39] [pool-8-thread-4/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=2501, y=67, z=-565}
-[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2502, y=67, z=-565} but found not block entity block Block{minecraft:spruce_fence}[west=true,east=false,north=false,south=false,waterlogged=false] at location
-[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=true,east=false,north=false,south=false,waterlogged=false] but failed at location class_2338{x=2502, y=67, z=-565}
-[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2501, y=67, z=-565} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=true,north=false,south=false,waterlogged=false] at location
-[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=true,north=false,south=false,waterlogged=false] but failed at location class_2338{x=2501, y=67, z=-565}
-[20:54:40] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2502, y=66, z=-565} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[20:54:40] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=2502, y=66, z=-565}
-[20:54:57] [pool-8-thread-4/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=2533, y=98, z=-779}
-[20:54:57] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2533, y=98, z=-779} but found not block entity block Block{minecraft:air} at location
-[20:54:57] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=2533, y=98, z=-779}
-[20:55:22] [Server thread/INFO]: Jerezzzito was shot by Skeleton
-[20:55:57] [Server thread/INFO]: [Not Secure] <Jerezzzito> [name:"Muerte 17:55:25 01-04-2025", x:2482, y:77, z:-667, dim:minecraft:overworld]
-[20:56:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> waa
-[20:56:24] [Server thread/INFO]: [Not Secure] <Jerezzzito> waa
-[20:56:33] [Server thread/INFO]: [Not Secure] <Sander> wii
-[20:56:37] [Server thread/INFO]: [Not Secure] <Coffeent> chillona
-[20:57:01] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, -667.000000, 77.500000]
-[20:57:03] [Server thread/INFO]: Jerezzzito fell out of the world
-[20:57:21] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, 77.000000, -666.500000]
-[20:57:35] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:58:50] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[20:59:09] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[20:59:11] [Server thread/INFO]: [Not Secure] <Coffeent> mucho mob
-[20:59:13] [Server thread/INFO]: [Not Secure] <Coffeent> mucha caida
-[20:59:26] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
-[20:59:29] [Server thread/INFO]: Coffeent teleported to 980.5 63.0 -1900.5 minecraft:overworld
-[20:59:30] [Server thread/INFO]: Jerezzzito was shot by Skeleton
-[20:59:52] [Server thread/INFO]: Coffeent teleported to 980.5 65.0 -1900.5 minecraft:overworld
-[21:00:25] [Server thread/INFO]: [Not Secure] <Coffeent> ?
-[21:00:40] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[21:00:46] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2482.500000, 77.000000, -666.500000]
-[21:00:53] [Server thread/INFO]: [Not Secure] <Coffeent> pumpkin
-[21:02:03] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[21:02:19] [Server thread/INFO]: [Not Secure] <Coffeent> VEN
-[21:02:27] [Server thread/INFO]: Jerezzzito has made the advancement [Suit Up]
-[21:02:30] [Server thread/INFO]: Jerezzzito has made the advancement [Isn't It Iron Pick]
-[21:02:37] [Server thread/INFO]: [Not Secure] <Coffeent> segunda mano
-[21:02:39] [Server thread/INFO]: [Not Secure] <Coffeent> el escudo
-[21:02:42] [Server thread/INFO]: [Not Secure] <Coffeent> te las doy para que no mueras
-[21:02:43] [Server thread/INFO]: [Not Secure] <Coffeent> nmms
-[21:03:14] [Server thread/INFO]: Sander has made the advancement [Crops of the Wild]
-[21:03:18] [Server thread/INFO]: Villager class_1646['Unemployed'/72744, l='ServerLevel[world]', x=2293.63, y=102.50, z=-336.72] died, message: 'Unemployed suffocated in a wall'
-[21:04:12] [Server thread/INFO]: [Coffeent: Gave 1 [Iron Pickaxe] to Coffeent]
-[21:04:59] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[21:05:11] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[21:05:21] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[21:05:39] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[21:06:00] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[21:06:05] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[21:06:10] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[21:07:04] [Server thread/INFO]: Jerezzzito has made the advancement [Crops of the Wild]
-[21:07:12] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[21:07:25] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[21:07:36] [pool-8-thread-5/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=2549, y=67, z=-213}
-[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 9.347962781667434,0.0,-4.754393458469394
-[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 9.865942274480062,0.0,-4.955732220978007
-[21:08:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved too quickly! 10.299788758671752,0.0,-4.955732220978007
-[21:11:53] [Server thread/INFO]: Coffeent teleported to 707.5 -28.0 -2015.5 minecraft:overworld
-[21:12:29] [Server thread/INFO]: Coffeent has made the advancement [Hot Stuff]
-[21:12:40] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
-[21:15:03] [Server thread/INFO]: Sander has made the advancement [A Seedy Place]
-[21:15:38] [Server thread/INFO]: Coffeent has made the advancement [A Seedy Place]
-[21:16:31] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[21:17:00] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
-[21:17:02] [Server thread/INFO]: [Not Secure] <Coffeent> duerme
-[21:19:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> t fut
-[21:19:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> fuiste
-[21:19:06] [Server thread/INFO]: Locating element #betterdungeons:better_dungeons (betterdungeons:small_dungeon) took 0 ms
-[21:19:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> :c
-[21:19:18] [Server thread/INFO]: [Not Secure] <Sander> peguele
-[21:19:22] [Server thread/INFO]: [Not Secure] <Coffeent> me saco
-[21:19:23] [Server thread/INFO]: [Not Secure] <Coffeent> stk stkstksk
-[21:19:29] [Server thread/INFO]: [Not Secure] <Sander> mentiras
-[21:19:30] [Server thread/INFO]: [Not Secure] <Jerezzzito> dksjdñsk
-[21:19:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> XD
-[21:19:43] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 66.000000, -1871.500000]
-[21:19:48] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 56.818356, -1871.500000]
-[21:22:35] [Server thread/INFO]: [Not Secure] <Coffeent> hazla tu ps
-[21:22:46] [Server thread/INFO]: Coffeent teleported to 707.5 -28.0 -2015.5 minecraft:overworld
-[21:22:47] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[21:23:22] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
-[21:25:45] [Server thread/INFO]: Coffeent has made the advancement [We Need to Go Deeper]
-[21:25:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4146ms or 82 ticks behind
-[21:26:22] [pool-8-thread-6/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=133, y=68, z=-1701}
-[21:26:23] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[21:27:00] [Server thread/INFO]: [Not Secure] <Coffeent> stonecuttter
-[21:27:02] [Server thread/INFO]: [Not Secure] <Coffeent> corta piedra
-[21:27:12] [Server thread/INFO]: [Not Secure] <Coffeent> haz uno tu ps
-[21:27:18] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[21:27:49] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
-[21:27:53] [Server thread/INFO]: Coffeent burned to death
-[21:28:22] [Server thread/INFO]: Sander has made the advancement [Cobweb Entanglement]
-[21:29:30] [Server thread/INFO]: [Coffeent: Teleported Coffeent to 960.500000, 59.000000, -1871.500000]
-[21:29:31] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[21:30:07] [pool-8-thread-7/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=389, y=77, z=-1797}
-[21:31:19] [Server thread/INFO]: Sander was slain by Cave Spider
-[21:31:33] [Server thread/INFO]: Coffeent has made the advancement [Quite the Renovation]
-[21:33:48] [Server thread/INFO]: Sander lost connection: Disconnected
-[21:33:48] [Server thread/INFO]: Sander left the game
-[21:34:04] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[21:34:07] [Server thread/INFO]: Sander[/100.72.60.119:61138] logged in with entity id 93203 at (278.81681618043797, 37.223912174170515, -1961.8257185096568)
-[21:34:07] [Server thread/INFO]: Sending server config values to client
-[21:34:07] [Server thread/INFO]: Sander joined the game
-[21:34:07] [Server thread/INFO]: Receiving client config
-[21:35:16] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[21:36:16] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/94628, l='ServerLevel[world]', x=551.50, y=4.00, z=-1980.50]'
-[21:36:18] [Server thread/INFO]: Sander has made the advancement [Not Today, Thank You]
-[21:37:36] [Server thread/INFO]: Jerezzzito has made the advancement [Acquire Hardware]
-[21:43:28] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/97712, l='ServerLevel[world]', x=2517.50, y=-29.00, z=-213.50]'
-[21:43:50] [Server thread/INFO]: Coffeent has made the advancement [Diamonds!]
-[21:47:57] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/99474, l='ServerLevel[world]', x=905.50, y=-13.00, z=-1879.50]'
-[21:49:21] [Server thread/INFO]: [Not Secure] <Coffeent> voy
-[21:53:26] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[21:53:36] [Server thread/INFO]: [Not Secure] <Coffeent> esta horrible
-[21:53:56] [Server thread/INFO]: [Not Secure] <Coffeent> ta bonito
-[21:54:08] [Server thread/INFO]: Jerezzzito was blown up by Creeper
-[21:54:13] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[21:54:33] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[21:55:33] [Server thread/INFO]: [Not Secure] <Coffeent> y tu armadura? XD
-[21:55:54] [Server thread/INFO]: [Not Secure] <Coffeent> toma
-[21:56:12] [Server thread/INFO]: [Not Secure] <Coffeent> ÑPERO TOMA
-[21:56:40] [Server thread/INFO]: [Not Secure] <Coffeent> se va a derretir todo
-[21:56:40] [Server thread/INFO]: [Not Secure] <Coffeent> xd
-[21:56:48] [Server thread/INFO]: [Not Secure] <Coffeent> pon bloques
-[21:56:51] [Server thread/INFO]: [Not Secure] <Coffeent> y las pones encima
-[21:56:56] [Server thread/INFO]: [Not Secure] <Coffeent> pon bloques
-[21:56:57] [Server thread/INFO]: [Not Secure] <Coffeent> pon bloques
-[21:56:57] [Server thread/INFO]: [Not Secure] <Coffeent> pon bloques
-[21:56:58] [Server thread/INFO]: [Not Secure] <Coffeent> y las pones encima
-[21:57:00] [Server thread/INFO]: [Not Secure] <Coffeent> lee mrd
-[21:58:15] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[21:59:52] [Server thread/INFO]: [Not Secure] <Coffeent> no pero podri
-[21:59:53] [Server thread/INFO]: [Not Secure] <Coffeent> a
-[22:00:00] [Server thread/INFO]: [Not Secure] <Coffeent> menos
-[22:00:19] [Server thread/INFO]: [Not Secure] <Coffeent> no hay piedra
-[22:00:51] [Server thread/INFO]: [Not Secure] <Coffeent> no tenemos piedra
-[22:00:54] [Server thread/INFO]: [Not Secure] <Coffeent> como vamos a tener adoquin
-[22:00:56] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[22:01:31] [Server thread/INFO]: [Not Secure] <Coffeent> noooooooooo
-[22:01:42] [Server thread/INFO]: [Not Secure] <Coffeent> no no hay
-[22:01:48] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[22:01:55] [Server thread/INFO]: [Not Secure] <Coffeent> por tonta
-[22:02:49] [Server thread/INFO]: [Not Secure] <Coffeent> ijole
-[22:02:54] [Server thread/INFO]: [Not Secure] <Coffeent> como que tu carbon ya no existe
-[22:03:36] [Server thread/INFO]: [Not Secure] <Coffeent> por tonta
-[22:04:09] [Server thread/INFO]: [Not Secure] <Coffeent> ya te llevo
-[22:05:11] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/110515, l='ServerLevel[world]', x=1396.50, y=15.00, z=-3131.50]'
-[22:05:48] [Server thread/INFO]: Coffeent has made the advancement [Sneak 100]
-[22:07:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZ
-[22:08:01] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZZZZZZZZZZ
-[22:08:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZZ
-[22:08:03] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZZZ
-[22:08:05] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
-[22:08:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZ
-[22:08:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZZZ
-[22:08:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
-[22:08:09] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZZZZ
-[22:08:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
-[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
-[22:08:11] [Server thread/INFO]: [Not Secure] <Sander> zzzn't
-[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
-[22:08:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> Z
-[22:08:12] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZ
-[22:08:13] [Server thread/INFO]: [Not Secure] <Coffeent> nos e puede
-[22:08:13] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZZ
-[22:08:14] [Server thread/INFO]: [Not Secure] <Coffeent> ando en dungeon
-[22:08:15] [Server thread/INFO]: [Not Secure] <Jerezzzito> ZZZZZ
-[22:08:17] [Server thread/INFO]: [Not Secure] <Jerezzzito> zzz
-[22:08:28] [pool-8-thread-8/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=981, y=107, z=-3557}
-[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=106, z=-3556} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=981, y=106, z=-3556}
-[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=107, z=-3556} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
-[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=981, y=107, z=-3556}
-[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=104, z=-3558} but found not block entity block Block{minecraft:stone_stairs}[facing=west,half=bottom,shape=straight,waterlogged=false] at location
-[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_stairs}[facing=west,half=bottom,shape=straight,waterlogged=false] but failed at location class_2338{x=981, y=104, z=-3558}
-[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=980, y=104, z=-3558} but found not block entity block Block{minecraft:stone} at location
-[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=980, y=104, z=-3558}
-[22:08:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=981, y=107, z=-3557} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
-[22:08:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=981, y=107, z=-3557}
-[22:09:29] [Server thread/INFO]: Coffeent was blown up by Creeper
-[22:09:36] [Server thread/INFO]: Coffeent teleported to 1442.5 -1.0 -3069.5 minecraft:overworld
-[22:11:41] [Server thread/INFO]: Coffeent was blown up by Creeper
-[22:11:47] [Server thread/INFO]: Coffeent teleported to 1442.5 -1.0 -3113.5 minecraft:overworld
-[22:12:25] [Server thread/INFO]: [Not Secure] <Coffeent> de q
-[22:12:37] [Server thread/INFO]: [Not Secure] <Coffeent> si pero para qu
-[22:12:37] [Server thread/INFO]: [Not Secure] <Coffeent> e
-[22:12:46] [Server thread/INFO]: [Not Secure] <Coffeent> ps cualquiera
-[22:12:59] [Server thread/INFO]: [Not Secure] <Coffeent> -17
-[22:14:00] [Server thread/INFO]: Sander was slain by Zombie
-[22:14:20] [Server thread/INFO]: [Not Secure] <Sander> [name:"Muerte 17:14:02 01-04-2025", x:1159, y:141, z:-3589, dim:minecraft:overworld]
-[22:14:35] [Server thread/INFO]: [Coffeent: Teleported Sander to 11591.500000, 41.000000, -3588.500000]
-[22:14:38] [Server thread/INFO]: [Not Secure] <Coffeent> Jerezzzito si
-[22:14:48] [Server thread/INFO]: Sander suffocated in a wall
-[22:15:06] [Server thread/INFO]: [Coffeent: Teleported Sander to 1159.500000, 141.000000, -3588.500000]
-[22:16:39] [pool-8-thread-9/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=1029, y=73, z=-3861}
-[22:18:08] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[22:18:08] [Server thread/INFO]: Coffeent left the game
-[22:20:12] [Server thread/INFO]: Sander has made the advancement [Ah, you scared me!]
-[22:21:39] [Server thread/INFO]: Jerezzzito has made the advancement [Diamonds!]
-[22:29:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> y kenneth xd?
-[22:29:23] [Server thread/INFO]: [Not Secure] <Sander> lo mate
-[22:29:31] [Server thread/INFO]: [Not Secure] <Jerezzzito> D:
-[22:29:46] [Server thread/INFO]: Coffeent[/100.99.222.20:57379] logged in with entity id 127389 at (1421.680856204559, 15.0, -3128.699999988079)
-[22:29:46] [Server thread/INFO]: Sending server config values to client
-[22:29:46] [Server thread/INFO]: Coffeent joined the game
-[22:29:46] [Server thread/INFO]: Receiving client config
-[22:30:10] [Server thread/INFO]: [Not Secure] <Jerezzzito> a no mame
-[22:30:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre unas vias
-[22:32:37] [Server thread/INFO]: [Not Secure] <Coffeent> aa
-[22:32:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> q paso :c
-[22:32:59] [Server thread/INFO]: Sander lost connection: You logged in from another location
-[22:32:59] [Server thread/INFO]: Sander left the game
-[22:32:59] [Server thread/WARN]: handleDisconnection() called twice
-[22:33:01] [Server thread/INFO]: Sander[/100.72.60.119:63007] logged in with entity id 129136 at (984.6999999880791, 64.0, -1901.3275025061942)
-[22:33:01] [Server thread/INFO]: Sending server config values to client
-[22:33:01] [Server thread/INFO]: Sander joined the game
-[22:33:02] [Server thread/INFO]: Receiving client config
-[22:33:10] [Server thread/INFO]: [Not Secure] <Coffeent> nada
-[22:33:11] [Server thread/INFO]: [Not Secure] <Coffeent> aguanta
-[22:33:45] [Server thread/INFO]: [Not Secure] <Jerezzzito> aguanto
-[22:36:17] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Sander]
-[22:38:01] [Server thread/INFO]: Jerezzzito has made the advancement [Amateur Archaeologist]
-[22:38:25] [Server thread/INFO]: Sander lost connection: Disconnected
-[22:38:25] [Server thread/INFO]: Sander left the game
-[22:38:28] [Server thread/INFO]: Sander[/100.72.60.119:63097] logged in with entity id 132173 at (903.3589803649535, 70.0, -4326.721852021258)
-[22:38:28] [Server thread/INFO]: Sending server config values to client
-[22:38:28] [Server thread/INFO]: Sander joined the game
-[22:38:29] [Server thread/INFO]: Receiving client config
-[22:38:47] [Server thread/INFO]: Sander lost connection: Disconnected
-[22:38:47] [Server thread/INFO]: Sander left the game
-[22:38:51] [Server thread/INFO]: Sander[/100.72.60.119:63103] logged in with entity id 132506 at (815.9020740962577, 62.0, -1775.098055173636)
-[22:38:51] [Server thread/INFO]: Sending server config values to client
-[22:38:51] [Server thread/INFO]: Sander joined the game
-[22:38:51] [Server thread/INFO]: Receiving client config
-[22:40:18] [Server thread/INFO]: Jerezzzito was slain by Zombie
-[22:40:33] [Server thread/INFO]: [Not Secure] <Jerezzzito> encontre una dungeon
-[22:40:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> pero no puedo hacerla bien de por si por el maus x,d
-[22:40:56] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[22:41:05] [Server thread/INFO]: [Not Secure] <Coffeent> y tu armadura? XD
-[22:41:09] [Server thread/INFO]: Sander lost connection: Disconnected
-[22:41:09] [Server thread/INFO]: Sander left the game
-[22:41:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> en la mochila
-[22:41:12] [Server thread/INFO]: Sander[/100.72.60.119:63109] logged in with entity id 133306 at (817.7641070727915, 62.0, -1772.433750858196)
-[22:41:12] [Server thread/INFO]: Sending server config values to client
-[22:41:12] [Server thread/INFO]: Sander joined the game
-[22:41:13] [Server thread/INFO]: Receiving client config
-[22:41:16] [Server thread/INFO]: [Not Secure] <Jerezzzito> porque sabia que iba a morir
-[22:41:29] [Server thread/INFO]: [Not Secure] <Jerezzzito> no puedo usar bien el maus despues de todo
-[22:41:39] [Server thread/INFO]: [Not Secure] <Jerezzzito> te llevo :3?
-[22:41:42] [Server thread/INFO]: [Not Secure] <Coffeent> si
-[22:42:03] [Server thread/INFO]: [Not Secure] <Jerezzzito> es que lit no puedo mover mi inventario de lo mal que va el maus x,d
-[22:42:46] [Server thread/INFO]: [Not Secure] <Jerezzzito> baja
-[22:42:50] [Server thread/INFO]: Coffeent teleported to 826.5 62.0 -1774.5 minecraft:overworld
-[22:42:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> :c
-[22:42:54] [Server thread/INFO]: [Coffeent: Teleported Sander to Coffeent]
-[22:42:55] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[22:43:19] [Server thread/INFO]: [Not Secure] <Coffeent> y tu armadura?
-[22:43:20] [Server thread/INFO]: [Not Secure] <Coffeent> x2
-[22:43:32] [Server thread/INFO]: Sander has made the advancement [Hunt and Gather]
-[22:43:39] [Server thread/INFO]: [Not Secure] <Coffeent> deja de quitartela
-[22:43:55] [Server thread/INFO]: Coffeent blew up
-[22:43:59] [Server thread/INFO]: [Not Secure] <Jerezzzito> xd
-[22:44:02] [Server thread/INFO]: [Not Secure] <Jerezzzito> XD
-[22:44:06] [Server thread/INFO]: Coffeent teleported to 2446.5 -14.0 -195.5 minecraft:overworld
-[22:44:11] [Server thread/INFO]: [Not Secure] <Jerezzzito> hay otro
-[22:44:41] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[22:45:02] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]
-[22:45:06] [Server thread/INFO]: [Not Secure] <Jerezzzito> a
-[22:45:10] [Server thread/INFO]: [Not Secure] <Coffeent> tu solo te quedas viendo
-[22:45:11] [Server thread/INFO]: [Not Secure] <Coffeent> stktsktsk
-[22:45:13] [Server thread/INFO]: [Not Secure] <Coffeent> no ayudas
-[22:45:14] [Server thread/INFO]: [Not Secure] <Coffeent> >:c
-[22:45:15] [Server thread/INFO]: [Not Secure] <Jerezzzito> iba a pegarle
-[22:45:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> ahi tenes tu anillo
-[22:46:53] [Server thread/INFO]: [Coffeent: The difficulty has been set to Hard]
-[22:48:16] [Server thread/INFO]: Jerezzzito was blown up by Creeper
-[22:48:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> nilovi
-[22:48:32] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[22:53:20] [Server thread/INFO]: [Not Secure] <Jerezzzito> dodne tas
-[22:55:29] [Server thread/INFO]: [Coffeent: Set own game mode to Spectator Mode]
-[22:55:40] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[22:56:04] [Server thread/INFO]: Sander has made the advancement [Ice Bucket Challenge]
-[22:56:32] [Server thread/INFO]: Sander fell from a high place
-[22:56:52] [Server thread/INFO]: [Not Secure] <Sander> [name:"Muerte 17:56:34 01-04-2025", x:2221, y:68, z:-1795, dim:minecraft:overworld]
-[22:57:10] [Server thread/INFO]: [Coffeent: Teleported Sander to 2221.500000, 68.000000, -1794.500000]
-[22:58:32] [Server thread/INFO]: [Coffeent: Set own game mode to Spectator Mode]
-[22:58:51] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[22:59:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> uy
-[22:59:49] [Server thread/INFO]: [Not Secure] <Jerezzzito> no se que encontre
-[23:00:43] [Server thread/INFO]: Coffeent has made the advancement [Minecraft: Trial(s) Edition]
-[23:01:07] [Server thread/INFO]: [Not Secure] <Jerezzzito> mor
-[23:01:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> :C
-[23:01:11] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Jerezzzito]
-[23:01:17] [Server thread/INFO]: [Not Secure] <Coffeent> q
-[23:01:21] [Server thread/INFO]: [Not Secure] <Jerezzzito> lo ves en el mapa?
-[23:01:25] [Server thread/INFO]: [Not Secure] <Coffeent> ah
-[23:01:27] [Server thread/INFO]: [Not Secure] <Coffeent> esa ya la encontre
-[23:01:28] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[23:01:32] [Server thread/INFO]: [Not Secure] <Coffeent> es la que justo acabe de encontrar
-[23:01:32] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[23:01:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[23:02:02] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/146667, l='ServerLevel[world]', x=2227.50, y=-14.00, z=-260.50]'
-[23:02:44] [Server thread/INFO]: Coffeent teleported to 2294.5 -32.0 -359.5 minecraft:overworld
-[23:02:47] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[23:02:48] [Server thread/INFO]: Jerezzzito has made the advancement [Minecraft: Trial(s) Edition]
-[23:02:52] [Server thread/INFO]: [Not Secure] <Coffeent> no rompas spawners aca
-[23:02:54] [Server thread/INFO]: [Not Secure] <Coffeent> y ten cuidado
-[23:02:56] [Server thread/INFO]: [Not Secure] <Jerezzzito> ok
-[23:02:56] [Server thread/INFO]: [Not Secure] <Coffeent> XD
-[23:03:09] [pool-8-thread-10/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=3365, y=76, z=-1781}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1780} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=true,south=false,waterlogged=false] but failed at location class_2338{x=3365, y=76, z=-1780}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1782} but found not block entity block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[west=false,east=false,north=false,south=true,waterlogged=false] but failed at location class_2338{x=3365, y=76, z=-1782}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=75, z=-1782} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=3365, y=75, z=-1782}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3364, y=73, z=-1781} but found not block entity block Block{minecraft:stone_stairs}[facing=north,half=bottom,shape=straight,waterlogged=false] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone_stairs}[facing=north,half=bottom,shape=straight,waterlogged=false] but failed at location class_2338{x=3364, y=73, z=-1781}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=75, z=-1780} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=3365, y=75, z=-1780}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3365, y=76, z=-1781} but found not block entity block Block{minecraft:stripped_spruce_log}[axis=y] at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stripped_spruce_log}[axis=y] but failed at location class_2338{x=3365, y=76, z=-1781}
-[23:03:10] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=3364, y=73, z=-1782} but found not block entity block Block{minecraft:stone} at location
-[23:03:10] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stone} but failed at location class_2338{x=3364, y=73, z=-1782}
-[23:03:27] [Server thread/INFO]: Jerezzzito has made the advancement [Wax Off]
-[23:04:06] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/148626, l='ServerLevel[world]', x=2190.50, y=-53.00, z=-370.50]'
-[23:04:10] [Server thread/INFO]: [Not Secure] <Coffeent> pasalsa
-[23:05:32] [Server thread/INFO]: [Not Secure] <Jerezzzito> me anda muy mal el maus para pelear x,d
-[23:06:01] [Server thread/INFO]: [Not Secure] <Sander> chau
-[23:06:03] [Server thread/INFO]: Sander lost connection: Disconnected
-[23:06:03] [Server thread/INFO]: Sander left the game
-[23:06:16] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
-[23:06:19] [Server thread/INFO]: [Not Secure] <Coffeent> sabes dodne
-[23:06:20] [Server thread/INFO]: [Not Secure] <Coffeent> esta tu casA?
-[23:06:21] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to Coffeent]
-[23:06:23] [Server thread/INFO]: [Not Secure] <Coffeent> no podemos ir
-[23:06:24] [Server thread/INFO]: [Not Secure] <Coffeent> a eso
-[23:06:25] [Server thread/INFO]: [Not Secure] <Coffeent> todavia
-[23:06:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> xD
-[23:06:29] [Server thread/INFO]: [Not Secure] <Coffeent> es muyu peligroso
-[23:06:34] [Server thread/INFO]: [Not Secure] <Jerezzzito> si se
-[23:06:37] [Server thread/INFO]: [Not Secure] <Jerezzzito> sino me mato
-[23:06:38] [Server thread/INFO]: [Not Secure] <Jerezzzito> peor
-[23:06:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> pero
-[23:06:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> toma
-[23:06:49] [Server thread/INFO]: [Not Secure] <Jerezzzito> t doy todo lo que consegui
-[23:06:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> :3
-[23:06:54] [Server thread/INFO]: [Not Secure] <Coffeent> no
-[23:06:56] [Server thread/INFO]: [Not Secure] <Coffeent> guardalo en cofres
-[23:06:57] [Server thread/INFO]: [Not Secure] <Coffeent> para ti
-[23:07:00] [Server thread/INFO]: [Not Secure] <Coffeent> ya vengo
-[23:07:00] [Server thread/INFO]: [Not Secure] <Jerezzzito> no
-[23:07:01] [Server thread/INFO]: [Not Secure] <Coffeent> ve a tu casa
-[23:07:03] [Server thread/INFO]: [Not Secure] <Coffeent> manda cords
-[23:07:04] [Server thread/INFO]: [Not Secure] <Coffeent> y te llevo
-[23:07:07] [Server thread/INFO]: [Not Secure] <Coffeent> q si
-[23:07:08] [Server thread/INFO]: [Not Secure] <Coffeent> haz caso
-[23:07:24] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
-[23:07:48] [Server thread/INFO]: [Not Secure] <Jerezzzito> [x:2485, y:62, z:-249, dim:minecraft:overworld]
-[23:07:54] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
-[23:08:05] [Server thread/INFO]: [Not Secure] <Jerezzzito> :c
-[23:08:12] [Server thread/INFO]: [Not Secure] <Jerezzzito> te amo
-[23:08:19] [Server thread/INFO]: [Coffeent: Teleported Jerezzzito to 2485.500000, 62.000000, -248.500000]
-[23:08:20] [Server thread/INFO]: [Not Secure] <Coffeent> te amo tambien
-[23:08:21] [Server thread/INFO]: [Not Secure] <Coffeent> tonta
-[23:08:25] [Server thread/INFO]: [Not Secure] <Coffeent> tonta que me quiero follar
-[23:08:35] [Server thread/INFO]: [Not Secure] <Jerezzzito> u//u
-[23:09:18] [Server thread/INFO]: [Not Secure] <Jerezzzito> tengo hambre
-[23:09:23] [Server thread/INFO]: [Not Secure] <Jerezzzito> voy a por leche
-[23:09:28] [Server thread/INFO]: [Not Secure] <Jerezzzito> bajate los pantalones
-[23:10:43] [Server thread/INFO]: [Not Secure] <Coffeent> XDLÑFSKLDFÑas
-[23:10:45] [Server thread/INFO]: [Not Secure] <Coffeent> YAYAYA
-[23:10:48] [Server thread/INFO]: [Not Secure] <Coffeent> nluego sander me lee
-[23:10:49] [Server thread/INFO]: [Not Secure] <Coffeent> y q
-[23:10:51] [Server thread/INFO]: [Not Secure] <Coffeent> luego viene y lee
-[23:10:51] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDDDDDD
-[23:10:55] [Server thread/INFO]: [Not Secure] <Coffeent> voy a salirme para reiniciar le chat
-[23:10:57] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[23:10:57] [Server thread/INFO]: Coffeent left the game
-[23:11:03] [Server thread/INFO]: Coffeent[/100.99.222.20:57576] logged in with entity id 151088 at (985.2265458482888, 64.0, -1902.3021004398552)
-[23:11:03] [Server thread/INFO]: Sending server config values to client
-[23:11:03] [Server thread/INFO]: Coffeent joined the game
-[23:11:04] [Server thread/INFO]: Receiving client config
-[23:11:08] [Server thread/INFO]: [Not Secure] <Jerezzzito> JASJKDAJAJAJA APOCO TE DA VERGUENZA XDDD
-[23:11:22] [Server thread/INFO]: [Not Secure] <Jerezzzito> me daria cosa si lee tu primita
-[23:11:36] [Server thread/INFO]: [Not Secure] <Jerezzzito> creia que sander sabia todas las cochinadas q me decis
-[23:11:38] [Server thread/INFO]: [Not Secure] <Jerezzzito> XDDDD
-[23:11:42] [Server thread/INFO]: [Not Secure] <Jerezzzito> q chismoso igual
-[23:13:44] [Server thread/INFO]: [Not Secure] <Jerezzzito> t amo
-[23:13:47] [Server thread/INFO]: [Not Secure] <Jerezzzito> ya vuelvo
-[23:15:29] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/152214, l='ServerLevel[world]', x=2383.50, y=31.00, z=-271.50]'
+[02:21:10] [main/INFO]: Generating Sawmill Recipes
+[02:21:10] [main/INFO]: Generated Sawmill recipes in 87 milliseconds
+[02:21:10] [main/INFO]: Loaded 4092 recipes
+[02:21:11] [main/INFO]: Loaded 2237 advancements
+[02:21:11] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[02:21:11] [main/INFO]: Applied 20 data villager trades
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[02:21:11] [main/INFO]: Loaded 27 flute songs
+[02:21:11] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
+[02:21:11] [main/INFO]: Registering custom dispenser behaviors
+[02:21:11] [main/INFO]: Applied 831 biome modifications to 64 of 64 new biomes in 35.39 ms
+[02:21:11] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[02:21:11] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[02:21:11] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[02:21:11] [Server thread/INFO]: Loading server configs...
+[02:21:11] [Server thread/INFO]: Injecting Carpenter Village Houses
+[02:21:11] [Server thread/INFO]: Starting background profiler...
+[02:21:11] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:21:11] [Server thread/INFO]: Loading properties
+[02:21:11] [Server thread/INFO]: Default game type: SURVIVAL
+[02:21:11] [Server thread/INFO]: Generating keypair
+[02:21:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:21:11] [Server thread/INFO]: Using epoll channel type
+[02:21:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:21:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:21:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:21:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:21:11] [Server thread/INFO]: Preparing level "world"
+[02:21:12] [Server thread/INFO]: Loaded config for: betterchunkloading.json
+[02:21:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:21:12] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:12] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:21:12] [Server thread/INFO]: Time elapsed: 656 ms
+[02:21:12] [Server thread/INFO]: Done (1.067s)! For help, type "help"
+[02:21:12] [Server thread/WARN]: Dedicated server took 19.033 seconds to load
+[02:21:13] [Server thread/INFO]: Loaded config for: lootintegrations.json
+[02:21:13] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[02:21:13] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[02:21:13] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[02:21:13] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[02:21:13] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[02:21:13] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[02:21:13] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[02:21:13] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[02:21:13] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[02:21:13] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@6b9a4462 for service interface journeymap.api.services.ClientPlatformService
+[02:21:13] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@929deb for service interface journeymap.api.services.CommonPlatformService
+[02:21:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6966ms or 139 ticks behind
+[02:22:57] [Server thread/INFO]: Coffeent[/100.99.222.20:57122] logged in with entity id 4 at (2479.9782564910224, 61.0, -244.82774054084265)
+[02:22:57] [Server thread/INFO]: Sending server config values to client
+[02:22:57] [Server thread/INFO]: Coffeent joined the game
+[02:23:09] [Server thread/INFO]: Receiving client config
+[02:24:44] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]

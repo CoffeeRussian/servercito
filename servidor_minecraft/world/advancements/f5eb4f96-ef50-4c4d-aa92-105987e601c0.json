@@ -24,10 +24,11 @@
       "minecraft:stony_peaks": "2025-01-05 22:06:49 +0000",
       "minecraft:forest": "2025-01-04 04:23:05 +0000",
       "minecraft:sparse_jungle": "2025-01-05 22:00:28 +0000",
-      "minecraft:jungle": "2025-01-05 22:01:06 +0000",
       "minecraft:river": "2025-01-05 18:38:17 +0000",
-      "minecraft:meadow": "2025-01-05 20:39:27 +0000",
       "minecraft:stony_shore": "2025-01-04 18:18:39 +0000",
+      "minecraft:snowy_plains": "2025-01-05 23:17:53 +0000",
+      "minecraft:jungle": "2025-01-05 22:01:06 +0000",
+      "minecraft:meadow": "2025-01-05 20:39:27 +0000",
       "minecraft:savanna": "2025-01-05 20:02:18 +0000",
       "minecraft:bamboo_jungle": "2025-01-05 22:00:48 +0000",
       "minecraft:plains": "2025-01-04 17:38:33 +0000"
@@ -2646,6 +2647,12 @@
     },
     "done": true
   },
+  "reinfshulker:recipes/decorations/netherite_shulker_box_from_netherite_chest": {
+    "criteria": {
+      "has_netherite_chest": "2025-01-05 23:23:46 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/creeper_trophy": {
     "criteria": {
       "has_creeper_trophy": "2025-01-05 22:45:04 +0000"
@@ -2679,6 +2686,12 @@
   "doggytalents:recipes/food/master_treat": {
     "criteria": {
       "has_master_treat": "2025-01-05 22:27:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-01-05 23:15:16 +0000"
     },
     "done": true
   },
@@ -2724,6 +2737,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-05 23:19:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
@@ -2748,6 +2767,12 @@
     },
     "done": true
   },
+  "enderitemod:chestplate_elytra": {
+    "criteria": {
+      "flyprotected": "2025-01-05 23:22:21 +0000"
+    },
+    "done": true
+  },
   "doggytalents:recipes/tools/scent_treat": {
     "criteria": {
       "has_dtn_training_treat": "2025-01-05 22:27:22 +0000"
@@ -2769,6 +2794,12 @@
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-05 23:19:45 +0000"
     },
     "done": true
   },

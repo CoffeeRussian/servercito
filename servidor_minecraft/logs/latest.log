@@ -548,3 +548,21 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [20:35:15] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.7260434033032652
 [20:35:32] [Server thread/INFO]: Coffeent has made the advancement [Best Friends Forever]
 [20:37:42] [Server thread/INFO]: Coffeent has made the advancement [Crops of the Wild]
+[20:39:25] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.2851562035102688
+[20:39:25] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.7228938061170993
+[20:39:25] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.2422746732358974
+[20:39:49] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.2636938425594053
+[20:39:49] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.6684850027845641
+[20:39:49] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.1487745245153747
+[20:40:14] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.41415730468133916
+[20:40:14] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.8759930426763276
+[20:40:14] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.3921148533596579
+[20:40:28] [pool-8-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=933, y=82, z=-2699}
+[20:41:06] [Server thread/INFO]: Coffeent has made the advancement [When in Rome]
+[20:42:59] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.2806701444690134
+[20:42:59] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.39291878248172907
+[20:42:59] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.4105094631031534
+[20:42:59] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.029405384019583
+[20:44:26] [Server thread/INFO]: Coffeent lost connection: Timed out
+[20:44:26] [Server thread/INFO]: Coffeent left the game
+[20:44:26] [Server thread/WARN]: handleDisconnection() called twice

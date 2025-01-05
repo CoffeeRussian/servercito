@@ -560,3 +560,30 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:03:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.7091973798455911
 [22:03:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.2187377120294514
 [22:03:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.7711360292910285
+[22:03:41] [Server thread/INFO]: [Coffeent: Gave 1 [Iron Pickaxe] to Coffeent]
+[22:04:50] [pool-8-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=1851, y=75, z=-3867}
+[22:04:50] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1852, y=74, z=-3867} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[22:04:50] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=1852, y=74, z=-3867}
+[22:04:50] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1852, y=75, z=-3867} but found not block entity block Block{minecraft:spruce_trapdoor}[powered=false,waterlogged=false,facing=north,half=bottom,open=false] at location
+[22:04:50] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[powered=false,waterlogged=false,facing=north,half=bottom,open=false] but failed at location class_2338{x=1852, y=75, z=-3867}
+[22:04:50] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1851, y=75, z=-3867} but found not block entity block Block{minecraft:spruce_trapdoor}[powered=false,waterlogged=false,facing=north,half=bottom,open=false] at location
+[22:04:50] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[powered=false,waterlogged=false,facing=north,half=bottom,open=false] but failed at location class_2338{x=1851, y=75, z=-3867}
+[22:05:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.26554379777417125
+[22:05:23] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.673174787365042
+[22:05:30] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.28460912270793415
+[22:05:30] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.721497247779098
+[22:05:53] [Server thread/INFO]: Coffeent has made the advancement [Ice Bucket Challenge]
+[22:06:47] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.37763944503421953
+[22:06:47] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.9820269022909542
+[22:06:47] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.594127608056624
+[22:06:52] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.2582697903399094
+[22:06:52] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.6523411779330672
+[22:06:52] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.0
+[22:06:52] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.26993291700091504
+[22:06:52] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.6874167260225477
+[22:08:10] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.31402535454344616
+[22:08:10] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.9082058465728551
+[22:08:10] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.48713656171003095
+[22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.35888634016100696
+[22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.8255553683711696
+[22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.3556237744405735

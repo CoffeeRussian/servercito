@@ -9,11 +9,11 @@ workstationSpawnRate = 0.025
 workstationDungeonSpawnRate = 0.25
 smallShaftSpawnRate = 0.07
 cobwebSpawnRate = 0.15
-smallShaftChestMinecartSpawnRate = 0.00125
-mainShaftChestMinecartSpawnRate = 0.01
+smallShaftChestMinecartSpawnRate = 0.01
+mainShaftChestMinecartSpawnRate = 0.2
 smallShaftTntMinecartSpawnRate = 0.0024999999441206455
 mainShaftTntMinecartSpawnRate = 0.0024999999441206455
-zombieVillagerRoomSpawnChance = 2
+zombieVillagerRoomSpawnChance = 5
 smallShaftPieceChainLength = 9
 
 [ores]

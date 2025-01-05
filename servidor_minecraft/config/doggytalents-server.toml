@@ -13,7 +13,7 @@
 	#can mate with each other. Set this to true to disable this behaviour.
 	disable_dog_gender = false
 	#When enabled, puppies get some levels from their parents. When disabled, puppies start at 0 points.
-	enable_pup_get_parent_levels = false
+	enable_pup_get_parent_levels = true
 	#When enabled, dogs cannot be killed by any means (except creative-mode-bypass damage, in that case, you can still respawn your dog using his linked bed or commands).
 	#Instead, when his health reaches Zero, he will go into Incapacitated Mode.
 	immortal_dogs = true

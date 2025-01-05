@@ -6,8 +6,8 @@ enableNetherBlocks = true
 zombieDungeonMaxSurfaceStaircaseLength = 20
 [betterDungeons.smallDungeon]
 bannerMaxCount = 2
-chestMinCount = 1
-chestMaxCount = 2
+chestMinCount = 2
+chestMaxCount = 6
 enableOreProps = true
 [betterDungeons.smallNetherDungeon]
 enabled = false

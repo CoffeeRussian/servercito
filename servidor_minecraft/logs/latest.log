@@ -528,3 +528,9 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [16:35:23] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@7deb3543 for service interface journeymap.api.services.ClientPlatformService
 [16:35:23] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@4050dbe6 for service interface journeymap.api.services.CommonPlatformService
 [16:35:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6520ms or 130 ticks behind
+[17:26:29] [User Authenticator #1/INFO]: UUID of player Coffeent is f5eb4f96-ef50-4c4d-aa92-105987e601c0
+[17:26:39] [Server thread/INFO]: Coffeent[/100.99.222.20:65140] logged in with entity id 10 at (983.30471852574, 63.0, -1900.1801417659822)
+[17:26:39] [Server thread/INFO]: Sending server config values to client
+[17:26:40] [Server thread/INFO]: Coffeent joined the game
+[17:26:45] [Server thread/INFO]: Receiving client config
+[17:32:10] [Server thread/INFO]: [Coffeent: The difficulty has been set to Peaceful]

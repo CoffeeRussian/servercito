@@ -2623,9 +2623,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "doggytalents:dtn_core/summon_dog": {
     "criteria": {
-      "has_stone": "2025-01-05 22:45:04 +0000"
+      "summon_dog": "2025-01-05 22:27:17 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/master_treat": {
+    "criteria": {
+      "has_master_treat": "2025-01-05 22:27:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/scent_treat": {
+    "criteria": {
+      "has_dtn_training_treat": "2025-01-05 22:27:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/kami_treat": {
+    "criteria": {
+      "has_master_treat": "2025-01-05 22:27:23 +0000"
+    },
+    "done": true
+  },
+  "enderitemod:enderite_armor": {
+    "criteria": {
+      "enderite_armor": "2025-01-05 22:33:49 +0000"
     },
     "done": true
   },
@@ -2635,21 +2659,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-05 22:44:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-01-05 22:44:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-01-05 22:45:04 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/stone_corner_trim": {
     "criteria": {
       "has_stone_corner_trim": "2025-01-05 22:45:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2025-01-05 23:12:57 +0000"
-    },
-    "done": true
-  },
-  "reinfshulker:recipes/decorations/netherite_shulker_box_from_netherite_chest": {
-    "criteria": {
-      "has_netherite_chest": "2025-01-05 23:23:46 +0000"
     },
     "done": true
   },
@@ -2668,30 +2698,6 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2025-01-05 22:48:11 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/food/kami_treat": {
-    "criteria": {
-      "has_master_treat": "2025-01-05 22:27:23 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/food/master_treat": {
-    "criteria": {
-      "has_master_treat": "2025-01-05 22:27:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_helmet": "2025-01-05 23:15:16 +0000"
     },
     "done": true
   },
@@ -2725,24 +2731,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2025-01-05 22:44:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2025-01-05 22:44:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2025-01-05 23:19:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
@@ -2755,51 +2743,15 @@
     },
     "done": true
   },
-  "doggytalents:recipes/food/golden_a_five_wagyu": {
-    "criteria": {
-      "has_cooked_beef": "2025-01-05 22:56:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
     },
     "done": true
   },
-  "enderitemod:chestplate_elytra": {
-    "criteria": {
-      "flyprotected": "2025-01-05 23:22:21 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/tools/scent_treat": {
-    "criteria": {
-      "has_dtn_training_treat": "2025-01-05 22:27:22 +0000"
-    },
-    "done": true
-  },
-  "enderitemod:enderite_armor": {
-    "criteria": {
-      "enderite_armor": "2025-01-05 22:33:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-01-05 23:12:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2025-01-05 23:19:45 +0000"
     },
     "done": true
   },
@@ -2821,18 +2773,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-01-05 23:12:57 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2025-01-05 23:12:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
@@ -2842,12 +2782,6 @@
   "handcrafted:recipes/misc/stone_pillar_trim": {
     "criteria": {
       "has_stone_pillar_trim": "2025-01-05 22:45:04 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/oak": {
-    "criteria": {
-      "has_wood": "2025-01-05 22:46:17 +0000"
     },
     "done": true
   },
@@ -2863,21 +2797,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-01-05 22:45:04 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/oak": {
+    "criteria": {
+      "has_wood": "2025-01-05 22:46:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-01-05 22:48:11 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/golden_a_five_wagyu": {
+    "criteria": {
+      "has_cooked_beef": "2025-01-05 22:56:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-01-05 23:04:49 +0000"
     },
     "done": true
   },
-  "doggytalents:dtn_core/summon_dog": {
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
-      "summon_dog": "2025-01-05 22:27:17 +0000"
+      "has_mutton": "2025-01-05 23:12:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
-      "has_stone": "2025-01-05 22:45:04 +0000"
+      "has_mutton": "2025-01-05 23:12:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-01-05 23:12:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-05 23:12:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-01-05 23:15:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-05 23:19:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-05 23:19:45 +0000"
+    },
+    "done": true
+  },
+  "enderitemod:chestplate_elytra": {
+    "criteria": {
+      "flyprotected": "2025-01-05 23:22:21 +0000"
+    },
+    "done": true
+  },
+  "reinfshulker:recipes/decorations/netherite_shulker_box_from_netherite_chest": {
+    "criteria": {
+      "has_netherite_chest": "2025-01-05 23:23:46 +0000"
     },
     "done": true
   },

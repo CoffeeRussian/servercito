@@ -2639,6 +2639,12 @@
     },
     "done": true
   },
+  "enderitemod:enderite_armor": {
+    "criteria": {
+      "enderite_armor": "2025-01-05 22:33:49 +0000"
+    },
+    "done": true
+  },
   "doggytalents:dtn_core/summon_dog": {
     "criteria": {
       "summon_dog": "2025-01-05 22:27:17 +0000"

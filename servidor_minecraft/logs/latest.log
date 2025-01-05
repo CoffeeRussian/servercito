@@ -618,3 +618,9 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:21:01] [Server thread/INFO]: Receiving client config
 [22:24:23] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
 [22:27:17] [Server thread/INFO]: Coffeent has made the advancement [Ah, you scared me!]
+[22:33:49] [Server thread/INFO]: Coffeent has completed the challenge [Total Protection]
+[22:37:29] [Server thread/INFO]: [Coffeent: Set own game mode to Survival Mode]
+[22:39:55] [Server thread/INFO]: Coffeent was blown up by Creeper
+[22:40:07] [Server thread/WARN]: Dog (vehicle of Coffeent) moved wrongly! 0.4349868379471218
+[22:40:07] [Server thread/WARN]: Dog (vehicle of Coffeent) moved wrongly! 0.4715550678488398
+[22:41:02] [Server thread/INFO]: Coffeent was shot by Skeleton

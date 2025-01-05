@@ -82,6 +82,7 @@
       "apple": "2025-01-04 17:39:27 +0000",
       "bread": "2025-01-05 18:41:15 +0000",
       "rotten_flesh": "2025-01-05 22:10:18 +0000",
+      "cooked_beef": "2025-01-05 22:57:00 +0000",
       "carrot": "2025-01-05 19:54:15 +0000"
     },
     "done": false
@@ -2726,6 +2727,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-05 22:45:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/golden_a_five_wagyu": {
+    "criteria": {
+      "has_cooked_beef": "2025-01-05 22:56:57 +0000"
     },
     "done": true
   },

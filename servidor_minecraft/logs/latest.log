@@ -587,3 +587,34 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.35888634016100696
 [22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.8255553683711696
 [22:08:27] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.3556237744405735
+[22:15:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.3249086480494725
+[22:15:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.8706023046363498
+[22:15:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.4297179807980456
+[22:15:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 1.996687734376792
+[22:15:01] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.5681820499286232
+[22:15:07] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.2571188715266999
+[22:15:07] [Server thread/WARN]: Horse (vehicle of Coffeent) moved wrongly! 0.7769817379343067
+[22:15:44] [pool-8-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=629, y=69, z=-4139}
+[22:15:44] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=629, y=69, z=-4139} but found not block entity block Block{minecraft:air} at location
+[22:15:44] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=629, y=69, z=-4139}
+[22:16:28] [pool-8-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=421, y=72, z=-3925}
+[22:16:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=420, y=72, z=-3925} but found not block entity block Block{minecraft:spruce_fence}[south=false,west=false,waterlogged=false,east=true,north=false] at location
+[22:16:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[south=false,west=false,waterlogged=false,east=true,north=false] but failed at location class_2338{x=420, y=72, z=-3925}
+[22:16:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=421, y=72, z=-3925} but found not block entity block Block{minecraft:spruce_fence}[south=false,west=true,waterlogged=false,east=false,north=false] at location
+[22:16:29] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[south=false,west=true,waterlogged=false,east=false,north=false] but failed at location class_2338{x=421, y=72, z=-3925}
+[22:16:29] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=420, y=71, z=-3925} but found not block entity block Block{supplementaries:candle_holder}[waterlogged=false,lit=true,facing=north,face=ceiling,candles=1] at location
+[22:16:29] [Server thread/WARN]: Tried to load a block entity for block Block{supplementaries:candle_holder}[waterlogged=false,lit=true,facing=north,face=ceiling,candles=1] but failed at location class_2338{x=420, y=71, z=-3925}
+[22:17:10] [Server thread/INFO]: Coffeent was slain by Zombie
+[22:17:34] [Server thread/INFO]: Coffeent teleported to 588.5 63.0 -3999.5 minecraft:overworld
+[22:20:21] [Server thread/INFO]: Coffeent teleported to 982.5 63.0 -1899.5 minecraft:overworld
+[22:20:30] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Coffeent]
+[22:20:36] [Server thread/INFO]: [Coffeent: Teleported Coffeent to Coffeent]
+[22:20:54] [Server thread/INFO]: Coffeent lost connection: Disconnected
+[22:20:54] [Server thread/INFO]: Coffeent left the game
+[22:20:57] [User Authenticator #2/INFO]: UUID of player Coffeent is f5eb4f96-ef50-4c4d-aa92-105987e601c0
+[22:21:01] [Server thread/INFO]: Coffeent[/100.99.222.20:51712] logged in with entity id 13163 at (980.9075698235832, 64.875, -1901.050000011921)
+[22:21:01] [Server thread/INFO]: Sending server config values to client
+[22:21:01] [Server thread/INFO]: Coffeent joined the game
+[22:21:01] [Server thread/INFO]: Receiving client config
+[22:24:23] [Server thread/INFO]: [Coffeent: Set own game mode to Creative Mode]
+[22:27:17] [Server thread/INFO]: Coffeent has made the advancement [Ah, you scared me!]

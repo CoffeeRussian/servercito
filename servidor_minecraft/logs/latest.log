@@ -537,3 +537,7 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [19:36:45] [Server thread/INFO]: [Coffeent: Teleported Egg to Coffeent]
 [19:37:27] [Server thread/INFO]: [Coffeent: Teleported 12 entities to Coffeent]
 [19:40:33] [Server thread/INFO]: Coffeent has made the advancement [Chest Slayer]
+[19:59:00] [Server thread/INFO]: [Coffeent: Teleported 47 entities to Coffeent]
+[20:02:07] [Server thread/INFO]: Coffeent was blown up by Creeper
+[20:02:15] [Server thread/INFO]: Coffeent teleported to 956.5 -12.0 -2196.5 minecraft:overworld
+[20:02:57] [Server thread/INFO]: [Coffeent: Teleported 39 entities to Coffeent]

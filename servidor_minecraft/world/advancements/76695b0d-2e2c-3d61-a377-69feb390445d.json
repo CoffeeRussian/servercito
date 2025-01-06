@@ -3589,7 +3589,8 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
-      "minecraft:rusty": "2025-01-04 22:19:45 +0000"
+      "minecraft:rusty": "2025-01-04 22:19:45 +0000",
+      "minecraft:ashen": "2025-01-06 04:09:11 +0000"
     },
     "done": false
   },
@@ -3872,6 +3873,12 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-01-06 03:46:11 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2025-01-06 04:11:56 +0000"
     },
     "done": true
   },

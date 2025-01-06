@@ -36,6 +36,7 @@
       "minecraft:cherry_grove": "2025-01-04 22:51:26 +0000",
       "minecraft:swamp": "2025-01-06 02:23:46 +0000",
       "minecraft:birch_forest": "2025-01-02 02:11:58 +0000",
+      "minecraft:windswept_hills": "2025-01-06 02:34:50 +0000",
       "minecraft:savanna": "2025-01-04 19:56:03 +0000",
       "minecraft:plains": "2025-01-02 01:54:34 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-04 22:14:37 +0000"
@@ -3698,39 +3699,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_planks": {
+  "things:root": {
     "criteria": {
-      "has_logs": "2025-01-06 02:25:17 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/frisbee": {
-    "criteria": {
-      "has_slime_ball": "2025-01-06 02:29:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-01-06 02:21:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-01-06 02:26:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2025-01-06 02:29:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2025-01-06 02:29:26 +0000"
+      "tick": "2025-01-06 02:13:38 +0000"
     },
     "done": true
   },
@@ -3740,15 +3711,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_slime_ball": "2025-01-06 02:29:44 +0000"
+      "has_bone_meal": "2025-01-06 02:21:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_mangrove_roots": "2025-01-06 02:26:45 +0000"
+      "has_bone_meal": "2025-01-06 02:21:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2025-01-06 02:25:17 +0000"
     },
     "done": true
   },
@@ -3764,6 +3741,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-01-06 02:26:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-01-06 02:26:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2025-01-06 02:29:26 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/frisbee": {
+    "criteria": {
+      "has_slime_ball": "2025-01-06 02:29:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-01-06 02:29:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-01-06 02:29:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-01-06 02:29:44 +0000"
@@ -3776,15 +3789,27 @@
     },
     "done": true
   },
-  "things:root": {
+  "farmersdelight:main/get_rich_soil": {
     "criteria": {
-      "tick": "2025-01-06 02:13:38 +0000"
+      "get_rich_soil": "2025-01-06 02:32:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
     "criteria": {
-      "has_bone_meal": "2025-01-06 02:21:57 +0000"
+      "beef_patty": "2025-01-06 02:39:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2025-01-06 02:39:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2025-01-06 02:39:56 +0000"
     },
     "done": true
   },

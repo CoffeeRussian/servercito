@@ -3520,9 +3520,171 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+  "mcwfurnitures:recipes/spruce": {
     "criteria": {
-      "has_pink_petals": "2025-01-06 03:26:09 +0000"
+      "has_wood": "2025-01-06 02:23:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/berry_jam_jar": {
+    "criteria": {
+      "has_berry_jam_jar": "2025-01-06 02:27:39 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/oak": {
+    "criteria": {
+      "has_wood": "2025-01-06 02:27:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-01-06 02:27:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-01-06 02:27:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-01-06 02:27:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-01-06 02:27:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-01-06 02:51:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-01-06 02:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-01-06 02:59:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-01-06 02:59:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-06 03:01:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-01-06 03:01:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-01-06 03:05:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2025-01-06 03:06:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-01-06 03:14:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-01-06 03:14:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-01-06 03:14:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-01-06 03:16:30 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_dust": {
+    "criteria": {
+      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
     },
     "done": true
   },
@@ -3544,9 +3706,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_wall": {
+  "doggytalents:recipes/decorations/plague_doctor_mask": {
     "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/treat_bag": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/tantan_cape": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/cape_coloured": {
+    "criteria": {
+      "has_leather": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-01-06 03:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-01-06 03:23:44 +0000"
     },
     "done": true
   },
@@ -3556,63 +3784,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
-    "criteria": {
-      "has_pumpkin": "2025-01-06 03:14:32 +0000"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/warp_scroll": {
-    "criteria": {
-      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_couch": {
     "criteria": {
       "has_birch_couch": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/steak_and_potatoes": {
-    "criteria": {
-      "has_baked_potato": "2025-01-06 03:32:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:basalt_deltas": "2025-01-06 03:33:44 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-01-06 02:59:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
-    "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-01-06 03:33:44 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roast_chicken_block": {
-    "criteria": {
-      "has_cooked_chicken": "2025-01-06 03:31:03 +0000"
     },
     "done": true
   },
@@ -3634,45 +3808,9 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/mossy_waystone_from_vines": {
-    "criteria": {
-      "has_waystone": "2025-01-06 03:36:11 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/plague_doctor_mask": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2025-01-06 03:14:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cabbage_rolls": {
-    "criteria": {
-      "has_any_ingredient": "2025-01-06 03:01:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/berry_jam_jar": {
-    "criteria": {
-      "has_berry_jam_jar": "2025-01-06 02:27:39 +0000"
     },
     "done": true
   },
@@ -3706,51 +3844,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2025-01-06 02:51:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/warp_stone": {
-    "criteria": {
-      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
-    "criteria": {
-      "has_waystone": "2025-01-06 03:36:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jack_o_lantern": {
-    "criteria": {
-      "has_carved_pumpkin": "2025-01-06 03:16:30 +0000"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/warp_dust": {
-    "criteria": {
-      "has_ender_pearl": "2025-01-06 03:21:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
     },
     "done": true
   },
@@ -3766,57 +3862,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2025-01-06 03:14:32 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/tools/treat_bag": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/tantan_cape": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2025-01-06 03:06:50 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_chair": {
     "criteria": {
       "has_birch_chair": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-01-06 03:42:21 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/food/golden_a_five_wagyu": {
-    "criteria": {
-      "has_cooked_beef": "2025-01-06 03:31:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roasted_mutton_chops": {
-    "criteria": {
-      "has_mutton": "2025-01-06 02:27:40 +0000"
     },
     "done": true
   },
@@ -3826,51 +3874,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-01-06 03:05:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-01-06 03:33:44 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_side_table": {
     "criteria": {
       "has_birch_side_table": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
-    "criteria": {
-      "has_any_ingredient": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2025-01-06 02:30:56 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2025-01-06 02:23:55 +0000"
     },
     "done": true
   },
@@ -3898,81 +3904,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-01-06 03:42:44 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/stuffed_potato": {
-    "criteria": {
-      "has_baked_potato": "2025-01-06 03:32:04 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/oak": {
-    "criteria": {
-      "has_wood": "2025-01-06 02:27:39 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/shepherds_pie_block": {
-    "criteria": {
-      "has_cooked_mutton": "2025-01-06 02:27:40 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/mutton_wrap": {
-    "criteria": {
-      "has_mutton": "2025-01-06 02:27:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-01-06 02:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-01-06 03:26:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/sweet_berry_cookie": {
-    "criteria": {
-      "has_sweet_berries": "2025-01-06 02:27:39 +0000"
-    },
-    "done": true
-  },
-  "doggytalents:recipes/decorations/cape_coloured": {
-    "criteria": {
-      "has_leather": "2025-01-06 03:23:44 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/chicken_sandwich": {
-    "criteria": {
-      "has_cooked_chicken": "2025-01-06 03:31:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-06 03:25:59 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/cabbage_crate": {
-    "criteria": {
-      "has_cabbage": "2025-01-06 03:01:22 +0000"
     },
     "done": true
   },
@@ -3988,21 +3922,135 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef": {
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
     "criteria": {
-      "has_beef": "2025-01-06 03:23:44 +0000"
+      "has_pink_petals": "2025-01-06 03:26:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+  "minecraft:recipes/decorations/grindstone": {
     "criteria": {
-      "has_beef": "2025-01-06 03:23:44 +0000"
+      "has_stone_slab": "2025-01-06 03:26:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "doggytalents:recipes/food/golden_a_five_wagyu": {
     "criteria": {
-      "has_bone_meal": "2025-01-06 02:59:22 +0000"
+      "has_cooked_beef": "2025-01-06 03:31:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2025-01-06 03:31:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2025-01-06 03:31:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-01-06 03:32:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-01-06 03:32:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2025-01-06 03:33:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-06 03:33:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-06 03:33:44 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2025-01-06 03:36:11 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2025-01-06 03:36:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-06 03:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-01-06 03:42:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-01-06 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2025-01-06 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-01-06 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-01-06 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/oven": {
+    "criteria": {
+      "has_oven": "2025-01-06 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-01-06 04:18:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-01-06 04:18:56 +0000"
+    },
+    "done": false
+  },
+  "reinfbarrel:recipes/decorations/copper_barrel": {
+    "criteria": {
+      "has_barrel": "2025-01-06 04:18:57 +0000"
     },
     "done": true
   },

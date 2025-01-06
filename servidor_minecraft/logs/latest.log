@@ -560,3 +560,36 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [04:30:44] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/2464, l='ServerLevel[world]', x=2471.50, y=52.00, z=-151.50]'
 [04:31:26] [Server thread/INFO]: [Not Secure] <Sander> tu ya exploraste la aldea que esta a 400 bloques de tu casa?
 [04:31:57] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/3324, l='ServerLevel[world]', x=2191.50, y=-36.00, z=29.50]'
+[04:36:33] [pool-8-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga]] from pos class_2338{x=2165, y=80, z=373}
+[04:36:35] [Server thread/WARN]: Sander moved too quickly! -6.1595238085128585,0.5292232112077713,8.211293179135367
+[04:36:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2165, y=80, z=372} but found not block entity block Block{minecraft:spruce_fence}[north=false,east=false,west=false,waterlogged=false,south=true] at location
+[04:36:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[north=false,east=false,west=false,waterlogged=false,south=true] but failed at location class_2338{x=2165, y=80, z=372}
+[04:36:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2165, y=80, z=374} but found not block entity block Block{minecraft:spruce_fence}[north=true,east=false,west=false,waterlogged=false,south=false] at location
+[04:36:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[north=true,east=false,west=false,waterlogged=false,south=false] but failed at location class_2338{x=2165, y=80, z=374}
+[04:36:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2165, y=80, z=373} but found not block entity block Block{minecraft:spruce_fence}[north=true,east=false,west=false,waterlogged=false,south=true] at location
+[04:36:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_fence}[north=true,east=false,west=false,waterlogged=false,south=true] but failed at location class_2338{x=2165, y=80, z=373}
+[04:36:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2165, y=79, z=374} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[04:36:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=2165, y=79, z=374}
+[04:36:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=2165, y=79, z=372} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[04:36:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=2165, y=79, z=372}
+[04:38:47] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/5505, l='ServerLevel[world]', x=2140.50, y=-8.00, z=154.50]'
+[04:41:51] [Server thread/INFO]: Jerezzzito lost connection: Disconnected
+[04:41:51] [Server thread/INFO]: Jerezzzito left the game
+[04:43:03] [pool-8-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=1595, y=74, z=1307}
+[04:43:04] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=1595, y=74, z=1307} but found not block entity block Block{minecraft:air} at location
+[04:43:04] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:air} but failed at location class_2338{x=1595, y=74, z=1307}
+[04:43:32] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:33] [Worker-Main-2/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:36] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:37] [Server thread/WARN]: Could not equip item '1 artifacts:bunny_hoppers' on spawned entity 'class_1642['Zombie'/9212, l='ServerLevel[world]', x=1677.50, y=68.00, z=1241.50]'
+[04:43:38] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:38] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:38] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:43:38] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[04:46:05] [Server thread/INFO]: Villager class_1646['Unemployed'/9309, l='ServerLevel[world]', x=1806.70, y=73.00, z=1354.70] died, message: 'Unemployed was slain by Zombie'
+[04:48:12] [Server thread/INFO]: Sander lost connection: Disconnected
+[04:48:12] [Server thread/INFO]: Sander left the game
+[04:48:16] [Server thread/INFO]: Sander[/100.72.60.119:64600] logged in with entity id 10802 at (840.3766486708523, 62.0, -1774.2394000318297)
+[04:48:16] [Server thread/INFO]: Sending server config values to client
+[04:48:16] [Server thread/INFO]: Sander joined the game
+[04:48:16] [Server thread/INFO]: Receiving client config

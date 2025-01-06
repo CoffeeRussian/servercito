@@ -4026,21 +4026,33 @@
     },
     "done": true
   },
+  "things:root": {
+    "criteria": {
+      "tick": "2025-01-05 02:22:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pink_dye_from_pink_petals": {
     "criteria": {
       "has_pink_petals": "2025-01-05 02:27:52 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/honey_cookie": {
-    "criteria": {
-      "has_honey_bottle": "2025-01-05 02:31:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/beehive": {
     "criteria": {
       "has_honeycomb": "2025-01-05 02:30:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-01-05 02:30:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2025-01-05 02:31:00 +0000"
     },
     "done": true
   },
@@ -4065,18 +4077,6 @@
   "things:placebo": {
     "criteria": {
       "placebo": "2025-01-05 02:34:23 +0000"
-    },
-    "done": true
-  },
-  "things:root": {
-    "criteria": {
-      "tick": "2025-01-05 02:22:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/honeycomb_block": {
-    "criteria": {
-      "has_honeycomb": "2025-01-05 02:30:48 +0000"
     },
     "done": true
   },
